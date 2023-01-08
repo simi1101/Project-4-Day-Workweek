@@ -7,6 +7,7 @@ public class ResourceManager : MonoBehaviour
 {
     int coalCount;
     int maxCoalCount;
+    public Collider interactCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -17,16 +18,27 @@ public class ResourceManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetButton("Fire1"))
+        {
+            Interact(true);
+        }
+        else
+        {
+            Interact(false);
+        }
     }
 
-    void AddCoal(int amount)
+    public void ModifyCoal(int amount)
     {
         coalCount += amount;
+        Debug.Log(coalCount);
     }
 
-    void RemoveCoal(int amount)
+
+    void Interact(bool state)
     {
-
+        interactCollider.enabled = state;
     }
+
+    
 }
