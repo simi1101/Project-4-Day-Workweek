@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d672e9cba4070458e2f4671a611452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 1555990030}
   xSensitivity: 30
   ySensitivity: 30
 --- !u!114 &911612217
@@ -362,6 +362,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!20 &1555990030 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2342094501695971, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+  m_PrefabInstance: {fileID: 2342094256965992}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2342094256965992
 PrefabInstance:
   m_ObjectHideFlags: 0
