@@ -7,25 +7,54 @@ public class ResourceManager : MonoBehaviour
 {
     int coalCount;
     int maxCoalCount;
+    bool sucking;
+
     public Collider interactCollider;
+    public Collider collectionCollider;
+    public GameObject coalPrefab;
+    public Transform firepoint;
+    public float launchForce;
+    public float fireRate;
+    float lastShotTime;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        sucking = true;
+        interactCollider.enabled = false;
+        lastShotTime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("Fire1"))
+        //Input Types
+        if (Input.GetButton("Fire1"))
         {
-            Interact(true);
+            if (sucking != false)
+
+            {
+                Suck(true);
+            }
+            if (sucking != true)
+            {
+                Shoot();
+            }
+           
         }
         else
+            Suck(false);
+
+        //Switch Suction
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            Interact(false);
+            sucking = !sucking;
+            Debug.Log(sucking);
+
         }
+
+        //Shot timer
+        lastShotTime += Time.deltaTime;
     }
 
     public void ModifyCoal(int amount)
@@ -35,9 +64,23 @@ public class ResourceManager : MonoBehaviour
     }
 
 
-    void Interact(bool state)
+    void Suck(bool state)
     {
-        interactCollider.enabled = state;
+            interactCollider.enabled = state;
+        collectionCollider.enabled = state;
+    }
+
+    void Shoot()
+    {
+        if(coalCount > 0 && lastShotTime >= fireRate)
+        {
+            coalCount -= 1;
+            GameObject coal = Instantiate(coalPrefab, firepoint.position, firepoint.rotation);
+            Rigidbody rb = coal.GetComponent<Rigidbody>();
+            rb.velocity = firepoint.forward * launchForce;
+            lastShotTime = 0;
+            Debug.Log("Shooting" + coalCount);
+        }
     }
 
     
