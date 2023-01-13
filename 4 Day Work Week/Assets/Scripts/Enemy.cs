@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
 
     public float walkSpeed;
     public float runSpeed;
+    public float enemyDrainRate;
 
     bool playerKnown;
     bool inPursuit;
@@ -52,13 +53,6 @@ public class Enemy : MonoBehaviour
       
     }
 
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Debug.DrawLine(transform.position, moveTarget.position);
-        Gizmos.DrawWireSphere(transform.position + transform.forward * 3, sightRange);
-    }
-
     void Idle()
     {
         moveTarget.position = transform.position;
@@ -67,8 +61,11 @@ public class Enemy : MonoBehaviour
 
     public void MoveTarget(Vector3 targ )
     {
-        moveTarget.position = targ;
-        playerKnown = true;
+        if (isWarded != true)
+        {
+            moveTarget.position = targ;
+            playerKnown = true;
+        }
     }
 
     public void Lost()
@@ -127,8 +124,22 @@ public class Enemy : MonoBehaviour
         Debug.Log("Search over");
     }
 
-    void Warded()
+    public void Warded(Vector3 playerPos)
     {
-        //get direction from player towards enemy, then set point banish distance away from transform.position
+        Debug.Log("Ward is starting");
+        StopAllCoroutines();
+        isWarded = true;
+        float distance = Vector3.Distance(transform.position, playerPos);
+        Vector3 targetDir = playerPos - transform.position;
+        moveTarget.position = transform.position - (targetDir * 10);
+        StartCoroutine(WardedAway());
+    }
+
+    IEnumerator WardedAway()
+    {
+        aipath.maxSpeed = runSpeed;
+        yield return new WaitForSeconds(3);
+        isWarded = false;
+        Debug.Log("Warding is ending");
     }
 }

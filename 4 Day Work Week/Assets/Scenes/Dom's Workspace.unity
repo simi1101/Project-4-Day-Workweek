@@ -5194,7 +5194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2342092940293956, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.8365583
+      value: -27.34
       objectReference: {fileID: 0}
     - target: {fileID: 2342092940293956, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5268,6 +5268,10 @@ PrefabInstance:
       propertyPath: interactCollider
       value: 
       objectReference: {fileID: 49876525}
+    - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+      propertyPath: layermask.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: collectionCollider
       value: 
@@ -10797,7 +10801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420259423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.07, y: 0, z: -5.57}
+  m_LocalPosition: {x: -5.07, y: 0, z: 4.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10911,6 +10915,7 @@ MonoBehaviour:
   moveTarget: {fileID: 812044626}
   walkSpeed: 1.5
   runSpeed: 6
+  enemyDrainRate: 20
   timeToIdle: 6
   walkTime:
   - 4
@@ -15826,6 +15831,25 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1794038405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794038387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55341dd3eba3274f97bcb8474b199ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: 100
+  HealRate: 5
+  DrainRate: 1
+  IncreaseDifficulty: 0
+  MaxHealth: 100
+  InSafeZone: 0
+  Healed: 0
 --- !u!1001 &2133469169
 PrefabInstance:
   m_ObjectHideFlags: 0

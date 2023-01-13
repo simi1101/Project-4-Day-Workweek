@@ -7,6 +7,7 @@ public class Detector : MonoBehaviour
     Vector3 target;
     Enemy enemy;
     public LayerMask layermask;
+    TemperatureMeter temp;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,9 @@ public class Detector : MonoBehaviour
             //Debug.Log("Player Detected");
             target = other.transform.position;
             enemy.MoveTarget(target);
+            float distance = Vector3.Distance(target, transform.position);
+            float currentDrain = enemy.enemyDrainRate/distance;
+            temp.DrainRate = Mathf.Clamp(currentDrain, 1, 20);
         }
     }
 
@@ -36,11 +40,16 @@ public class Detector : MonoBehaviour
     {
         //Cancel pursuit
         enemy.Lost();
+        temp.DrainRate = 1;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         //Trigger alert, start Coroutine for pursuit
         enemy.StartPursuit();
+        if (other.GetComponent<TemperatureMeter>() != null)
+        {
+            temp = other.GetComponent<TemperatureMeter>();
+        }
     }
 }
