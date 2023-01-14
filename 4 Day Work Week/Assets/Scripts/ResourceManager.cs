@@ -11,7 +11,7 @@ public class ResourceManager : MonoBehaviour
 
     public Collider interactCollider;
     public Collider collectionCollider;
-    public GameObject coalPrefab;
+    public GameObject[] coalPrefab;
     public Transform firepoint;
     public float launchForce;
     public float fireRate;
@@ -82,7 +82,7 @@ public class ResourceManager : MonoBehaviour
         if(coalCount > 0 && lastShotTime >= fireRate)
         {
             coalCount -= 1;
-            GameObject coal = Instantiate(coalPrefab, firepoint.position, firepoint.rotation);
+            GameObject coal = Instantiate(coalPrefab[Random.Range(0,4)], firepoint.position, firepoint.rotation);
             Rigidbody rb = coal.GetComponent<Rigidbody>();
             rb.velocity = firepoint.forward * launchForce;
             lastShotTime = 0;
