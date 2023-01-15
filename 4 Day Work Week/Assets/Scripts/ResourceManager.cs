@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ResourceManager : MonoBehaviour
 {
-    int coalCount;
+    public int coalCount;
     int maxCoalCount;
     bool sucking;
 
