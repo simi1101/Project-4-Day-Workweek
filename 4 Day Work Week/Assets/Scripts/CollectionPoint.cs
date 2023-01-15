@@ -17,6 +17,7 @@ public class CollectionPoint : MonoBehaviour
             Coal coal = other.gameObject.GetComponent<Coal>();
             rm.ModifyCoal(coal.coalValue);
             Destroy(other.gameObject);
+            //Play Audio for Coal intake here
         }
     }
 }

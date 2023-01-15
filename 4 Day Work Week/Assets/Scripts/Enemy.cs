@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     public float walkSpeed;
     public float runSpeed;
     public float enemyDrainRate;
+    public float wardEffect;
 
     bool playerKnown;
     bool inPursuit;
@@ -37,19 +38,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //RaycastHit hit;
-        //        if(Physics.SphereCast(transform.position, sightRange, transform.forward, out hit, 3, layermask, QueryTriggerInteraction.UseGlobal))
-        //{
-        //    moveTarget.position = hit.transform.position;
-        //    Debug.Log("Position found");
-        //    Debug.DrawLine(transform.position, hit.transform.position);
-        //}
-        //    else
-        //{
-        //    //Idle();
-        //    Debug.Log("No hit");
-        //}
-        //Debug.Log(hit.transform.gameObject.name);
+     
       
     }
 
@@ -82,6 +71,7 @@ public class Enemy : MonoBehaviour
     {
         if (inPursuit != true)
         {
+            isWarded = false;
             playerKnown = true;
             StopAllCoroutines();
             StartCoroutine(Pursuit());
@@ -131,7 +121,7 @@ public class Enemy : MonoBehaviour
         isWarded = true;
         float distance = Vector3.Distance(transform.position, playerPos);
         Vector3 targetDir = playerPos - transform.position;
-        moveTarget.position = transform.position - (targetDir * 10);
+        moveTarget.position = transform.position - (targetDir * wardEffect/distance);
         StartCoroutine(WardedAway());
     }
 
