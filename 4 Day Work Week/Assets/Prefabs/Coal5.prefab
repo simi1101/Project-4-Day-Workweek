@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 585166856967352641}
   - component: {fileID: 585166856967352643}
   - component: {fileID: 585166856967352646}
-  - component: {fileID: 4007975181084337312}
+  - component: {fileID: -4324336003819741638}
   m_Layer: 6
   m_Name: Coal5
   m_TagString: Untagged
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coalValue: 1
---- !u!65 &4007975181084337312
+--- !u!65 &-4324336003819741638
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -8,12 +8,17 @@ public class Generator : MonoBehaviour
     public int maxCoalCount = 10;
     bool full;
     ObjectivesManager manager;
+    public SphereCollider safezone;
+    public GameObject genFX;
 
     // Start is called before the first frame update
     void Awake()
     {
         coalCount = 0;
         full = false;
+        safezone.enabled = false;
+        genFX.SetActive(false);
+        
         manager = GetComponentInParent<ObjectivesManager>();
     }
 
@@ -45,6 +50,8 @@ public class Generator : MonoBehaviour
         {
             manager.GeneratorActivated();
             Debug.Log("Generator Activated");
+            safezone.enabled = true;
+            genFX.SetActive(true);
             //FX and Audio for Activation trigger here
         }
     }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3612352094340878473}
   - component: {fileID: 3612352094340878475}
   - component: {fileID: 3612352094340878478}
-  - component: {fileID: 4699285525094292504}
+  - component: {fileID: -8284572596367932336}
   m_Layer: 6
   m_Name: Coal2
   m_TagString: Untagged
@@ -43,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3612352094340878468}
-  m_Mesh: {fileID: -5178738209535041852, guid: 48ad25c393f44fb4288e22bce5f879ed, type: 3}
+  m_Mesh: {fileID: -5178738209535041852, guid: 62d01f8e3cb22ba41ac3b12a00a567af, type: 3}
 --- !u!23 &3612352094340878473
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coalValue: 1
---- !u!65 &4699285525094292504
+--- !u!65 &-8284572596367932336
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,5 +126,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1863884, y: 0.1441187, z: 0.11813493}
-  m_Center: {x: 0.0004461743, y: -0.0016185567, z: 0.010035964}
+  m_Size: {x: 0.15819846, y: 0.14892474, z: 0.174726}
+  m_Center: {x: 0, y: 0, z: -0.000000014901161}
