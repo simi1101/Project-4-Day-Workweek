@@ -5,6 +5,7 @@ using UnityEngine;
 public class SafeZoneTrigger : MonoBehaviour
 {
     TemperatureMeter Meter;
+    Enemy enemy;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +20,30 @@ public class SafeZoneTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Meter.InSafeZone = true;
+        if(other.gameObject.GetComponent<TemperatureMeter>() != null)
+        {
+            TemperatureMeter meter = other.gameObject.GetComponent<TemperatureMeter>();
+            Meter.InSafeZone = true;
+        }
+        
+        
+            if(other.gameObject.GetComponent<Enemy>() != null)
+        {
+            enemy = other.gameObject.GetComponent<Enemy>();
+                
+        }
+        
     }
     private void OnTriggerExit(Collider other)
     {
         Meter.InSafeZone = false;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.GetComponent<Enemy>() != null)
+        {
+            enemy.Warded(transform.position);
+        }
     }
 }

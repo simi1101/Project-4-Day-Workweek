@@ -7,10 +7,13 @@ public class ObjectivesManager : MonoBehaviour
 {
     Vector3 respawnPoint;
     int generatorCountOn;
+    Collider winTrigger;
 
     // Start is called before the first frame update
     void Start()
     {
+        winTrigger = GetComponent<Collider>();
+        winTrigger.enabled= false;
         generatorCountOn = 0;
     }
 
@@ -19,7 +22,7 @@ public class ObjectivesManager : MonoBehaviour
     {
         if(generatorCountOn >= 4)
         {
-            Win();
+            winTrigger.enabled = true;
         }
     }
 
@@ -32,11 +35,20 @@ public class ObjectivesManager : MonoBehaviour
 
     void Lose()
     {
+        //Go to lose screen
 
     }
 
    public void GeneratorActivated()
     {
         generatorCountOn += 1;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<PlayerMotor>() != null)
+        {
+            Win();
+        }
     }
 }
