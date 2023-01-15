@@ -12,12 +12,14 @@ public class TemperatureMeter : MonoBehaviour
     public float MonsterDrain;
     public bool InSafeZone;
     public bool Healed;
+    private SphereCollider safeZone;
     // Start is called before the first frame update
     void Start()
     {
         InSafeZone = false;
         MaxHealth = HealthBar;
         MonsterDrain= 0;
+        safeZone = GameObject.Find("Furnace").GetComponent<SphereCollider>();
     }
 
     // Update is called once per frame
@@ -51,4 +53,5 @@ public class TemperatureMeter : MonoBehaviour
             Debug.Log("you are dead");
         }
     }
+    
 }
