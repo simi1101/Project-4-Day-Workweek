@@ -32,7 +32,7 @@ public class Detector : MonoBehaviour
             enemy.MoveTarget(target);
             float distance = Vector3.Distance(target, transform.position);
             float currentDrain = enemy.enemyDrainRate/distance;
-            temp.DrainRate = Mathf.Clamp(currentDrain, 1, 20);
+            temp.MonsterDrain = Mathf.Clamp(currentDrain, 0, 20);
         }
     }
 
@@ -40,7 +40,7 @@ public class Detector : MonoBehaviour
     {
         //Cancel pursuit
         enemy.Lost();
-        temp.DrainRate = 1;
+        temp.MonsterDrain = 0;
     }
 
     private void OnTriggerEnter(Collider other)

@@ -26,7 +26,8 @@ public class ObjectivesManager : MonoBehaviour
     void Win()
     {
         //Load Win Screen
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
+        Debug.Log("Win Screen Loaded!");
     }
 
     void Lose()
@@ -34,8 +35,8 @@ public class ObjectivesManager : MonoBehaviour
 
     }
 
-    void CheckpointSet(Vector3 respawn)
+   public void GeneratorActivated()
     {
-
+        generatorCountOn += 1;
     }
 }
