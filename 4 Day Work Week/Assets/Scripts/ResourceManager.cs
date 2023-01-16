@@ -51,6 +51,7 @@ public class ResourceManager : MonoBehaviour
         if(Input.GetButtonUp("Fire1"))
         {
             suckSoundStop.Post(gameObject);
+            suckSoundStart.Stop(gameObject);
             vacuumingAlready = false;
         }
         if (Input.GetButton("Fire1"))

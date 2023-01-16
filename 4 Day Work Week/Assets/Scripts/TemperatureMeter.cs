@@ -39,7 +39,6 @@ public class TemperatureMeter : MonoBehaviour
                 //Debug.Log("you have healed");
                // MaxHealth = MaxHealth - IncreaseDifficulty;
             }
-
         }
         else if (InSafeZone)
         {
@@ -57,5 +56,13 @@ public class TemperatureMeter : MonoBehaviour
         }
     }
     
-    
+    void Healing()
+    {
+        HealthBar += HealRate;
+    }
+
+    void PartialHealing()
+    {
+        Mathf.Clamp(HealthBar += HealRate,0,FurnaceHealMax);
+    }
 }
