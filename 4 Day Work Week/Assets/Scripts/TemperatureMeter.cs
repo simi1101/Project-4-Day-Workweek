@@ -13,14 +13,15 @@ public class TemperatureMeter : MonoBehaviour
     public float MonsterDrain;
     public bool InSafeZone;
     public bool Healed;
-    private SphereCollider safeZone;
+    public bool fullHeal;
+    //private SphereCollider safeZone;
     // Start is called before the first frame update
     void Start()
     {
         InSafeZone = false;
         MaxHealth = HealthBar;
         MonsterDrain= 0;
-        safeZone = GameObject.Find("Furnace").GetComponent<SphereCollider>();
+        //safeZone = GameObject.Find("Furnace").GetComponent<SphereCollider>();
     }
 
     // Update is called once per frame
@@ -31,7 +32,7 @@ public class TemperatureMeter : MonoBehaviour
         {
             if (HealthBar < MaxHealth)
             {
-                HealthBar += HealRate * Time.deltaTime;
+                Healing();
             }
             else
             {
@@ -58,11 +59,18 @@ public class TemperatureMeter : MonoBehaviour
     
     void Healing()
     {
-        HealthBar += HealRate;
+        HealthBar += HealRate * Time.deltaTime;
     }
 
     void PartialHealing()
     {
-        Mathf.Clamp(HealthBar += HealRate,0,FurnaceHealMax);
+        float temphealth = HealthBar += HealRate * Time.deltaTime;
+        Mathf.Clamp(temphealth, 0, FurnaceHealMax);
+        HealthBar = temphealth;
+    }
+
+    public void FullHealing(bool healingType)
+    {
+        fullHeal = healingType;
     }
 }

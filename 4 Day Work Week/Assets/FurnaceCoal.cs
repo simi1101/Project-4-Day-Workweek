@@ -6,6 +6,7 @@ public class FurnaceCoal : MonoBehaviour
 {
     public int FurnaceCount;
     public int FurnaceMax;
+    public float furnaceTimer;
     private Light furnaceLight;
     private SphereCollider safeZone;
 
@@ -39,5 +40,15 @@ public class FurnaceCoal : MonoBehaviour
             FurnaceCount++;
         }
 
+    }
+
+    IEnumerator ActivationCycle()
+    {
+        furnaceLight.enabled = true;
+        safeZone.enabled = true;
+        yield return new WaitForSeconds(furnaceTimer);
+        furnaceLight.enabled = false;
+        safeZone.enabled = false;
+        FurnaceCount = 0;
     }
 }
