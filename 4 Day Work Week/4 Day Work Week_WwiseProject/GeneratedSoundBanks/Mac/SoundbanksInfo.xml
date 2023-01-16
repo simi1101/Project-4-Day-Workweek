@@ -31,7 +31,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5D1692CC-DE32-333E-D965-01ACD9E4B0F5}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F0FDD73D-4A97-F721-ECBE-A8BE920EC581}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -43,17 +43,57 @@
 					<ShortName>footsteps_snow_13.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
 				</File>
+				<File Id="222042170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_15.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227802227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_12.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_12_10C4C929.wem</CachePath>
+				</File>
 				<File Id="228368401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_16.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="249938777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_14.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="289265363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_05.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="299578294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_09.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="326448355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_12.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_12_10C4C929.wem</CachePath>
 				</File>
+				<File Id="330026920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_08.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_08_10C4C929.wem</CachePath>
+				</File>
 				<File Id="344322102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_09.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="383767761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_13.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="490312913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_11.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="502653594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_02.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="523020451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_06.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="526143122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_08.wav</ShortName>
@@ -63,9 +103,33 @@
 					<ShortName>footsteps_snow_11.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="599262923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_07.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="617401951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_01.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="619043480" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_01.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="635673686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_03.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="663732716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_01.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="674621572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_11.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721888782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_10.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="763182356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_07.wav</ShortName>
@@ -75,25 +139,69 @@
 					<ShortName>footsteps_snow_14.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_14_10C4C929.wem</CachePath>
 				</File>
+				<File Id="801462682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_05.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="812487234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_10.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="881969536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_09.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="914190426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_02.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="918790786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_03.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="929578283" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_03.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="942171245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_12.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="950599338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_08.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="968456255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_06.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="980373347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_02.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="997237252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_06.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1010478055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_07.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1010890032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_wood_04.wav</ShortName>
+					<CachePath>SFX/footsteps_wood_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1016179968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_04.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1049171868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_15.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1063047260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_concrete_10.wav</ShortName>
+					<CachePath>SFX/footsteps_concrete_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1063443146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_05.wav</ShortName>
@@ -101,7 +209,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0.625">
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0.15104167" DurationMax="0.625">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2835351336" Id="787898836" Default="true"/>
@@ -124,6 +232,43 @@
 								<MediaRef Id="1063443146"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2835351336" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="227802227"/>
+								<MediaRef Id="299578294"/>
+								<MediaRef Id="502653594"/>
+								<MediaRef Id="663732716"/>
+								<MediaRef Id="674621572"/>
+								<MediaRef Id="721888782"/>
+								<MediaRef Id="801462682"/>
+								<MediaRef Id="918790786"/>
+								<MediaRef Id="950599338"/>
+								<MediaRef Id="997237252"/>
+								<MediaRef Id="1010478055"/>
+								<MediaRef Id="1010890032"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2835351336" Id="841620460"/>
+							<MediaRefs>
+								<MediaRef Id="222042170"/>
+								<MediaRef Id="249938777"/>
+								<MediaRef Id="289265363"/>
+								<MediaRef Id="330026920"/>
+								<MediaRef Id="383767761"/>
+								<MediaRef Id="490312913"/>
+								<MediaRef Id="523020451"/>
+								<MediaRef Id="599262923"/>
+								<MediaRef Id="617401951"/>
+								<MediaRef Id="635673686"/>
+								<MediaRef Id="881969536"/>
+								<MediaRef Id="942171245"/>
+								<MediaRef Id="980373347"/>
+								<MediaRef Id="1016179968"/>
+								<MediaRef Id="1063047260"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
@@ -138,5 +283,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9774C696-3132-8BD4-75D2-02BC35275CC0}</FileHash>
+	<FileHash>{1546C882-74FA-933E-E87C-D82C5C2C4722}</FileHash>
 </SoundBanksInfo>
