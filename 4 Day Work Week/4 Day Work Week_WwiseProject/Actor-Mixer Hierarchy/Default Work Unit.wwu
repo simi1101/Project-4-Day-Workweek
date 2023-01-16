@@ -4506,6 +4506,29 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Music_End_Title" ID="{84259E74-D7C9-4EAF-8F23-A78A15EF5D09}" ShortID="826686450">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="4dww_end_title_01" ID="{DD961FA9-33A7-43FB-BAF1-A78250784AB1}">
+							<Language>SFX</Language>
+							<AudioFile>4dww_end_title_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="51478114"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="4dww_end_title_01" ID="{DD961FA9-33A7-43FB-BAF1-A78250784AB1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Music" ID="{8A657943-337F-4170-8E7B-FCF056537F64}" ShortID="16082373"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

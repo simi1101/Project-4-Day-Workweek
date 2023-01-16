@@ -31,10 +31,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{AC804DC4-E2EE-7980-23BF-8B4F33C32615}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{A2595761-B65C-6F2E-EB89-EAC9F0DD5899}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
+				<File Id="51478114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>4dww_end_title_01.wav</ShortName>
+					<CachePath>SFX/4dww_end_title_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="54681896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_04.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_04_10C4C929.wem</CachePath>
@@ -671,6 +675,11 @@
 						<MediaRef Id="671570477"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1272787174" Name="Play_Music_End_Title" DurationType="OneShot" DurationMin="161.7" DurationMax="161.7">
+					<MediaRefs>
+						<MediaRef Id="51478114"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2640308078" Name="Play_player_breath_low_heat" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="55116757"/>
@@ -711,5 +720,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB1971E4-7F3D-37C4-8A31-B63A7A21C665}</FileHash>
+	<FileHash>{DADE7A84-3BB0-B738-462F-BF56A8988C42}</FileHash>
 </SoundBanksInfo>

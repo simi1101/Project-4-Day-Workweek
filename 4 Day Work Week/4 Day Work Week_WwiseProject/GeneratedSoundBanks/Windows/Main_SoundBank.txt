@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	480507372	Play_coal_dump			\Default Work Unit\Coal\Play_coal_dump	
 	585068487	Play_coal_shoot			\Default Work Unit\Coal\Play_coal_shoot	
 	763434321	Play_Monster_Attacking			\Default Work Unit\Monster\Play_Monster_Attacking	
+	1272787174	Play_Music_End_Title			\Default Work Unit\Music\Play_Music_End_Title	
 	1550360224	Play_player_breath_normal			\Default Work Unit\Breathing\Play_player_breath_normal	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2434186889	Play_Eviroment_Random			\Default Work Unit\Play_Eviroment_Random	
@@ -22,6 +23,7 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	GroundType			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51478114	Music_End_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_end_title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_End_Title		28524040
 	54681896	footsteps_snow_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_04		76308
 	55116757	player_breathing_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_10		447460
 	57778302	footsteps_snow_13	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_13		120160

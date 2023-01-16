@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277535045863937
+    m_lastTime: -8585277530532817359
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277535045883311
+    m_lastTime: -8585277530532836568
     List:
     - name: Breathing
       guid: b3885ceab3486244bcc0db277f372812
@@ -178,6 +178,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
       Path: Events/Default Work Unit/Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 8a16c05cd6d93945ad16aac8892db3e0
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8a16c05cd6d93945ad16aac8892db3e0
+      Path: Events/Default Work Unit/Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -378,6 +395,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Music_End_Title
+      guid: b75d8c667fdbde4f8b397eb59a2acf67
+      id: 1272787174
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8a16c05cd6d93945ad16aac8892db3e0
+      - ElementName: Play_Music_End_Title
+        ObjectType: 3
+        guid: b75d8c667fdbde4f8b397eb59a2acf67
+      Path: Events/Default Work Unit/Music/Play_Music_End_Title
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_player_breath_low_heat
       guid: 44c2e3302c7a5a46957e893cfe725c3e
       id: 2640308078
@@ -541,7 +578,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

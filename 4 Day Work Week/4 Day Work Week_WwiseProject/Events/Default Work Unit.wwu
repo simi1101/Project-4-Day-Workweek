@@ -162,6 +162,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{5CC0168A-D9D6-4539-AD16-AAC8892DB3E0}" ShortID="920350236">
+					<ChildrenList>
+						<Event Name="Play_Music_End_Title" ID="{668C5DB7-DB7F-4FDE-8B39-7EB59A2ACF67}">
+							<ChildrenList>
+								<Action Name="" ID="{24F4DD90-87B2-4B72-B731-7E1497B7E31E}" ShortID="808963042">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_End_Title" ID="{84259E74-D7C9-4EAF-8F23-A78A15EF5D09}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

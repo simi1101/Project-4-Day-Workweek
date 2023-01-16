@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_MONSTER_ATTACKING = 763434321U;
         static const AkUniqueID PLAY_MONSTER_CLOSE_BY = 913147U;
         static const AkUniqueID PLAY_MONSTER_DISTANT_ROAR = 3673945153U;
+        static const AkUniqueID PLAY_MUSIC_END_TITLE = 1272787174U;
         static const AkUniqueID PLAY_PLAYER_BREATH_LOW_HEAT = 2640308078U;
         static const AkUniqueID PLAY_PLAYER_BREATH_NORMAL = 1550360224U;
     } // namespace EVENTS
