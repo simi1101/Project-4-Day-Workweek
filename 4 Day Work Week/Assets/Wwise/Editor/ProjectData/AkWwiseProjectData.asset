@@ -66,8 +66,36 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277435331688275
+    m_lastTime: -8585277420843221140
     List:
+    - name: Ambience_SoundBank
+      guid: 499176e46612f7498d95828bf913554c
+      id: 3010096371
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fc184443947b8e4bbabb50c956f06fe8
+      - ElementName: Ambience_SoundBank
+        ObjectType: 7
+        guid: 499176e46612f7498d95828bf913554c
+      Path: SoundBanks/Default Work Unit/Ambience_SoundBank
+    - name: Ambience2_SoundBank
+      guid: 4b87d27d5a6e5746915ef897871d3dc2
+      id: 2694825763
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fc184443947b8e4bbabb50c956f06fe8
+      - ElementName: Ambience2_SoundBank
+        ObjectType: 7
+        guid: 4b87d27d5a6e5746915ef897871d3dc2
+      Path: SoundBanks/Default Work Unit/Ambience2_SoundBank
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
       id: 2228651116
@@ -122,7 +150,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277435331707003
+    m_lastTime: -8585277420843239747
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44
@@ -172,6 +200,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 074c96913694a348b5a8e21e1ff05d9b
       Path: Events/Default Work Unit/Coal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ferry_foghorn
+      guid: 82859e9137576d4fa8e7ec895bc54175
+      id: 1463566217
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ferry_foghorn
+        ObjectType: 4
+        guid: 82859e9137576d4fa8e7ec895bc54175
+      Path: Events/Default Work Unit/Ferry_foghorn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -297,6 +342,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Amb_forest
+      guid: 5721880ccb4e8648ab1977f8459f63d0
+      id: 994146778
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: e20545df6a67474e9068d28c8074dd44
+      - ElementName: Play_Amb_forest
+        ObjectType: 3
+        guid: 5721880ccb4e8648ab1977f8459f63d0
+      Path: Events/Default Work Unit/Ambience/Play_Amb_forest
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_snow
+      guid: 1c718525c19901438d00a57b0adafd4a
+      id: 3007712584
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: e20545df6a67474e9068d28c8074dd44
+      - ElementName: Play_Amb_snow
+        ObjectType: 3
+        guid: 1c718525c19901438d00a57b0adafd4a
+      Path: Events/Default Work Unit/Ambience/Play_Amb_snow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_water
+      guid: caaebda7538d5548bb8088a50d0320e6
+      id: 2049148582
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: e20545df6a67474e9068d28c8074dd44
+      - ElementName: Play_Amb_water
+        ObjectType: 3
+        guid: caaebda7538d5548bb8088a50d0320e6
+      Path: Events/Default Work Unit/Ambience/Play_Amb_water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_coal_dump
       guid: 93766bf9b13e9741990a6ebb08a6dadf
       id: 480507372
@@ -414,6 +519,46 @@ MonoBehaviour:
         ObjectType: 3
         guid: fdc14c8dc7b8514db3fc5dd0aad5df34
       Path: Events/Default Work Unit/Random_enviroment/Play_Eviroment_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Foghorn
+      guid: 8db47e245b9af447b43b7c444371e9b5
+      id: 3070280721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ferry_foghorn
+        ObjectType: 4
+        guid: 82859e9137576d4fa8e7ec895bc54175
+      - ElementName: Play_Foghorn
+        ObjectType: 3
+        guid: 8db47e245b9af447b43b7c444371e9b5
+      Path: Events/Default Work Unit/Ferry_foghorn/Play_Foghorn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Furnace_dying
+      guid: fc261303b6c64b45976dae7e41064c7c
+      id: 2713163012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Furnace
+        ObjectType: 4
+        guid: d8c26cb56b8c484e9e623fb5288536d7
+      - ElementName: Play_Furnace_dying
+        ObjectType: 3
+        guid: fc261303b6c64b45976dae7e41064c7c
+      Path: Events/Default Work Unit/Furnace/Play_Furnace_dying
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -874,7 +1019,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000300000006000000070000000d0000000f00000011000000120000001b000000
+  ExpandedWaapiItemIds: 0100000003000000050000000600000007000000090000000d0000000f000000110000001200000014000000150000001b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

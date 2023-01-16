@@ -1541,6 +1541,11 @@
 						<Sound Name="Amb_water" ID="{173984E9-49E2-44D5-BA03-633133F5EA88}" ShortID="832731469">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1567,6 +1572,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1595,6 +1605,11 @@
 						<Sound Name="Amb_snow" ID="{23902E2D-5099-4E8E-AE42-F73E24AD5642}" ShortID="384841093">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4921,40 +4936,6 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Foghorn" ID="{4E22C2B1-9036-4FF2-AA64-E23F78CA626A}" ShortID="387128279">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-7</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="ferry_foghorn_distant_01" ID="{71C87C9F-60D2-4E52-AAA6-F374B525A7AF}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.793359375000001"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>ferry_foghorn_distant_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="652746968"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="ferry_foghorn_distant_01" ID="{71C87C9F-60D2-4E52-AAA6-F374B525A7AF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="Furnace" ID="{40D00432-65F2-4475-AA78-88101B03AE43}" ShortID="740303017">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Furnace_ignite" ID="{47EAD403-442C-4755-BAA6-6FC83BF9BFED}" ShortID="726894365">
@@ -5107,6 +5088,44 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ferry" ID="{077A230F-F9DD-48E9-9766-C9A4D6E3CD25}" ShortID="274473164">
+					<ChildrenList>
+						<Sound Name="Foghorn" ID="{4E22C2B1-9036-4FF2-AA64-E23F78CA626A}" ShortID="387128279">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ferry_foghorn_distant_01" ID="{71C87C9F-60D2-4E52-AAA6-F374B525A7AF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.793359375000001"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ferry_foghorn_distant_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="652746968"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ferry_foghorn_distant_01" ID="{71C87C9F-60D2-4E52-AAA6-F374B525A7AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

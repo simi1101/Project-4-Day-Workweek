@@ -31,7 +31,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1681453895" Type="User" Language="SFX" Hash="{C3B68C89-E135-19EC-AC5E-C08C73732693}">
+		<SoundBank Id="1681453895" Type="User" Language="SFX" Hash="{74186446-424B-DE29-DE7F-E841C80A560A}">
 			<ShortName>Monster_SoundBank</ShortName>
 			<Path>Monster_SoundBank.bnk</Path>
 			<Media>
@@ -125,7 +125,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{27F31996-61F8-4A06-981D-9C2F2928407C}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5A2306FB-DBB6-17CA-54C0-1038D31BAEEA}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -140,6 +140,10 @@
 				<File Id="57778302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_13.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="73254190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>furnace_dying_01.wav</ShortName>
+					<CachePath>SFX/furnace_dying_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="113753650" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_suck_end_01.wav</ShortName>
@@ -369,6 +373,10 @@
 					<ShortName>player_breathing_06.wav</ShortName>
 					<CachePath>SFX/player_breathing_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="652746968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ferry_foghorn_distant_01.wav</ShortName>
+					<CachePath>SFX/ferry_foghorn_distant_01_3C260E56.wem</CachePath>
+				</File>
 				<File Id="663732716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_01.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_01_10C4C929.wem</CachePath>
@@ -456,6 +464,10 @@
 				<File Id="891087871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_pickup_02.wav</ShortName>
 					<CachePath>SFX/coal_pickup_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="894648366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>furnace_dying_02.wav</ShortName>
+					<CachePath>SFX/furnace_dying_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="896193645" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_animal_dying_01.wav</ShortName>
@@ -686,6 +698,17 @@
 						<MediaRef Id="1007827569"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3070280721" Name="Play_Foghorn" DurationType="OneShot" DurationMin="7.4046874" DurationMax="7.4046874">
+					<MediaRefs>
+						<MediaRef Id="652746968"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2713163012" Name="Play_Furnace_dying" DurationType="OneShot" DurationMin="6.877604" DurationMax="7.252604">
+					<MediaRefs>
+						<MediaRef Id="73254190"/>
+						<MediaRef Id="894648366"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3514058337" Name="Play_Losing_heat_near_monster" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="136260059"/>
@@ -760,6 +783,49 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="2694825763" Type="User" Language="SFX" Hash="{A26C7FFD-C4F4-C68A-F27C-E5AFC706C9C2}">
+			<ShortName>Ambience2_SoundBank</ShortName>
+			<Path>Ambience2_SoundBank.bnk</Path>
+			<Media>
+				<File Id="1068125563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_trees_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_trees_loop_01_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="994146778" Name="Play_Amb_forest" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1068125563"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3010096371" Type="User" Language="SFX" Hash="{ED2723A4-1728-4854-08E0-43C6F7A09957}">
+			<ShortName>Ambience_SoundBank</ShortName>
+			<Path>Ambience_SoundBank.bnk</Path>
+			<Media>
+				<File Id="375863302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_snow_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_snow_loop_01_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1015943554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_water_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_water_loop_01_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3007712584" Name="Play_Amb_snow" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="375863302"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2049148582" Name="Play_Amb_water" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1015943554"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{93346E3C-CA43-69DE-CF94-0139111B36F9}">
 			<ShortName>Music_SoundBank</ShortName>
 			<Path>Music_SoundBank.bnk</Path>
@@ -796,5 +862,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B07B844C-04BA-7F63-0ADA-3352C022A070}</FileHash>
+	<FileHash>{D6263CE3-F656-A8B4-B4D6-9682DF343CED}</FileHash>
 </SoundBanksInfo>

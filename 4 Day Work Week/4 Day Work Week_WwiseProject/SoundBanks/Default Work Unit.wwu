@@ -12,7 +12,9 @@
 						<ObjectRef Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Coal_suck_end" ID="{F8E487DB-320D-44A9-AE14-5B5F862407C6}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Furnace_dying" ID="{031326FC-C6B6-454B-976D-AE7E41064C7C}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_breath_low_heat" ID="{30E3C244-7A2C-465A-957E-893CFE725C3E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Foghorn" ID="{247EB48D-9A5B-47F4-B43B-7C444371E9B5}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Coal_suck_start" ID="{66204FDF-E3C9-4833-8118-1EC04D58BB8F}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
@@ -36,6 +38,21 @@
 						<ObjectRef Name="Play_Monster_Attacking" ID="{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience_SoundBank" ID="{E4769149-1266-49F7-8D95-828BF913554C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Amb_snow" ID="{2585711C-99C1-4301-8D00-A57B0ADAFD4A}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_water" ID="{A7BDAECA-8D53-4855-BB80-88A50D0320E6}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience2_SoundBank" ID="{7DD2874B-6E5A-4657-915E-F897871D3DC2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Amb_forest" ID="{0C882157-4ECB-4886-AB19-77F8459F63D0}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
