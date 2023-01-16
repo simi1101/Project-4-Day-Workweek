@@ -8,19 +8,34 @@
 						<ObjectRef Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Losing_heat_normal" ID="{FA1CC5F3-D588-41CC-BCB3-8F0F8C19B0A0}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Monster_Distant_Roar" ID="{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Monster_Attacking" ID="{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_breath_normal" ID="{153CB378-D8C7-42D8-B1CE-67512E6E478E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Coal_suck_end" ID="{F8E487DB-320D-44A9-AE14-5B5F862407C6}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_breath_low_heat" ID="{30E3C244-7A2C-465A-957E-893CFE725C3E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Coal_suck_start" ID="{66204FDF-E3C9-4833-8118-1EC04D58BB8F}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_SoundBank" ID="{9EFE7EA5-F484-4C84-AFA2-1CCC0B15727A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Music_Home_base" ID="{5C497D56-693F-4B4D-A3CB-1F865EC2BEDD}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music_Begining_Title" ID="{01C2B7B4-F9D6-4E68-AE04-25BB816DA5B7}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music_End_Title" ID="{668C5DB7-DB7F-4FDE-8B39-7EB59A2ACF67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Monster_SoundBank" ID="{8749170F-9AA0-4EE7-ACE4-46B436D272AD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Monster_Distant_Roar" ID="{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Monster_Attacking" ID="{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

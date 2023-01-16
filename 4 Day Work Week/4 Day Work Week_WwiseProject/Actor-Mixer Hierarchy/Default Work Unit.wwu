@@ -2187,6 +2187,79 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Folder Name="Coal_suck" ID="{BFA6CEF9-3885-4146-8D4B-33791A010DCB}" ShortID="347511723">
+							<ChildrenList>
+								<Sound Name="Coal_suck_start" ID="{C4CAB7CD-0144-43C7-A05D-0C34B41CE481}" ShortID="11520849">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_suck_start_01" ID="{A896823E-DC28-45CA-BEB8-1FCE18F6F765}">
+											<Language>SFX</Language>
+											<AudioFile>coal_suck_start_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="173912818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_suck_start_01" ID="{A896823E-DC28-45CA-BEB8-1FCE18F6F765}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coal_suck_end" ID="{C00CC896-5602-4BD3-AAF9-9BE10C034D22}" ShortID="248163740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_suck_end_01" ID="{539BB0EB-B186-4F3C-A8CC-73991E58E270}">
+											<Language>SFX</Language>
+											<AudioFile>coal_suck_end_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="113753650"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_suck_end_01" ID="{539BB0EB-B186-4F3C-A8CC-73991E58E270}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coal_suck_loop" ID="{698BD94D-AB3D-4F63-9DF1-C9723C0CBEE8}" ShortID="233334941">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_suck_loop_01" ID="{38008490-F93A-4FDB-A00C-C81F8BD14ABC}">
+											<Language>SFX</Language>
+											<AudioFile>coal_suck_loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691660987"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_suck_loop_01" ID="{38008490-F93A-4FDB-A00C-C81F8BD14ABC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monster" ID="{AD7BECFE-D94B-410F-B2AB-0121B41FB276}" ShortID="1062509185">
@@ -4572,6 +4645,277 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Torch_Ignite" ID="{9735FAD0-03CB-4F67-BABE-76B5BFBBCD9B}" ShortID="171135609">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="torch_ignite_03" ID="{349EE4CA-5D19-45ED-99C8-5637EB5C4F64}" ShortID="407386446">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="torch_ignite_03" ID="{1F67D790-22BF-4B04-83F8-7F526943B437}">
+									<Language>SFX</Language>
+									<AudioFile>torch_ignite_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="757689007"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="torch_ignite_03" ID="{1F67D790-22BF-4B04-83F8-7F526943B437}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="torch_ignite_02" ID="{3ADF2A99-2142-4B19-82ED-BFF6E70D25ED}" ShortID="1038938121">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="torch_ignite_02" ID="{B018687D-5751-4E6A-B937-A3CE34B7DABE}">
+									<Language>SFX</Language>
+									<AudioFile>torch_ignite_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="721844823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="torch_ignite_02" ID="{B018687D-5751-4E6A-B937-A3CE34B7DABE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="torch_ignite_01" ID="{B5E5B84E-FBAB-4E3B-B7D2-4FA251F3AEE4}" ShortID="9215816">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="torch_ignite_01" ID="{CC767007-D2E2-44CE-A67E-C5CC25D28EFC}">
+									<Language>SFX</Language>
+									<AudioFile>torch_ignite_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019032002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="torch_ignite_01" ID="{CC767007-D2E2-44CE-A67E-C5CC25D28EFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Folder Name="Generator" ID="{2C595559-2C16-4E12-88B2-41F056FAA7E0}" ShortID="486057450">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Generator_missing_coal" ID="{86E266CA-59FA-45C7-872E-47DB47A6A410}" ShortID="875202249">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="generator_missing_coal_01" ID="{0FB086A9-DAD6-4DEC-9B8B-8A365659DA0E}" ShortID="618485679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="generator_missing_coal_01" ID="{975B61C0-42F3-4BA6-BDBA-F19FDD71E5C8}">
+											<Language>SFX</Language>
+											<AudioFile>generator_missing_coal_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="79441443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="generator_missing_coal_01" ID="{975B61C0-42F3-4BA6-BDBA-F19FDD71E5C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="generator_missing_coal_02" ID="{E634815C-A913-4A5B-BA8E-08E8F9702175}" ShortID="142600363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="generator_missing_coal_02" ID="{3F30E47D-54B2-472A-9ADC-DC05A53D5FBE}">
+											<Language>SFX</Language>
+											<AudioFile>generator_missing_coal_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132181916"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="generator_missing_coal_02" ID="{3F30E47D-54B2-472A-9ADC-DC05A53D5FBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="generator_missing_coal_03" ID="{F0FA6334-8BD3-4720-B52B-1B954D87DF84}" ShortID="233520192">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="generator_missing_coal_03" ID="{39227427-40FB-4B18-801C-F76F34ECD45A}">
+											<Language>SFX</Language>
+											<AudioFile>generator_missing_coal_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694410941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="generator_missing_coal_03" ID="{39227427-40FB-4B18-801C-F76F34ECD45A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Generator_dying" ID="{F6A03DCE-66A9-41E1-9E38-286E166CBC07}" ShortID="645878880">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="generator_dying_01" ID="{23F25279-D8BD-4F06-A9D7-528C72E04905}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.110317920918368"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>generator_dying_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="988757252"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generator_dying_01" ID="{23F25279-D8BD-4F06-A9D7-528C72E04905}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gnerator_engine_loop" ID="{45DC59F1-D3CA-4582-B91D-BF866FAAD7CE}" ShortID="704217680">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="generator_loop_01" ID="{9F53E754-4AB7-4949-ADB6-C6BBEFE20D71}">
+									<Language>SFX</Language>
+									<AudioFile>generator_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="54705074"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generator_loop_01" ID="{9F53E754-4AB7-4949-ADB6-C6BBEFE20D71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Generator_start" ID="{6121E390-D001-4563-9401-56A3DD886E62}" ShortID="154614152">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="generator_ignite_01" ID="{B67681C3-728E-4A83-ACD5-717438104368}">
+									<Language>SFX</Language>
+									<AudioFile>generator_ignite_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="125856079"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="generator_ignite_01" ID="{B67681C3-728E-4A83-ACD5-717438104368}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

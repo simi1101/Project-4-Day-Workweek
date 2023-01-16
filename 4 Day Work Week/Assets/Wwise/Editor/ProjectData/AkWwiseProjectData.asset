@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277513029941734
+    m_lastTime: -8585277452695493495
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -82,6 +82,34 @@ MonoBehaviour:
         ObjectType: 7
         guid: de1c70983c9eb242ac235ff076f47359
       Path: SoundBanks/Default Work Unit/Main_SoundBank
+    - name: Monster_SoundBank
+      guid: 0f174987a09ae74eace446b436d272ad
+      id: 1681453895
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fc184443947b8e4bbabb50c956f06fe8
+      - ElementName: Monster_SoundBank
+        ObjectType: 7
+        guid: 0f174987a09ae74eace446b436d272ad
+      Path: SoundBanks/Default Work Unit/Monster_SoundBank
+    - name: Music_SoundBank
+      guid: a57efe9e84f4844cafa21ccc0b15727a
+      id: 3589812408
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fc184443947b8e4bbabb50c956f06fe8
+      - ElementName: Music_SoundBank
+        ObjectType: 7
+        guid: a57efe9e84f4844cafa21ccc0b15727a
+      Path: SoundBanks/Default Work Unit/Music_SoundBank
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277513047509933
+    m_lastTime: -8585277452695516609
     List:
     - name: Breathing
       guid: b3885ceab3486244bcc0db277f372812
@@ -144,6 +172,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 470714f11797ca44ab2a8744c9ea14d4
       Path: Events/Default Work Unit/Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Generator
+      guid: d99a31dbfd6a5d4382357c32ea5b0139
+      id: 334231652
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Generator
+        ObjectType: 4
+        guid: d99a31dbfd6a5d4382357c32ea5b0139
+      Path: Events/Default Work Unit/Generator
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -258,6 +303,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Coal_suck_end
+      guid: db87e4f80d32a944ae145b5f862407c6
+      id: 1914141634
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Play_Coal_suck_end
+        ObjectType: 3
+        guid: db87e4f80d32a944ae145b5f862407c6
+      Path: Events/Default Work Unit/Play_Coal_suck_end
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Coal_suck_start
+      guid: df4f2066c9e3334881181ec04d58bb8f
+      id: 1570043617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Play_Coal_suck_start
+        ObjectType: 3
+        guid: df4f2066c9e3334881181ec04d58bb8f
+      Path: Events/Default Work Unit/Play_Coal_suck_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Eviroment_Random
       guid: fdc14c8dc7b8514db3fc5dd0aad5df34
       id: 2434186889
@@ -272,6 +351,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: fdc14c8dc7b8514db3fc5dd0aad5df34
       Path: Events/Default Work Unit/Play_Eviroment_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Generator_start
+      guid: 576fe9668c61614881e84b2d3c8ccff8
+      id: 152489872
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Generator
+        ObjectType: 4
+        guid: d99a31dbfd6a5d4382357c32ea5b0139
+      - ElementName: Play_Generator_start
+        ObjectType: 3
+        guid: 576fe9668c61614881e84b2d3c8ccff8
+      Path: Events/Default Work Unit/Generator/Play_Generator_start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -495,6 +594,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Torch_Ignite
+      guid: ebc67032feb9f84385b0707404c146ef
+      id: 852026829
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Play_Torch_Ignite
+        ObjectType: 3
+        guid: ebc67032feb9f84385b0707404c146ef
+      Path: Events/Default Work Unit/Play_Torch_Ignite
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -618,7 +734,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000
+  ExpandedWaapiItemIds: 010000000300000006000000070000000d0000000f00000011000000120000001b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

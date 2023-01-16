@@ -2,7 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	327414093	Play_Losing_heat_normal			\Default Work Unit\Losing_heat\Play_Losing_heat_normal	
 	480507372	Play_coal_dump			\Default Work Unit\Coal\Play_coal_dump	
 	585068487	Play_coal_shoot			\Default Work Unit\Coal\Play_coal_shoot	
+	852026829	Play_Torch_Ignite			\Default Work Unit\Play_Torch_Ignite	
 	1550360224	Play_player_breath_normal			\Default Work Unit\Breathing\Play_player_breath_normal	
+	1570043617	Play_Coal_suck_start			\Default Work Unit\Play_Coal_suck_start	
+	1914141634	Play_Coal_suck_end			\Default Work Unit\Play_Coal_suck_end	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2434186889	Play_Eviroment_Random			\Default Work Unit\Play_Eviroment_Random	
 	2640308078	Play_player_breath_low_heat			\Default Work Unit\Breathing\Play_player_breath_low_heat	
@@ -21,11 +24,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	54681896	footsteps_snow_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_04		76308
 	55116757	player_breathing_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_10		447460
 	57778302	footsteps_snow_13	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_13		120160
+	113753650	Coal_suck_end	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_suck_end_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\Coal_suck\Coal_suck_end		442324
 	130211107	coal_pickup_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_pickup_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_08		97260
 	136260059	temp_losing_heat_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\temp_losing_heat_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_02		144508
 	164036905	temp_losing_heat_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\temp_losing_heat_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_05		177108
 	168241874	coal_dump_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_dump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_02		238208
 	170013725	coal_dump_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_dump_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_05		108296
+	173912818	Coal_suck_start	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_suck_start_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\Coal_suck\Coal_suck_start		224208
 	187762165	env_snow_drop_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\env_snow_drop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_snow_drop_03		86308
 	212127684	env_twig_break_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\env_twig_break_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_twig_break_03		148848
 	222042170	footsteps_concrete_15	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_concrete_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_15		50860
@@ -80,9 +85,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	674621572	footsteps_wood_11	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_11		46500
 	682006916	env_owl_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\env_owl_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_owl_01		120208
 	686649386	temp_losing_heat_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\temp_losing_heat_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_10		341588
+	691660987	Coal_suck_loop	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_suck_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\Coal_suck\Coal_suck_loop		2136208
 	702388158	player_breathing_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_05		770260
 	710064296	coal_shooting_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_shooting_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_shoot\coal_shooting_02		129008
+	721844823	torch_ignite_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\torch_ignite_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch_Ignite\torch_ignite_02		652208
 	721888782	footsteps_wood_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_10		39108
+	757689007	torch_ignite_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\torch_ignite_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch_Ignite\torch_ignite_03		761860
 	763182356	footsteps_snow_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_07		116908
 	768049280	player_breathing_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_08		586260
 	772137471	footsteps_snow_14	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_14		100160
@@ -115,6 +123,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1010478055	footsteps_wood_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_07		53608
 	1010890032	footsteps_wood_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_04		49808
 	1016179968	footsteps_concrete_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_concrete_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_04		36736
+	1019032002	torch_ignite_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\torch_ignite_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch_Ignite\torch_ignite_01		642508
 	1049171868	footsteps_snow_15	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_15		84160
 	1057868667	coal_pickup_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_pickup_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_10		155460
 	1063047260	footsteps_concrete_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_concrete_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_10		67208

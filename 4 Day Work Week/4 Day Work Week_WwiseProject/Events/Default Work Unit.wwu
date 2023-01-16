@@ -199,6 +199,79 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}">
+					<ChildrenList>
+						<Action Name="" ID="{517EFE26-A6D1-4736-914D-0A265817D20A}" ShortID="281506543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Torch_Ignite" ID="{9735FAD0-03CB-4F67-BABE-76B5BFBBCD9B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Generator" ID="{DB319AD9-6AFD-435D-8235-7C32EA5B0139}" ShortID="338875111">
+					<ChildrenList>
+						<Event Name="Play_Generator_start" ID="{66E96F57-618C-4861-81E8-4B2D3C8CCFF8}">
+							<ChildrenList>
+								<Action Name="" ID="{C56E8011-3203-4FEF-B523-6F5229152ECC}" ShortID="476847525">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generator_start" ID="{6121E390-D001-4563-9401-56A3DD886E62}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D5CB145D-8165-4367-B574-9E4C87F7C3A6}" ShortID="89476777">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gnerator_engine_loop" ID="{45DC59F1-D3CA-4582-B91D-BF866FAAD7CE}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Coal_suck_start" ID="{66204FDF-E3C9-4833-8118-1EC04D58BB8F}">
+					<ChildrenList>
+						<Action Name="" ID="{61701A9F-DD68-462D-ACFD-48CA71013EFD}" ShortID="162355871">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coal_suck_start" ID="{C4CAB7CD-0144-43C7-A05D-0C34B41CE481}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D5B3D99F-039E-4010-908F-DB4B65152B79}" ShortID="345367571">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.01"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coal_suck_loop" ID="{698BD94D-AB3D-4F63-9DF1-C9723C0CBEE8}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Coal_suck_end" ID="{F8E487DB-320D-44A9-AE14-5B5F862407C6}">
+					<ChildrenList>
+						<Action Name="" ID="{5A43074D-2050-4390-BFE8-75A202865D94}" ShortID="174216827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coal_suck_end" ID="{C00CC896-5602-4BD3-AAF9-9BE10C034D22}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

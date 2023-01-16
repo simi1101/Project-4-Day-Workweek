@@ -125,7 +125,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{BE993D09-E5EA-DF80-85C4-B7CAB79DDE7E}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{27F31996-61F8-4A06-981D-9C2F2928407C}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -140,6 +140,10 @@
 				<File Id="57778302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_13.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="113753650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_suck_end_01.wav</ShortName>
+					<CachePath>SFX/coal_suck_end_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="130211107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_pickup_08.wav</ShortName>
@@ -160,6 +164,10 @@
 				<File Id="170013725" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_dump_05.wav</ShortName>
 					<CachePath>SFX/coal_dump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="173912818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_suck_start_01.wav</ShortName>
+					<CachePath>SFX/coal_suck_start_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="187762165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_snow_drop_03.wav</ShortName>
@@ -377,6 +385,10 @@
 					<ShortName>temp_losing_heat_10.wav</ShortName>
 					<CachePath>SFX/temp_losing_heat_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="691660987" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_suck_loop_01.wav</ShortName>
+					<CachePath>SFX/coal_suck_loop_01_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="702388158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_breathing_05.wav</ShortName>
 					<CachePath>SFX/player_breathing_05_10C4C929.wem</CachePath>
@@ -385,9 +397,17 @@
 					<ShortName>coal_shooting_02.wav</ShortName>
 					<CachePath>SFX/coal_shooting_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="721844823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>torch_ignite_02.wav</ShortName>
+					<CachePath>SFX/torch_ignite_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="721888782" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_10.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="757689007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>torch_ignite_03.wav</ShortName>
+					<CachePath>SFX/torch_ignite_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="763182356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_07.wav</ShortName>
@@ -517,6 +537,10 @@
 					<ShortName>footsteps_concrete_04.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1019032002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>torch_ignite_01.wav</ShortName>
+					<CachePath>SFX/torch_ignite_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1049171868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_15.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_15_10C4C929.wem</CachePath>
@@ -632,6 +656,17 @@
 						<MediaRef Id="985416562"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1914141634" Name="Play_Coal_suck_end" DurationType="OneShot" DurationMin="2.3029375" DurationMax="2.3029375">
+					<MediaRefs>
+						<MediaRef Id="113753650"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1570043617" Name="Play_Coal_suck_start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="173912818"/>
+						<MediaRef Id="691660987"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2434186889" Name="Play_Eviroment_Random" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="187762165"/>
@@ -707,6 +742,13 @@
 						<MediaRef Id="861359378"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="852026829" Name="Play_Torch_Ignite" DurationType="OneShot" DurationMin="3.3453126" DurationMax="3.9671874">
+					<MediaRefs>
+						<MediaRef Id="721844823"/>
+						<MediaRef Id="757689007"/>
+						<MediaRef Id="1019032002"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2835351336" Name="GroundType">
@@ -754,5 +796,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14F0151B-D7D5-3556-EC96-29417A1C2E06}</FileHash>
+	<FileHash>{B07B844C-04BA-7F63-0ADA-3352C022A070}</FileHash>
 </SoundBanksInfo>

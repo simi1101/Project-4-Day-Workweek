@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID PLAY_COAL_DUMP = 480507372U;
         static const AkUniqueID PLAY_COAL_PICKUP = 3986540022U;
         static const AkUniqueID PLAY_COAL_SHOOT = 585068487U;
+        static const AkUniqueID PLAY_COAL_SUCK_END = 1914141634U;
+        static const AkUniqueID PLAY_COAL_SUCK_START = 1570043617U;
         static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
         static const AkUniqueID PLAY_LOSING_HEAT_NEAR_MONSTER = 3514058337U;
         static const AkUniqueID PLAY_LOSING_HEAT_NORMAL = 327414093U;
@@ -29,6 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC_HOME_BASE = 2154386389U;
         static const AkUniqueID PLAY_PLAYER_BREATH_LOW_HEAT = 2640308078U;
         static const AkUniqueID PLAY_PLAYER_BREATH_NORMAL = 1550360224U;
+        static const AkUniqueID PLAY_TORCH_IGNITE = 852026829U;
     } // namespace EVENTS
 
     namespace SWITCHES
