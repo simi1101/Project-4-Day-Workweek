@@ -19,7 +19,6 @@ public class ResourceManager : MonoBehaviour
     public LayerMask layermask;
 
     public AK.Wwise.Event suckSoundStart;
-    public AK.Wwise.Event suckSoundLoop;
     public AK.Wwise.Event suckSoundStop;
     public AK.Wwise.Event shootSound;
     bool vacuumingAlready;
@@ -51,7 +50,7 @@ public class ResourceManager : MonoBehaviour
         }
         if(Input.GetButtonUp("Fire1"))
         {
-            suckSoundStop.Stop(gameObject);
+            suckSoundStop.Post(gameObject);
             vacuumingAlready = false;
         }
         if (Input.GetButton("Fire1"))
@@ -60,7 +59,7 @@ public class ResourceManager : MonoBehaviour
                 Suck(true);
                 if (vacuumingAlready != true)
                 {
-                    suckSoundLoop.Post(gameObject);
+                    //suckSoundLoop.Post(gameObject);
                     vacuumingAlready = true;
                 }
             }
