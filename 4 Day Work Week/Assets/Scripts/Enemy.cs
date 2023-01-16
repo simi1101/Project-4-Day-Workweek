@@ -76,12 +76,16 @@ public class Enemy : MonoBehaviour
         StartCoroutine(Search());
         outerStorm.Stop();
         innerStorm.Stop();
+        enemyChase.Stop(gameObject);
+        enemyNear.Stop(gameObject);
+        enemyDistant.Stop(gameObject);
     }
 
    public void StartPursuit()
     {
         if (inPursuit != true)
         {
+            enemyChase.Post(gameObject);
             isWarded = false;
             playerKnown = true;
             StopAllCoroutines();
@@ -123,6 +127,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Search()
     {
         aipath.maxSpeed = walkSpeed;
+        enemyDistant.Post(gameObject);
         yield return new WaitForSeconds(timeToIdle);
         Idle();
         Debug.Log("Search over");

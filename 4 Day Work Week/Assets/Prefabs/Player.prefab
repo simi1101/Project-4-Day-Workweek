@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d672e9cba4070458e2f4671a611452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 2342094501695971}
   xSensitivity: 30
   ySensitivity: 30
 --- !u!114 &-6581613313102165376
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca00b90dfa6aca541a35f90137ed55e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
   gravity: -9.8
   jumpHeight: 3
   crouchTimer: 1
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HealthBar: 100
-  HealRate: 5
+  HealRate: 10
   DrainRate: 1
   IncreaseDifficulty: 0
   MaxHealth: 100
