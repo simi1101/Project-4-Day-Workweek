@@ -6,7 +6,7 @@ public class TemperatureMeter : MonoBehaviour
 {
     public float HealthBar = 130;
     public float HealRate = 5;
-    public float DrainRate = 1;
+    public float DrainRate = 2;
     public float IncreaseDifficulty = 0;
     public float MaxHealth;
     public float FurnaceHealMax;
@@ -54,7 +54,7 @@ public class TemperatureMeter : MonoBehaviour
             HealthBar -= (DrainRate + MonsterDrain) * Time.deltaTime;
         }
         
-        if(HealthBar < 0)
+        if(HealthBar < -130)
         {
             //Debug.Log("you are dead");
             ObjectivesManager om = GameObject.Find("ObjectiveManager").GetComponent<ObjectivesManager>();
