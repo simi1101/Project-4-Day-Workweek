@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 8c586eb28e08894eb24d9b0473b7e06f
     GuidInternal: 
-    m_lastTime: -8585277659278516914
+    m_lastTime: -8585277642960954768
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2d756a8e64e6ae41a4045f032951fc29
     GuidInternal: 
-    m_lastTime: -8585277659279034305
+    m_lastTime: -8585277642961458475
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,15 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277415360750791
+<<<<<<< HEAD
+    m_lastTime: -8585277387713923816
+=======
+<<<<<<< HEAD
+    m_lastTime: -8585277642960974712
+=======
+    m_lastTime: -8585277420843221140
+>>>>>>> fe5e649138204d0d895f3d139651683d9675378e
+>>>>>>> 950ff88448390ff3e57b315d97ad11c991114323
     List:
     - name: Ambience_SoundBank
       guid: 499176e46612f7498d95828bf913554c
@@ -81,7 +89,7 @@ MonoBehaviour:
       - ElementName: Ambience_SoundBank
         ObjectType: 7
         guid: 499176e46612f7498d95828bf913554c
-      Path: SoundBanks\Default Work Unit\Ambience_SoundBank
+      Path: SoundBanks/Default Work Unit/Ambience_SoundBank
     - name: Ambience2_SoundBank
       guid: 4b87d27d5a6e5746915ef897871d3dc2
       id: 2694825763
@@ -95,7 +103,7 @@ MonoBehaviour:
       - ElementName: Ambience2_SoundBank
         ObjectType: 7
         guid: 4b87d27d5a6e5746915ef897871d3dc2
-      Path: SoundBanks\Default Work Unit\Ambience2_SoundBank
+      Path: SoundBanks/Default Work Unit/Ambience2_SoundBank
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
       id: 2228651116
@@ -109,7 +117,10 @@ MonoBehaviour:
       - ElementName: Main_SoundBank
         ObjectType: 7
         guid: de1c70983c9eb242ac235ff076f47359
+<<<<<<< HEAD
       Path: SoundBanks\Default Work Unit\Main_SoundBank
+=======
+      Path: SoundBanks/Default Work Unit/Main_SoundBank
     - name: Monster_SoundBank
       guid: 0f174987a09ae74eace446b436d272ad
       id: 1681453895
@@ -123,7 +134,7 @@ MonoBehaviour:
       - ElementName: Monster_SoundBank
         ObjectType: 7
         guid: 0f174987a09ae74eace446b436d272ad
-      Path: SoundBanks\Default Work Unit\Monster_SoundBank
+      Path: SoundBanks/Default Work Unit/Monster_SoundBank
     - name: Music_SoundBank
       guid: a57efe9e84f4844cafa21ccc0b15727a
       id: 3589812408
@@ -137,7 +148,8 @@ MonoBehaviour:
       - ElementName: Music_SoundBank
         ObjectType: 7
         guid: a57efe9e84f4844cafa21ccc0b15727a
-      Path: SoundBanks\Default Work Unit\Music_SoundBank
+      Path: SoundBanks/Default Work Unit/Music_SoundBank
+>>>>>>> fe5e649138204d0d895f3d139651683d9675378e
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -150,7 +162,15 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277415372698268
+<<<<<<< HEAD
+    m_lastTime: -8585277387713942597
+=======
+<<<<<<< HEAD
+    m_lastTime: -8585277642961847432
+=======
+    m_lastTime: -8585277420843239747
+>>>>>>> fe5e649138204d0d895f3d139651683d9675378e
+>>>>>>> 950ff88448390ff3e57b315d97ad11c991114323
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44
@@ -165,7 +185,7 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: e20545df6a67474e9068d28c8074dd44
-      Path: Events\Default Work Unit\Ambience
+      Path: Events/Default Work Unit/Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -182,7 +202,7 @@ MonoBehaviour:
       - ElementName: Breathing
         ObjectType: 4
         guid: b3885ceab3486244bcc0db277f372812
-      Path: Events\Default Work Unit\Breathing
+      Path: Events/Default Work Unit/Breathing
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -199,7 +219,7 @@ MonoBehaviour:
       - ElementName: Coal
         ObjectType: 4
         guid: 074c96913694a348b5a8e21e1ff05d9b
-      Path: Events\Default Work Unit\Coal
+      Path: Events/Default Work Unit/Coal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -216,7 +236,7 @@ MonoBehaviour:
       - ElementName: Ferry_foghorn
         ObjectType: 4
         guid: 82859e9137576d4fa8e7ec895bc54175
-      Path: Events\Default Work Unit\Ferry_foghorn
+      Path: Events/Default Work Unit/Ferry_foghorn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -233,7 +253,27 @@ MonoBehaviour:
       - ElementName: Foosteps
         ObjectType: 4
         guid: 8df74e28e2be384b9d692ba24b1401e9
-      Path: Events\Default Work Unit\Foosteps
+      Path: Events/Default Work Unit/Foosteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foosteps_failsafe
+      guid: a5ff18b57d24a84fbeba8aee181c7daf
+      id: 839105944
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -253,7 +293,10 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 3
         guid: 470714f11797ca44ab2a8744c9ea14d4
-      Path: Events\Default Work Unit\Foosteps\Footsteps
+<<<<<<< HEAD
+      Path: Events\Default Work Unit\Footsteps
+=======
+      Path: Events/Default Work Unit/Foosteps/Footsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -270,7 +313,7 @@ MonoBehaviour:
       - ElementName: Furnace
         ObjectType: 4
         guid: d8c26cb56b8c484e9e623fb5288536d7
-      Path: Events\Default Work Unit\Furnace
+      Path: Events/Default Work Unit/Furnace
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -287,7 +330,7 @@ MonoBehaviour:
       - ElementName: Generator
         ObjectType: 4
         guid: d99a31dbfd6a5d4382357c32ea5b0139
-      Path: Events\Default Work Unit\Generator
+      Path: Events/Default Work Unit/Generator
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -304,7 +347,7 @@ MonoBehaviour:
       - ElementName: Losing_heat
         ObjectType: 4
         guid: 6fb78df9b4169f41999e256a387be928
-      Path: Events\Default Work Unit\Losing_heat
+      Path: Events/Default Work Unit/Losing_heat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -321,7 +364,7 @@ MonoBehaviour:
       - ElementName: Monster
         ObjectType: 4
         guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
-      Path: Events\Default Work Unit\Monster
+      Path: Events/Default Work Unit/Monster
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -338,7 +381,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 8a16c05cd6d93945ad16aac8892db3e0
-      Path: Events\Default Work Unit\Music
+      Path: Events/Default Work Unit/Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -358,7 +401,7 @@ MonoBehaviour:
       - ElementName: Play_Amb_forest
         ObjectType: 3
         guid: 5721880ccb4e8648ab1977f8459f63d0
-      Path: Events\Default Work Unit\Ambience\Play_Amb_forest
+      Path: Events/Default Work Unit/Ambience/Play_Amb_forest
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -378,7 +421,7 @@ MonoBehaviour:
       - ElementName: Play_Amb_snow
         ObjectType: 3
         guid: 1c718525c19901438d00a57b0adafd4a
-      Path: Events\Default Work Unit\Ambience\Play_Amb_snow
+      Path: Events/Default Work Unit/Ambience/Play_Amb_snow
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -398,7 +441,7 @@ MonoBehaviour:
       - ElementName: Play_Amb_water
         ObjectType: 3
         guid: caaebda7538d5548bb8088a50d0320e6
-      Path: Events\Default Work Unit\Ambience\Play_Amb_water
+      Path: Events/Default Work Unit/Ambience/Play_Amb_water
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -418,7 +461,7 @@ MonoBehaviour:
       - ElementName: Play_coal_dump
         ObjectType: 3
         guid: 93766bf9b13e9741990a6ebb08a6dadf
-      Path: Events\Default Work Unit\Coal\Play_coal_dump
+      Path: Events/Default Work Unit/Coal/Play_coal_dump
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -438,7 +481,7 @@ MonoBehaviour:
       - ElementName: Play_coal_pickup
         ObjectType: 3
         guid: c9271a57e787ea4fa2da0a3f6eae4b34
-      Path: Events\Default Work Unit\Coal\Play_coal_pickup
+      Path: Events/Default Work Unit/Coal/Play_coal_pickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -458,7 +501,7 @@ MonoBehaviour:
       - ElementName: Play_coal_shoot
         ObjectType: 3
         guid: 884955f7ea338041a629dc8a807539cf
-      Path: Events\Default Work Unit\Coal\Play_coal_shoot
+      Path: Events/Default Work Unit/Coal/Play_coal_shoot
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -478,7 +521,7 @@ MonoBehaviour:
       - ElementName: Play_Coal_suck_end
         ObjectType: 3
         guid: db87e4f80d32a944ae145b5f862407c6
-      Path: Events\Default Work Unit\Coal\Play_Coal_suck_end
+      Path: Events/Default Work Unit/Coal/Play_Coal_suck_end
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -498,7 +541,7 @@ MonoBehaviour:
       - ElementName: Play_Coal_suck_start
         ObjectType: 3
         guid: df4f2066c9e3334881181ec04d58bb8f
-      Path: Events\Default Work Unit\Coal\Play_Coal_suck_start
+      Path: Events/Default Work Unit/Coal/Play_Coal_suck_start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -518,7 +561,7 @@ MonoBehaviour:
       - ElementName: Play_Eviroment_Random
         ObjectType: 3
         guid: fdc14c8dc7b8514db3fc5dd0aad5df34
-      Path: Events\Default Work Unit\Random_enviroment\Play_Eviroment_Random
+      Path: Events/Default Work Unit/Random_enviroment/Play_Eviroment_Random
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -538,7 +581,76 @@ MonoBehaviour:
       - ElementName: Play_Foghorn
         ObjectType: 3
         guid: 8db47e245b9af447b43b7c444371e9b5
-      Path: Events\Default Work Unit\Ferry_foghorn\Play_Foghorn
+      Path: Events/Default Work Unit/Ferry_foghorn/Play_Foghorn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_footsteps_concrete_failsafe
+      guid: 0178dc285134b743b46e009f991139fc
+      id: 3131974009
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_footsteps_concrete_failsafe
+        ObjectType: 3
+        guid: 0178dc285134b743b46e009f991139fc
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_footsteps_concrete_failsafe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_footsteps_snow_failsafe
+      guid: 4d82813cffefbc4fbf585a5cd7dffbfe
+      id: 3801093501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_footsteps_snow_failsafe
+        ObjectType: 3
+        guid: 4d82813cffefbc4fbf585a5cd7dffbfe
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_footsteps_snow_failsafe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps_wood_failsafe
+      guid: 7237073f81832c4a9e7738e3e85a0f53
+      id: 877887587
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_Footsteps_wood_failsafe
+        ObjectType: 3
+        guid: 7237073f81832c4a9e7738e3e85a0f53
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_Footsteps_wood_failsafe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -558,7 +670,7 @@ MonoBehaviour:
       - ElementName: Play_Furnace_dying
         ObjectType: 3
         guid: fc261303b6c64b45976dae7e41064c7c
-      Path: Events\Default Work Unit\Furnace\Play_Furnace_dying
+      Path: Events/Default Work Unit/Furnace/Play_Furnace_dying
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -578,7 +690,7 @@ MonoBehaviour:
       - ElementName: Play_Furnace_ignite
         ObjectType: 3
         guid: 84d78f6fdbff6d4f9ae04a509980dcb8
-      Path: Events\Default Work Unit\Furnace\Play_Furnace_ignite
+      Path: Events/Default Work Unit/Furnace/Play_Furnace_ignite
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -598,7 +710,7 @@ MonoBehaviour:
       - ElementName: Play_Generator_missing_coal
         ObjectType: 3
         guid: dbdb35aa94241545acb7e3678748d1e3
-      Path: Events\Default Work Unit\Coal\Play_Generator_missing_coal
+      Path: Events/Default Work Unit/Coal/Play_Generator_missing_coal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -618,7 +730,27 @@ MonoBehaviour:
       - ElementName: Play_Generator_start
         ObjectType: 3
         guid: 576fe9668c61614881e84b2d3c8ccff8
-      Path: Events\Default Work Unit\Generator\Play_Generator_start
+      Path: Events/Default Work Unit/Generator/Play_Generator_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Generator_start_failsafe
+      guid: 7752b8d314f1b24b84cab4049f6e74c9
+      id: 2719913800
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Generator
+        ObjectType: 4
+        guid: d99a31dbfd6a5d4382357c32ea5b0139
+      - ElementName: Play_Generator_start_failsafe
+        ObjectType: 3
+        guid: 7752b8d314f1b24b84cab4049f6e74c9
+      Path: Events/Default Work Unit/Generator/Play_Generator_start_failsafe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -638,7 +770,7 @@ MonoBehaviour:
       - ElementName: Play_Losing_heat_near_monster
         ObjectType: 3
         guid: d02f03b2785fa5429488f131a8fd8d63
-      Path: Events\Default Work Unit\Losing_heat\Play_Losing_heat_near_monster
+      Path: Events/Default Work Unit/Losing_heat/Play_Losing_heat_near_monster
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -658,7 +790,7 @@ MonoBehaviour:
       - ElementName: Play_Losing_heat_normal
         ObjectType: 3
         guid: a9ebeddc1d3f6547b2fe5dfbc6c7cbab
-      Path: Events\Default Work Unit\Losing_heat\Play_Losing_heat_normal
+      Path: Events/Default Work Unit/Losing_heat/Play_Losing_heat_normal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -678,7 +810,7 @@ MonoBehaviour:
       - ElementName: Play_monster_amb
         ObjectType: 3
         guid: 2004dc30f528534c899dc62607b3db67
-      Path: Events\Default Work Unit\Monster\Play_monster_amb
+      Path: Events/Default Work Unit/Monster/Play_monster_amb
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -698,7 +830,7 @@ MonoBehaviour:
       - ElementName: Play_Monster_Attacking
         ObjectType: 3
         guid: b5caf5f5f313b742bc090709393dfa9b
-      Path: Events\Default Work Unit\Monster\Play_Monster_Attacking
+      Path: Events/Default Work Unit/Monster/Play_Monster_Attacking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -718,7 +850,7 @@ MonoBehaviour:
       - ElementName: Play_Monster_Close_by
         ObjectType: 3
         guid: 20d3ddf27c8760459b02077379c41013
-      Path: Events\Default Work Unit\Monster\Play_Monster_Close_by
+      Path: Events/Default Work Unit/Monster/Play_Monster_Close_by
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -738,7 +870,7 @@ MonoBehaviour:
       - ElementName: Play_Monster_Distant_Roar
         ObjectType: 3
         guid: a5a4fd954246e941a16c18133ada6bf9
-      Path: Events\Default Work Unit\Monster\Play_Monster_Distant_Roar
+      Path: Events/Default Work Unit/Monster/Play_Monster_Distant_Roar
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -758,7 +890,7 @@ MonoBehaviour:
       - ElementName: Play_Music_Begining_Title
         ObjectType: 3
         guid: b4b7c201d6f9684eae0425bb816da5b7
-      Path: Events\Default Work Unit\Music\Play_Music_Begining_Title
+      Path: Events/Default Work Unit/Music/Play_Music_Begining_Title
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -778,7 +910,7 @@ MonoBehaviour:
       - ElementName: Play_Music_End_Title
         ObjectType: 3
         guid: b75d8c667fdbde4f8b397eb59a2acf67
-      Path: Events\Default Work Unit\Music\Play_Music_End_Title
+      Path: Events/Default Work Unit/Music/Play_Music_End_Title
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -798,7 +930,7 @@ MonoBehaviour:
       - ElementName: Play_Music_Home_base
         ObjectType: 3
         guid: 567d495c3f694d4ba3cb1f865ec2bedd
-      Path: Events\Default Work Unit\Music\Play_Music_Home_base
+      Path: Events/Default Work Unit/Music/Play_Music_Home_base
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -818,7 +950,7 @@ MonoBehaviour:
       - ElementName: Play_player_breath_low_heat
         ObjectType: 3
         guid: 44c2e3302c7a5a46957e893cfe725c3e
-      Path: Events\Default Work Unit\Breathing\Play_player_breath_low_heat
+      Path: Events/Default Work Unit/Breathing/Play_player_breath_low_heat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -838,7 +970,7 @@ MonoBehaviour:
       - ElementName: Play_player_breath_normal
         ObjectType: 3
         guid: 78b33c15c7d8d842b1ce67512e6e478e
-      Path: Events\Default Work Unit\Breathing\Play_player_breath_normal
+      Path: Events/Default Work Unit/Breathing/Play_player_breath_normal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -858,7 +990,7 @@ MonoBehaviour:
       - ElementName: Play_Torch_Ignite
         ObjectType: 3
         guid: ebc67032feb9f84385b0707404c146ef
-      Path: Events\Default Work Unit\Torch\Play_Torch_Ignite
+      Path: Events/Default Work Unit/Torch/Play_Torch_Ignite
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -875,7 +1007,7 @@ MonoBehaviour:
       - ElementName: Random_enviroment
         ObjectType: 4
         guid: 86820544186fd3449216816e39105d54
-      Path: Events\Default Work Unit\Random_enviroment
+      Path: Events/Default Work Unit/Random_enviroment
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -892,7 +1024,8 @@ MonoBehaviour:
       - ElementName: Torch
         ObjectType: 4
         guid: 4acf975412b9a94590f2bb6f345a87cf
-      Path: Events\Default Work Unit\Torch
+      Path: Events/Default Work Unit/Torch
+>>>>>>> fe5e649138204d0d895f3d139651683d9675378e
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -908,7 +1041,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e98e42d5e2fee344b4a94a3c039fa568
     GuidInternal: 
-    m_lastTime: -8585277659279399667
+    m_lastTime: -8585277642961847432
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -922,7 +1055,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5c42e4ef70816947a522a73bc4bbc811
     GuidInternal: 
-    m_lastTime: -8585277659278526906
+    m_lastTime: -8585277642960964739
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -936,7 +1069,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: ac94ba59cdd334488190064841f1922c
     GuidInternal: 
-    m_lastTime: -8585277659278526906
+    m_lastTime: -8585277642960964739
     List:
     - name: GroundType
       guid: 0360c58641a1904e8554be99b9e7fc64
@@ -1016,10 +1149,18 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c967adb0282c334894350ab3e6bc49de
     GuidInternal: 
-    m_lastTime: -8585277659278526906
+    m_lastTime: -8585277642960964739
     List: []
   ExpandedFileSystemItemIds: 
+<<<<<<< HEAD
+  ExpandedWaapiItemIds: 0100000003000000050000000600000007000000090000000a0000000d0000000f000000110000001200000014000000150000001b000000
+=======
+<<<<<<< HEAD
+  ExpandedWaapiItemIds: 
+=======
   ExpandedWaapiItemIds: 0100000003000000050000000600000007000000090000000d0000000f000000110000001200000014000000150000001b000000
+>>>>>>> fe5e649138204d0d895f3d139651683d9675378e
+>>>>>>> 950ff88448390ff3e57b315d97ad11c991114323
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -24,7 +24,12 @@ namespace AK
         static const AkUniqueID PLAY_COAL_SUCK_START = 1570043617U;
         static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
         static const AkUniqueID PLAY_FOGHORN = 3070280721U;
+        static const AkUniqueID PLAY_FOOTSTEPS_CONCRETE_FAILSAFE = 3131974009U;
+        static const AkUniqueID PLAY_FOOTSTEPS_SNOW_FAILSAFE = 3801093501U;
+        static const AkUniqueID PLAY_FOOTSTEPS_WOOD_FAILSAFE = 877887587U;
         static const AkUniqueID PLAY_FURNACE_DYING = 2713163012U;
+        static const AkUniqueID PLAY_GENERATOR_START = 152489872U;
+        static const AkUniqueID PLAY_GENERATOR_START_FAILSAFE = 2719913800U;
         static const AkUniqueID PLAY_LOSING_HEAT_NEAR_MONSTER = 3514058337U;
         static const AkUniqueID PLAY_LOSING_HEAT_NORMAL = 327414093U;
         static const AkUniqueID PLAY_MONSTER_AMB = 116922321U;

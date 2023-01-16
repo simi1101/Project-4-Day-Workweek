@@ -792,6 +792,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 058d0e11d0b58487cb6a15cf0f994e21, type: 2}
     - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+      propertyPath: suckSoundStop.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 93b86be4aff1e405fb7ad7649c7c8f38, type: 2}
+    - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: suckSoundStart.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: ae3d7c661baaf43dfb2d89d378c4144f, type: 2}
