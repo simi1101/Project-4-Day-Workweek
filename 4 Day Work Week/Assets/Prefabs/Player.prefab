@@ -223,6 +223,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 675a4c97f151f4178a72b7a025eb8f7a, type: 2}
+  breathingNormal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 74cd440262b714f54810336b0793574d, type: 2}
+  breathingHeavy:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5e8f4f38f232d47c7898fb9510bb1889, type: 2}
 --- !u!136 &2648475720601595142
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -253,6 +261,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b375da609afb84adda131bd58c8adb30, type: 2}
+  ambientTrees:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8b3793e3816e84737820b6cd37850af4, type: 2}
   footstepsSnow:
     idInternal: 0
     valueGuidInternal: 
@@ -261,6 +273,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a38ead21f40494992bd6a6b2648eda57, type: 2}
+  homeMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a493e24de17134bffa64adae58f631ad, type: 2}
 --- !u!1 &2342094501695969
 GameObject:
   m_ObjectHideFlags: 0
