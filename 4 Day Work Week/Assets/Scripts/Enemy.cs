@@ -82,14 +82,15 @@ public class Enemy : MonoBehaviour
     IEnumerator Pursuit()
     {
         inPursuit = true;
-        aipath.maxSpeed = walkSpeed;
-        float randomWalk = Random.Range(walkTime[0], walkTime[1]);
-        Debug.Log("Walking for " + randomWalk);
-        yield return new WaitForSeconds(randomWalk);
         aipath.maxSpeed = runSpeed;
         float randomRun = Random.Range(runTime[0], runTime[1]);
         Debug.Log("Running for " + randomRun);
         yield return new WaitForSeconds(randomRun);
+        aipath.maxSpeed = walkSpeed;
+        float randomWalk = Random.Range(walkTime[0], walkTime[1]);
+        Debug.Log("Walking for " + randomWalk);
+        yield return new WaitForSeconds(randomWalk);
+
         if(playerKnown != false)
         {
             Debug.Log("Player still in reach");

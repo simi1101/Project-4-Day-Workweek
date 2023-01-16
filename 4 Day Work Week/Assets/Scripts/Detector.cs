@@ -39,16 +39,20 @@ public class Detector : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         //Cancel pursuit
-        enemy.Lost();
-        temp.MonsterDrain = 0;
+        if (other.GetComponent<TemperatureMeter>() != null)
+        {
+            enemy.Lost();
+            temp.MonsterDrain = 0;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         //Trigger alert, start Coroutine for pursuit
-        enemy.StartPursuit();
+        
         if (other.GetComponent<TemperatureMeter>() != null)
         {
+            enemy.StartPursuit();
             temp = other.GetComponent<TemperatureMeter>();
         }
     }
