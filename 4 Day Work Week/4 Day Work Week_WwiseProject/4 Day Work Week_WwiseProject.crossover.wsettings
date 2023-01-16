@@ -3,11 +3,19 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{77C112A0-01D6-4039-A9BD-CBB30F61E7A7}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\4DWW GJ Audio\SFX\Coal\Shooting Coal\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\4DWW GJ Audio\SFX\Losing heat\"/>
+				<Property Name="Event Action List\{153CB378-D8C7-42D8-B1CE-67512E6E478E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{241E9F32-9B1D-44B2-9BF9-6D7D9550F7A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{30DC0420-28F5-4C53-899D-C62607B3DB67}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{30E3C244-7A2C-465A-957E-893CFE725C3E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B2032FD0-5F78-42A5-9488-F131A8FD8D63}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DCEDEBA9-3F1D-4765-B2FE-5DFBC6C7CBAB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F1140747-9717-44CA-AB2A-8744C9EA14D4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F2DDD320-877C-4560-9B02-077379C41013}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F7554988-33EA-4180-A629-DC8A807539CF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F96B7693-3EB1-4197-990A-6EBB08A6DADF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

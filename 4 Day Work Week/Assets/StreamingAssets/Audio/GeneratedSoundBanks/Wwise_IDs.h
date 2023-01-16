@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID PLAY_COAL_PICKUP = 3986540022U;
         static const AkUniqueID PLAY_COAL_SHOOT = 585068487U;
         static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
+        static const AkUniqueID PLAY_LOSING_HEAT_NEAR_MONSTER = 3514058337U;
+        static const AkUniqueID PLAY_LOSING_HEAT_NORMAL = 327414093U;
         static const AkUniqueID PLAY_MONSTER_AMB = 116922321U;
         static const AkUniqueID PLAY_MONSTER_ATTACKING = 763434321U;
         static const AkUniqueID PLAY_MONSTER_CLOSE_BY = 913147U;

@@ -7,7 +7,15 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Losing_heat_normal" ID="{FA1CC5F3-D588-41CC-BCB3-8F0F8C19B0A0}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Monster_Distant_Roar" ID="{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Monster_Attacking" ID="{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_player_breath_normal" ID="{153CB378-D8C7-42D8-B1CE-67512E6E478E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_player_breath_low_heat" ID="{30E3C244-7A2C-465A-957E-893CFE725C3E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

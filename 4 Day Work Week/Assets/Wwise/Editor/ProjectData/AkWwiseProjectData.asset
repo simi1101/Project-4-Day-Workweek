@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277602328246768
+    m_lastTime: -8585277535045863937
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277602328266129
+    m_lastTime: -8585277535045883311
     List:
+    - name: Breathing
+      guid: b3885ceab3486244bcc0db277f372812
+      id: 238653005
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Breathing
+        ObjectType: 4
+        guid: b3885ceab3486244bcc0db277f372812
+      Path: Events/Default Work Unit/Breathing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Coal
+      guid: 074c96913694a348b5a8e21e1ff05d9b
+      id: 3469052172
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
+      Path: Events/Default Work Unit/Coal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 470714f11797ca44ab2a8744c9ea14d4
       id: 2385628198
@@ -113,6 +147,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Losing_heat
+      guid: 6fb78df9b4169f41999e256a387be928
+      id: 2064808168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Losing_heat
+        ObjectType: 4
+        guid: 6fb78df9b4169f41999e256a387be928
+      Path: Events/Default Work Unit/Losing_heat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Monster
+      guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      id: 2376328173
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Monster
+        ObjectType: 4
+        guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      Path: Events/Default Work Unit/Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_coal_dump
       guid: 93766bf9b13e9741990a6ebb08a6dadf
       id: 480507372
@@ -123,10 +191,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
       - ElementName: Play_coal_dump
         ObjectType: 3
         guid: 93766bf9b13e9741990a6ebb08a6dadf
-      Path: Events/Default Work Unit/Play_coal_dump
+      Path: Events/Default Work Unit/Coal/Play_coal_dump
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -140,10 +211,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
       - ElementName: Play_coal_pickup
         ObjectType: 3
         guid: c9271a57e787ea4fa2da0a3f6eae4b34
-      Path: Events/Default Work Unit/Play_coal_pickup
+      Path: Events/Default Work Unit/Coal/Play_coal_pickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -157,10 +231,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
       - ElementName: Play_coal_shoot
         ObjectType: 3
         guid: 884955f7ea338041a629dc8a807539cf
-      Path: Events/Default Work Unit/Play_coal_shoot
+      Path: Events/Default Work Unit/Coal/Play_coal_shoot
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -178,6 +255,166 @@ MonoBehaviour:
         ObjectType: 3
         guid: fdc14c8dc7b8514db3fc5dd0aad5df34
       Path: Events/Default Work Unit/Play_Eviroment_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Losing_heat_near_monster
+      guid: d02f03b2785fa5429488f131a8fd8d63
+      id: 3514058337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Losing_heat
+        ObjectType: 4
+        guid: 6fb78df9b4169f41999e256a387be928
+      - ElementName: Play_Losing_heat_near_monster
+        ObjectType: 3
+        guid: d02f03b2785fa5429488f131a8fd8d63
+      Path: Events/Default Work Unit/Losing_heat/Play_Losing_heat_near_monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Losing_heat_normal
+      guid: a9ebeddc1d3f6547b2fe5dfbc6c7cbab
+      id: 327414093
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Losing_heat
+        ObjectType: 4
+        guid: 6fb78df9b4169f41999e256a387be928
+      - ElementName: Play_Losing_heat_normal
+        ObjectType: 3
+        guid: a9ebeddc1d3f6547b2fe5dfbc6c7cbab
+      Path: Events/Default Work Unit/Losing_heat/Play_Losing_heat_normal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_monster_amb
+      guid: 2004dc30f528534c899dc62607b3db67
+      id: 116922321
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Monster
+        ObjectType: 4
+        guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      - ElementName: Play_monster_amb
+        ObjectType: 3
+        guid: 2004dc30f528534c899dc62607b3db67
+      Path: Events/Default Work Unit/Monster/Play_monster_amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Monster_Attacking
+      guid: b5caf5f5f313b742bc090709393dfa9b
+      id: 763434321
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Monster
+        ObjectType: 4
+        guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      - ElementName: Play_Monster_Attacking
+        ObjectType: 3
+        guid: b5caf5f5f313b742bc090709393dfa9b
+      Path: Events/Default Work Unit/Monster/Play_Monster_Attacking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Monster_Close_by
+      guid: 20d3ddf27c8760459b02077379c41013
+      id: 913147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Monster
+        ObjectType: 4
+        guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      - ElementName: Play_Monster_Close_by
+        ObjectType: 3
+        guid: 20d3ddf27c8760459b02077379c41013
+      Path: Events/Default Work Unit/Monster/Play_Monster_Close_by
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Monster_Distant_Roar
+      guid: a5a4fd954246e941a16c18133ada6bf9
+      id: 3673945153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Monster
+        ObjectType: 4
+        guid: 1ed9d781a2b50d4e9c1af1a867ff1f5a
+      - ElementName: Play_Monster_Distant_Roar
+        ObjectType: 3
+        guid: a5a4fd954246e941a16c18133ada6bf9
+      Path: Events/Default Work Unit/Monster/Play_Monster_Distant_Roar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_player_breath_low_heat
+      guid: 44c2e3302c7a5a46957e893cfe725c3e
+      id: 2640308078
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Breathing
+        ObjectType: 4
+        guid: b3885ceab3486244bcc0db277f372812
+      - ElementName: Play_player_breath_low_heat
+        ObjectType: 3
+        guid: 44c2e3302c7a5a46957e893cfe725c3e
+      Path: Events/Default Work Unit/Breathing/Play_player_breath_low_heat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_player_breath_normal
+      guid: 78b33c15c7d8d842b1ce67512e6e478e
+      id: 1550360224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Breathing
+        ObjectType: 4
+        guid: b3885ceab3486244bcc0db277f372812
+      - ElementName: Play_player_breath_normal
+        ObjectType: 3
+        guid: 78b33c15c7d8d842b1ce67512e6e478e
+      Path: Events/Default Work Unit/Breathing/Play_player_breath_normal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
