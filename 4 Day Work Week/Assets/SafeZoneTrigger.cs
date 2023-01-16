@@ -21,19 +21,6 @@ public class SafeZoneTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.GetComponent<TemperatureMeter>() != null)
-        {
-            TemperatureMeter meter = other.gameObject.GetComponent<TemperatureMeter>();
-            Meter.InSafeZone = true;
-            if(isGenerator != false)
-            {
-                meter.Healed = true;
-            }
-            else
-            {
-                
-            }
-        }
         
         
             if(other.gameObject.GetComponent<Enemy>() != null)
@@ -46,7 +33,7 @@ public class SafeZoneTrigger : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         Meter.InSafeZone = false;
-        Meter.Healed = false;
+        
     }
 
     private void OnTriggerStay(Collider other)
@@ -54,6 +41,17 @@ public class SafeZoneTrigger : MonoBehaviour
         if (other.gameObject.GetComponent<Enemy>() != null)
         {
             enemy.Warded(transform.position);
+        }
+
+        if (other.gameObject.GetComponent<TemperatureMeter>() != null)
+        {
+            TemperatureMeter meter = other.gameObject.GetComponent<TemperatureMeter>();
+            Meter.InSafeZone = true;
+            Meter.Healing();
+            
+                
+            
+
         }
     }
 }

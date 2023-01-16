@@ -9,25 +9,23 @@ public class FurnaceCoal : MonoBehaviour
     public float furnaceTimer;
     private Light furnaceLight;
     private SphereCollider safeZone;
+    bool activated;
 
     // Start is called before the first frame update
     void Start()
     {
         furnaceLight = GetComponent<Light>();
         furnaceLight.enabled = false;
-        safeZone = GameObject.Find("Furnace").GetComponent<SphereCollider>();
+        safeZone = GetComponentInParent<SphereCollider>();
         safeZone.enabled = false;
         FurnaceCount= 0;
+        activated = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(FurnaceCount >= FurnaceMax)
-        {
-            furnaceLight.enabled = true;
-            safeZone.enabled = true;
-        }
+       
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -38,17 +36,26 @@ public class FurnaceCoal : MonoBehaviour
         {
             Destroy(other.gameObject);
             FurnaceCount++;
+            if (FurnaceCount >= FurnaceMax)
+            {
+                StartCoroutine(ActivationCycle());
+            }
         }
 
     }
 
     IEnumerator ActivationCycle()
     {
-        furnaceLight.enabled = true;
-        safeZone.enabled = true;
-        yield return new WaitForSeconds(furnaceTimer);
-        furnaceLight.enabled = false;
-        safeZone.enabled = false;
-        FurnaceCount = 0;
+        if (activated != true)
+        {
+            Debug.Log("Furnace cycling");
+            furnaceLight.enabled = true;
+            safeZone.enabled = true;
+            yield return new WaitForSeconds(furnaceTimer);
+            furnaceLight.enabled = false;
+            safeZone.enabled = false;
+            FurnaceCount = 0;
+            activated = false;
+        }
     }
 }
