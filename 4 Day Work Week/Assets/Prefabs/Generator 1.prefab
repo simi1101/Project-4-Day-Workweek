@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b570f6c2094d32040b56a8a592b04081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxCoalCount: 5
+  maxCoalCount: 10
   safezone: {fileID: 5206522664137691412}
   genFX: {fileID: 5206941025376151542}
 --- !u!1001 &5206522664751313808
