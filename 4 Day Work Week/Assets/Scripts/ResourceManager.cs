@@ -35,7 +35,7 @@ public class ResourceManager : MonoBehaviour
     void Update()
     {
         //Input Types
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButton("Fire1"))
         {
             if (sucking != true)
             {
@@ -43,18 +43,18 @@ public class ResourceManager : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire2"))
         {
             suckSoundStart.Post(gameObject);
             
         }
-        if(Input.GetButtonUp("Fire1"))
+        if(Input.GetButtonUp("Fire2"))
         {
             suckSoundStop.Post(gameObject);
             suckSoundStart.Stop(gameObject);
             vacuumingAlready = false;
         }
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire2"))
         {
             {
                 Suck(true);
