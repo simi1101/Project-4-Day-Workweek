@@ -32,8 +32,12 @@ public class FurnaceCoal : MonoBehaviour
     {
         Debug.Log("Coal has hit a furnace");
         Coal coal = other.gameObject.GetComponent<Coal>();
-        Destroy(other.gameObject);
-        FurnaceCount++;
+
+        if (coal != null && furnaceLight.enabled != true)
+        {
+            Destroy(other.gameObject);
+            FurnaceCount++;
+        }
 
     }
 }
