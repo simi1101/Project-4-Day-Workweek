@@ -18,13 +18,16 @@ public class ResourceManager : MonoBehaviour
     float lastShotTime;
     public LayerMask layermask;
 
-    public AK.Wwise.Event suckSound;
+    public AK.Wwise.Event suckSoundStart;
+    public AK.Wwise.Event suckSoundLoop;
+    public AK.Wwise.Event suckSoundStop;
     public AK.Wwise.Event shootSound;
+    bool vacuumingAlready;
 
     // Start is called before the first frame update
     void Start()
     {
-        sucking = true;
+        vacuumingAlready = false;
         interactCollider.enabled = false;
         lastShotTime = 0;
     }
@@ -35,36 +38,44 @@ public class ResourceManager : MonoBehaviour
         //Input Types
         if (Input.GetButtonDown("Fire2"))
         {
-            WardOff();
-            Debug.Log("Input registered");
-        }
-
-        if (Input.GetButton("Fire1"))
-        {
-            if (sucking != false)
-
-            {
-                Suck(true);
-            }
             if (sucking != true)
             {
                 Shoot();
             }
-           
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            suckSoundStart.Post(gameObject);
+        }
+        if(Input.GetButtonUp("Fire1"))
+        {
+            suckSoundStop.Post(gameObject);
+            vacuumingAlready = false;
+        }
+        if (Input.GetButton("Fire1"))
+        {
+            {
+                Suck(true);
+                if (vacuumingAlready != true)
+                {
+                    suckSoundLoop.Post(gameObject);
+                    vacuumingAlready = true;
+                }
+            }
         }
         else
-            Suck(false);
-
-        //Switch Suction
-        if (Input.GetKeyDown(KeyCode.Q))
         {
-            sucking = !sucking;
-            Debug.Log(sucking);
-
+            Suck(false);
         }
+
+      
+        
 
         //Shot timer
         lastShotTime += Time.deltaTime;
+
+        
     }
 
     public void ModifyCoal(int amount)
@@ -78,7 +89,6 @@ public class ResourceManager : MonoBehaviour
     {
             interactCollider.enabled = state;
         collectionCollider.enabled = state;
-        suckSound.Post(gameObject);
     }
 
     void Shoot()
@@ -124,5 +134,10 @@ public class ResourceManager : MonoBehaviour
         Gizmos.color = Color.red;
         Debug.DrawLine(firepoint.position, firepoint.forward);
         Gizmos.DrawWireSphere(firepoint.position + firepoint.forward * 100, 25);
+    }
+
+    void Vacuum()
+    {
+
     }
 }
