@@ -176,6 +176,18 @@ MonoBehaviour:
   FurnaceCount: 0
   FurnaceMax: 3
   furnaceTimer: 10
+  furnaceIgnite:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b1ada60cb1a1549fd9c97276aa182ab4, type: 2}
+  coalDump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8283fec96b8b0454682fbbaead9f86a0, type: 2}
+  furnaceEnd:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 134ab8c5f1b9b4f31ba77696861d3f75, type: 2}
 --- !u!108 &180265029545944400
 Light:
   m_ObjectHideFlags: 0

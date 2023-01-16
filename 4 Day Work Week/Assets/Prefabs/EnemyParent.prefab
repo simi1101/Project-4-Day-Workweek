@@ -4986,19 +4986,19 @@ MonoBehaviour:
   enemyChase:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bf8febe7ec2324dd99c095659debce31, type: 2}
   enemyNear:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 9ab4245d4536844ae9447141031e6666, type: 2}
   enemyDistant:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 14544b693e6884ff5af975ef5aef7132, type: 2}
   enemyAmbience:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a44633b89bb7842b1aef30c3e19772d0, type: 2}
 --- !u!114 &614747165570993262
 MonoBehaviour:
   m_ObjectHideFlags: 0
