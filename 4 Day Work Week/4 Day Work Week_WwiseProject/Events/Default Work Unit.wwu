@@ -25,39 +25,180 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}">
+				<Folder Name="Coal" ID="{91964C07-9436-48A3-B5A8-E21E1FF05D9B}" ShortID="696696236">
 					<ChildrenList>
-						<Action Name="" ID="{FE0BEE46-697A-4A47-A6AA-90E41CBD4ED0}" ShortID="643193888">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="coal_dump" ID="{8F6AEA92-251E-43F2-A4A0-9C6820BDB654}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}">
+							<ChildrenList>
+								<Action Name="" ID="{FE0BEE46-697A-4A47-A6AA-90E41CBD4ED0}" ShortID="643193888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coal_dump" ID="{8F6AEA92-251E-43F2-A4A0-9C6820BDB654}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}">
+							<ChildrenList>
+								<Action Name="" ID="{391853C5-FCB0-4257-B48F-BCD2D29A9837}" ShortID="299468939">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coal_pickup" ID="{0722DED0-7D4F-4F1C-BA01-BED03504A6A5}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}">
+							<ChildrenList>
+								<Action Name="" ID="{4586EF39-3AB2-482F-8BCF-01460A4C7224}" ShortID="312404153">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coal_shoot" ID="{69963F1E-94D8-4297-BB27-459088F8F28F}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}">
+				</Folder>
+				<Folder Name="Monster" ID="{81D7D91E-B5A2-4E0D-9C1A-F1A867FF1F5A}" ShortID="995067908">
 					<ChildrenList>
-						<Action Name="" ID="{391853C5-FCB0-4257-B48F-BCD2D29A9837}" ShortID="299468939">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="coal_pickup" ID="{0722DED0-7D4F-4F1C-BA01-BED03504A6A5}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}">
+							<ChildrenList>
+								<Action Name="" ID="{257B7BEA-2FF7-4F60-B421-1F7D86F1C9FB}" ShortID="129388905">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="monster_amb" ID="{4E6CE949-EA6E-44A7-8C6A-8F09AE6C04AA}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Monster_Distant_Roar" ID="{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}">
+							<ChildrenList>
+								<Action Name="" ID="{A990B12E-A042-45E6-A095-3FA4C2A59DAC}" ShortID="569882901">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Distant_Roar" ID="{0A6EB7B2-6BFA-4A18-B0B2-6043E464F8EB}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}">
+							<ChildrenList>
+								<Action Name="" ID="{992FEA88-5976-4382-901B-4D8C11723B94}" ShortID="871558475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Close_by" ID="{9253FAE3-A77E-4B25-95EB-56C93C9915A5}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Monster_Attacking" ID="{F5F5CAB5-13F3-42B7-BC09-0709393DFA9B}">
+							<ChildrenList>
+								<Action Name="" ID="{9B4490E8-9F84-4C52-86DC-F6BDBBD37177}" ShortID="802473509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Attacking" ID="{DF3A2EE0-A06C-4EF5-8095-8A38BFFC6673}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}">
+				</Folder>
+				<Folder Name="Breathing" ID="{EA5C88B3-48B3-4462-BCC0-DB277F372812}" ShortID="360073588">
 					<ChildrenList>
-						<Action Name="" ID="{4586EF39-3AB2-482F-8BCF-01460A4C7224}" ShortID="312404153">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="coal_shoot" ID="{69963F1E-94D8-4297-BB27-459088F8F28F}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_player_breath_low_heat" ID="{30E3C244-7A2C-465A-957E-893CFE725C3E}">
+							<ChildrenList>
+								<Action Name="" ID="{14FCA7D8-F003-4597-8D6D-1BA12E5CED39}" ShortID="417653013">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_breath_low_heat" ID="{AB57A3F2-5688-4B81-BC7C-ED0223C7ECF3}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_player_breath_normal" ID="{153CB378-D8C7-42D8-B1CE-67512E6E478E}">
+							<ChildrenList>
+								<Action Name="" ID="{41BA562D-FC0D-4EFB-AACB-6ECD0AAFF890}" ShortID="884089259">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_breath_normal" ID="{3EFDE864-AF58-451B-87F3-6EE556A5A4DC}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Losing_heat" ID="{F98DB76F-16B4-419F-999E-256A387BE928}" ShortID="930648237">
+					<ChildrenList>
+						<Event Name="Play_Losing_heat_normal" ID="{DCEDEBA9-3F1D-4765-B2FE-5DFBC6C7CBAB}">
+							<ChildrenList>
+								<Action Name="" ID="{33A3ECA7-0EAF-41F6-BC7B-F2EE2AF9712D}" ShortID="697667526">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Losing_heat_normal" ID="{FA1CC5F3-D588-41CC-BCB3-8F0F8C19B0A0}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Losing_heat_near_monster" ID="{B2032FD0-5F78-42A5-9488-F131A8FD8D63}">
+							<ChildrenList>
+								<Action Name="" ID="{7AF4995F-A63F-4920-A1FD-A375DACD2240}" ShortID="790838328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{5CC0168A-D9D6-4539-AD16-AAC8892DB3E0}" ShortID="920350236">
+					<ChildrenList>
+						<Event Name="Play_Music_End_Title" ID="{668C5DB7-DB7F-4FDE-8B39-7EB59A2ACF67}">
+							<ChildrenList>
+								<Action Name="" ID="{24F4DD90-87B2-4B72-B731-7E1497B7E31E}" ShortID="808963042">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_End_Title" ID="{84259E74-D7C9-4EAF-8F23-A78A15EF5D09}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Begining_Title" ID="{01C2B7B4-F9D6-4E68-AE04-25BB816DA5B7}">
+							<ChildrenList>
+								<Action Name="" ID="{D1B61E72-E743-412A-9A72-4D0F2B5CAF3C}" ShortID="178674100">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Begining_Title" ID="{44C64698-F199-4B21-BB1B-6E8963F34747}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Home_base" ID="{5C497D56-693F-4B4D-A3CB-1F865EC2BEDD}">
+							<ChildrenList>
+								<Action Name="" ID="{24018B21-7ACC-4DC4-85C6-13836CFEA3B7}" ShortID="162466670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

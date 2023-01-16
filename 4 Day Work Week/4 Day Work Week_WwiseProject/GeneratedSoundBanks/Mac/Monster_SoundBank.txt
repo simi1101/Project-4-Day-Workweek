@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	913147	Play_Monster_Close_by			\Default Work Unit\Monster\Play_Monster_Close_by	
+	116922321	Play_monster_amb			\Default Work Unit\Monster\Play_monster_amb	
+	763434321	Play_Monster_Attacking			\Default Work Unit\Monster\Play_Monster_Attacking	
+	3673945153	Play_Monster_Distant_Roar			\Default Work Unit\Monster\Play_Monster_Distant_Roar	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	162635981	monster_close_by_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_05		1080612
+	165760311	monster_attack_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_01		551408
+	239826170	monster_close_by_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_03		838060
+	261582371	monster_distant_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_03		1720060
+	295413639	monster_close_by_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_04		904212
+	338507787	monster_attack_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_02		617560
+	429571614	monster_distant_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_02		1940560
+	542177460	monster_attack_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_05		573460
+	671570477	monster_distant_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_01		1764160
+	687523581	monster_close_by_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_01		1146760
+	854023444	monster_attack_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_03		573460
+	890372440	monster_close_by_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_02		749860
+	896036214	monster_attack_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_04		617560
+	945128019	monster_amb	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\amb_creature_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\monster_amb		5592208
+

@@ -1565,6 +1565,7 @@
 						</Sound>
 						<Sound Name="Amb_forest" ID="{9A295805-8926-46BD-9569-4B94F6D334DC}" ShortID="702288341">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1584,6 +1585,9 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{FE8B1DB4-9121-497B-B053-87D0A63146DE}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_trees_loop_01" ID="{4367C228-0D09-49D0-8A97-841400117FA7}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -2183,6 +2187,2393 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Monster" ID="{AD7BECFE-D94B-410F-B2AB-0121B41FB276}" ShortID="1062509185">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Monster_Distant_Roar" ID="{0A6EB7B2-6BFA-4A18-B0B2-6043E464F8EB}" ShortID="640223038">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="monster_distant_01" ID="{1DB92C0F-F6A9-4A89-BCA4-08F5D3052399}" ShortID="651455520">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_distant_01" ID="{FC94A3F5-B78B-4E98-B1F7-AE748740574B}">
+											<Language>SFX</Language>
+											<AudioFile>monster_distant_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="671570477"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_distant_01" ID="{FC94A3F5-B78B-4E98-B1F7-AE748740574B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_distant_03" ID="{2B2A16E0-EEDC-41E1-A836-D5272F7711A3}" ShortID="848449624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_distant_03" ID="{D0042949-0731-45A9-8F10-D2DFE2E06675}">
+											<Language>SFX</Language>
+											<AudioFile>monster_distant_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261582371"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_distant_03" ID="{D0042949-0731-45A9-8F10-D2DFE2E06675}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_distant_02" ID="{7237E6A5-FFD2-4256-A5DB-BE3F96EEF5B5}" ShortID="662706854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_distant_02" ID="{F2EF6151-0ADC-4405-A00A-CB46ECF8A55F}">
+											<Language>SFX</Language>
+											<AudioFile>monster_distant_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="429571614"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_distant_02" ID="{F2EF6151-0ADC-4405-A00A-CB46ECF8A55F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Monster_Close_by" ID="{9253FAE3-A77E-4B25-95EB-56C93C9915A5}" ShortID="407537827">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="monster_close_by_05" ID="{8B09FDB6-918C-4EF5-9796-443E966218DC}" ShortID="462821385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_close_by_05" ID="{5942DCCE-F564-4849-BBEA-047A57F00968}">
+											<Language>SFX</Language>
+											<AudioFile>monster_close_by_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162635981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_close_by_05" ID="{5942DCCE-F564-4849-BBEA-047A57F00968}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_close_by_04" ID="{B719928A-651A-46FC-8409-AFA314185C45}" ShortID="15570590">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_close_by_04" ID="{4B847A5E-03DC-49F8-9D6A-F60A2F36E371}">
+											<Language>SFX</Language>
+											<AudioFile>monster_close_by_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="295413639"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_close_by_04" ID="{4B847A5E-03DC-49F8-9D6A-F60A2F36E371}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_close_by_03" ID="{BD0F4E9D-62C9-4F61-81BD-671E34785314}" ShortID="94684479">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_close_by_03" ID="{C3F29C48-5787-4827-A71C-99BA310CD3DE}">
+											<Language>SFX</Language>
+											<AudioFile>monster_close_by_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239826170"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_close_by_03" ID="{C3F29C48-5787-4827-A71C-99BA310CD3DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_close_by_02" ID="{FD169404-E542-4BD5-89E5-02234E720482}" ShortID="34880896">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_close_by_02" ID="{27455B19-B3F9-4A4E-B83E-2F28E895DEF1}">
+											<Language>SFX</Language>
+											<AudioFile>monster_close_by_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="890372440"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_close_by_02" ID="{27455B19-B3F9-4A4E-B83E-2F28E895DEF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_close_by_01" ID="{8E5634C1-92F4-41DB-BA61-A4D213CF6D5F}" ShortID="527455505">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_close_by_01" ID="{5B1A1F88-F941-4193-BB0C-F37F18D362E0}">
+											<Language>SFX</Language>
+											<AudioFile>monster_close_by_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="687523581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_close_by_01" ID="{5B1A1F88-F941-4193-BB0C-F37F18D362E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Monster_Attacking" ID="{DF3A2EE0-A06C-4EF5-8095-8A38BFFC6673}" ShortID="181734626">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9BDD844E-90DE-4A45-B118-45E86D34B61A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="monster_attack_01" ID="{973E7355-09DF-47A3-93B0-AA81F18F45D7}" ShortID="406956654">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_attack_01" ID="{D8F5A19E-21B2-4D3F-A2AD-CDA0F4460C0D}">
+											<Language>SFX</Language>
+											<AudioFile>monster_attack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165760311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_attack_01" ID="{D8F5A19E-21B2-4D3F-A2AD-CDA0F4460C0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_attack_05" ID="{78805EA7-ACD8-469B-8BF0-EF8A5844D190}" ShortID="625358425">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_attack_05" ID="{A22D8AC0-DB4A-4BCE-A290-93C176A09A7E}">
+											<Language>SFX</Language>
+											<AudioFile>monster_attack_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="542177460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_attack_05" ID="{A22D8AC0-DB4A-4BCE-A290-93C176A09A7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_attack_03" ID="{0A5802FE-DB1B-473A-A573-F55C3712247A}" ShortID="301775168">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_attack_03" ID="{6B4CB2C5-C230-4112-965E-C17489B34CF2}">
+											<Language>SFX</Language>
+											<AudioFile>monster_attack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854023444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_attack_03" ID="{6B4CB2C5-C230-4112-965E-C17489B34CF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_attack_04" ID="{7D7D721A-F39C-43CD-80A2-CFD1AEACF1C5}" ShortID="440524064">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_attack_04" ID="{EC88CCA0-C4C3-4431-B555-9D623EE731F8}">
+											<Language>SFX</Language>
+											<AudioFile>monster_attack_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896036214"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_attack_04" ID="{EC88CCA0-C4C3-4431-B555-9D623EE731F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="monster_attack_02" ID="{99CDC673-D7D1-4B44-B0C4-4FA19B506C9D}" ShortID="418799217">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="monster_attack_02" ID="{3DB1107A-0E08-40CD-A6FA-5D607254DA91}">
+											<Language>SFX</Language>
+											<AudioFile>monster_attack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="338507787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="monster_attack_02" ID="{3DB1107A-0E08-40CD-A6FA-5D607254DA91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="monster_amb" ID="{4E6CE949-EA6E-44A7-8C6A-8F09AE6C04AA}" ShortID="537344321">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_creature_loop_01" ID="{F477C98F-ABBB-4ECD-8FA2-8E78874B287E}">
+									<Language>SFX</Language>
+									<AudioFile>amb_creature_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945128019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_creature_loop_01" ID="{F477C98F-ABBB-4ECD-8FA2-8E78874B287E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Breathing" ID="{27852EC3-779E-4F99-BB33-02FF1AF24862}" ShortID="691824896">
+					<ChildrenList>
+						<RandomSequenceContainer Name="player_breath_normal" ID="{3EFDE864-AF58-451B-87F3-6EE556A5A4DC}" ShortID="577295884">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{05D3112D-4528-4F88-A158-55A8BD80B210}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="8"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_breathing_01" ID="{6EDC9F49-0EB2-445F-BE33-6A1326A9B8D0}" ShortID="334249405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{8671D808-C60C-4F24-A03D-FA1857CCF8A7}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{DBA3BFA2-B9AE-4D51-AFDF-785B07FD9214}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{6D24BDF6-0D18-4940-8B9C-6D6FC04BA363}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_01" ID="{0B6835DB-1E95-4E38-88E7-CB71ED4FD868}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="452307726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_01" ID="{0B6835DB-1E95-4E38-88E7-CB71ED4FD868}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_08" ID="{C7E66611-9F48-42E0-B0BE-666D975294F0}" ShortID="14561399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{DE927C6A-3B4D-4B93-A1FA-CB922B06F4D7}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{8C209F0F-FC00-49EB-961D-E72EA52123E8}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{98FB88BB-2265-4E74-B1A1-E3E933D7FD9E}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_08" ID="{6CA7FBEF-5EDC-4313-8BE2-F356D72548AA}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="768049280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_08" ID="{6CA7FBEF-5EDC-4313-8BE2-F356D72548AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_06" ID="{C15D5462-C513-4BC6-8D3A-0468B4609A7E}" ShortID="1058310413">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{4345C08B-A9BF-413F-B73D-B6A861EE900B}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{D65B358C-F39D-4678-8830-C7BD8F00A90D}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{3683857E-1C5C-4117-B768-3DC2279CA3C6}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_06" ID="{101C2FA1-328A-435D-945D-80E9583892B0}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649949296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_06" ID="{101C2FA1-328A-435D-945D-80E9583892B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_03" ID="{92C4E6B9-F6CC-4C2E-9359-583DF5C2D9CC}" ShortID="532776906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{53DBECF2-2FB6-4D28-9E30-E58F39FE731B}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{556009B9-2706-47BC-8611-9A66613238F3}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{B31A8CD7-0B67-490D-BAE9-A0558D5425BE}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_03" ID="{CD389F81-B88C-4C58-8DD4-72CBD5E4C537}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546902184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_03" ID="{CD389F81-B88C-4C58-8DD4-72CBD5E4C537}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_05" ID="{177E8E73-2062-4D73-A77B-02FCB0A73586}" ShortID="608923403">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{1F1DFA56-1CEB-499A-9485-F5834A47C708}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{B06A5956-18BF-4B8C-B5CA-3751A2D74AA3}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{86B6CE49-9D37-4A13-8D01-8349F0BD853E}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_05" ID="{3C5F24AA-A94F-4362-87A0-61CE9FB2CC51}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="702388158"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_05" ID="{3C5F24AA-A94F-4362-87A0-61CE9FB2CC51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_07" ID="{6E16F2A0-0B92-47F5-A1C7-0959838899A1}" ShortID="367949232">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{ECF8AFF9-7319-4799-A168-2BE97F4058A2}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{FFEA6449-5FF2-4C67-9E68-031BA19593B1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{D3A937F7-FFC9-4E75-A136-EDFA6D3B8E75}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_07" ID="{89262849-E577-4EE1-913A-40FBB92B45D6}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="235870091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_07" ID="{89262849-E577-4EE1-913A-40FBB92B45D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_10" ID="{CD9D0697-CE78-4736-80C7-A6787F37D353}" ShortID="854254785">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{DB54DC67-69CC-4043-BC23-C8C5BCC5227B}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{17DE9F8D-9043-4374-A16B-546BFD71B6D9}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{6A308EA4-97AC-4A41-9FB1-D296BB38F83F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_10" ID="{F80639CB-278A-4772-80EA-B8DAD90D4B07}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55116757"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_10" ID="{F80639CB-278A-4772-80EA-B8DAD90D4B07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_09" ID="{07A6BC2B-6FC0-48D8-AE4B-E2899763E03B}" ShortID="917962052">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{EE3D8E44-EB39-46ED-B02F-4E6964643E63}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{00A576E1-7AB4-4B72-BF1F-3FBB3A9B7EAE}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{16E47051-04A3-41D8-905D-03F6AAC7DA9F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_09" ID="{3FCA71E0-2254-4D00-8447-B0C896B48469}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861359378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_09" ID="{3FCA71E0-2254-4D00-8447-B0C896B48469}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_02" ID="{31B67071-67C6-4E78-A056-A3B541A93BB4}" ShortID="727252302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{FDF76213-8DCC-4895-85A5-D753D210667C}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{5800FC41-98A3-4D48-AA75-4D5B49202D7B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{F1F71A1C-BA2B-4983-B307-B9F32414B573}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_02" ID="{DCDBAEC2-0387-41D5-9F1C-A35DD79D18C9}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546988726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_02" ID="{DCDBAEC2-0387-41D5-9F1C-A35DD79D18C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_04" ID="{0220C562-4F93-4771-A28F-C889D50394C7}" ShortID="134948316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{C23D00A1-2894-4055-8BB2-8CFCE4A06D7C}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{AE0A516B-F97D-4447-B8B4-AD24DBDE17E9}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{10C7EF46-17FF-484E-A21C-6EAFAFCF9787}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_04" ID="{8A2F9180-7467-4D42-A28A-7CC0923D438F}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577349151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_04" ID="{8A2F9180-7467-4D42-A28A-7CC0923D438F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player_breath_low_heat" ID="{AB57A3F2-5688-4B81-BC7C-ED0223C7ECF3}" ShortID="444944696">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B56CF379-9C45-447F-80AE-480155F5FEB7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+										<Conversion Name="Default Conversion Settings (Custom)" ID="{A26A74FE-6DC7-44AA-AE44-CA6CC94D3920}">
+											<PropertyList>
+												<Property Name="Channels" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">4</Value>
+														<Value Platform="Mac">4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="LRMix" Type="Real64">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+														<Value Platform="Mac">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+														<Value Platform="Mac">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MinSampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+														<Value Platform="Mac">0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SampleRate" Type="int32">
+													<ValueList>
+														<Value Platform="Windows">0</Value>
+														<Value Platform="Mac">0</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ConversionPluginInfoList>
+												<ConversionPluginInfo Platform="Windows">
+													<ConversionPlugin Name="" ID="{7344B9B0-E7AD-46DC-9AD8-2AAC4F8A2DA3}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+												</ConversionPluginInfo>
+												<ConversionPluginInfo Platform="Mac">
+													<ConversionPlugin Name="" ID="{019771CB-2DF3-4620-9EE5-E889A70D71CC}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+												</ConversionPluginInfo>
+											</ConversionPluginInfoList>
+										</Conversion>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_breathing_01" ID="{A73FBDD9-6034-44E3-AE74-EC2DC2649716}" ShortID="531317553">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{26633BD8-6E58-4DBE-AE1A-CC5677CA80E8}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{2E0F4911-0147-4DB7-83BA-E18CB562F8DF}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{525ACD0F-2F05-482B-9278-1D35B6B8DC85}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_01" ID="{9F343AD8-8B44-455F-A7E9-C2B38F3F5499}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="452307726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_01" ID="{9F343AD8-8B44-455F-A7E9-C2B38F3F5499}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_02" ID="{F7DE2859-C5DB-438F-A332-ED248F90262C}" ShortID="875696312">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{2C343353-1A35-4B5A-982F-5B2502FA813E}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{CFD954D3-3BB0-4A77-9C84-32476DF647D2}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{BA2FC2B3-D6A8-4F22-8F67-4AEF20B52DAF}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_02" ID="{B631C204-6696-43C0-81B2-20F9DA46A221}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546988726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_02" ID="{B631C204-6696-43C0-81B2-20F9DA46A221}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_03" ID="{73B4D540-1E7F-4CE2-8E95-D94657C2CD94}" ShortID="626951112">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{FAC9C52E-D5D4-432E-99D1-9EF474EF6E83}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{1D89DA53-CA89-4F57-965E-342B2B64B7CD}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{7C7CF379-2A6D-4475-837D-601976326A33}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_03" ID="{5151549F-C87D-447A-9372-5B053AD7DB17}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546902184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_03" ID="{5151549F-C87D-447A-9372-5B053AD7DB17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_04" ID="{25C2A804-DBCA-44F4-9B61-8592FDB3E809}" ShortID="1050781192">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{195247D3-D45E-4A31-AA04-77791EEDB16D}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{FD52B864-3CBD-4A48-9177-6462D51314F1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{9679393C-7CF9-41B7-A275-08854ED30354}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_04" ID="{0212DCD4-2050-4AD6-9140-7516DD58A9EC}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577349151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_04" ID="{0212DCD4-2050-4AD6-9140-7516DD58A9EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_05" ID="{EA920C72-226C-4D8F-A1F3-E8AB75145A73}" ShortID="59810181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{38D66605-B2C9-4152-8554-AACC8ECAFE99}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{BAEE9707-87C2-464B-B112-39A9CACB8470}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{DFED60C3-E9E7-4C06-A6B3-3D83CFA69E5C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_05" ID="{2CA423F0-E7BB-4753-9FA7-9B3D1EC7BF8C}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="702388158"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_05" ID="{2CA423F0-E7BB-4753-9FA7-9B3D1EC7BF8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_06" ID="{CF361670-6D15-4D4D-BBF9-678AEE69AC8B}" ShortID="933418002">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{BF8CD20B-4F60-420D-AC5A-1BB632B7FDA6}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{61F5286B-04D4-4378-9BDE-D4C200F8A175}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{85FF88A2-44DB-42B4-A229-3C3FB5A2B905}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_06" ID="{F2B22BCB-363A-4ECF-9B23-93CD99BE0119}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649949296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_06" ID="{F2B22BCB-363A-4ECF-9B23-93CD99BE0119}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_07" ID="{DB9FA997-3B8F-4E5A-942E-2A771F542F27}" ShortID="62644270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{975236AB-5E0B-40DA-BEEF-85D5F07F2003}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{5C37A1E5-6B12-48A4-A47F-E2471C2B3E90}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{E64AAECD-5BE4-412F-AF0D-82C422C69916}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_07" ID="{907589C3-8EC7-479C-9C0E-4F9E6FECAB45}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="235870091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_07" ID="{907589C3-8EC7-479C-9C0E-4F9E6FECAB45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_08" ID="{0718FE03-5C52-4F0D-BE78-5FA2FB33A005}" ShortID="311140755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{D9E1F1E4-4137-4579-B938-02AFDC3A2293}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{64A4C77F-4294-4555-8AA3-77A8BE919702}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{4EF763C2-75B6-472F-9C8D-25F5B43B4480}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_08" ID="{70B7AF40-A73D-4794-8BA1-053293BA2C1C}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="768049280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_08" ID="{70B7AF40-A73D-4794-8BA1-053293BA2C1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_09" ID="{0EEE78D2-2662-4410-BCDA-F8E24E517CD0}" ShortID="878717067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{319949AC-DF8A-4A72-AA4B-3077FA746E67}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{4C9F67E8-8DE6-4123-9F0B-061839544D86}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{EBDDDEEE-E922-4366-BD51-E8D36112CC57}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_09" ID="{3B713998-4BA1-4DCB-8C64-3E1009D9763A}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861359378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_09" ID="{3B713998-4BA1-4DCB-8C64-3E1009D9763A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_breathing_10" ID="{FB56ABCB-0BD3-4E37-91C6-96BEC517ACAC}" ShortID="740568987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+												<Conversion Name="Default Conversion Settings (Custom)" ID="{E48FE873-95F7-48A9-AB99-358D2EC4FAA2}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{7C4B9558-4EAE-47DA-B8E4-9A40A7BBDDCE}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{CBAF7E7A-E49E-4A83-93D7-37DEDC02E4F4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_breathing_10" ID="{08EE49E0-6D12-4DCC-908E-73DCECA865CD}">
+											<Language>SFX</Language>
+											<AudioFile>player_breathing_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55116757"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_breathing_10" ID="{08EE49E0-6D12-4DCC-908E-73DCECA865CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Losing_heat" ID="{68BDAD69-5026-4D70-9D4B-F38FA0CE654B}" ShortID="175043320">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" ShortID="620718858">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="temp_losing_heat_01" ID="{3DA3A3BD-314F-4957-88D7-D5DF5A85B8A7}" ShortID="786799495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_01" ID="{72514443-F1A0-4A8C-AFF8-E139C8CF12CF}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458882965"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_01" ID="{72514443-F1A0-4A8C-AFF8-E139C8CF12CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_02" ID="{ACBDFE43-5561-443F-A799-1C645AEE08B0}" ShortID="520744754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_02" ID="{B8EFC287-3357-456C-8D8C-BFECC33921D1}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136260059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_02" ID="{B8EFC287-3357-456C-8D8C-BFECC33921D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_03" ID="{4205E178-FBD5-4D4C-942F-2ADD3810C0F6}" ShortID="859831611">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_03" ID="{59161968-AC05-4205-9FF0-098C28EAF1FA}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="342556240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_03" ID="{59161968-AC05-4205-9FF0-098C28EAF1FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_04" ID="{9922262F-8E9D-4478-AD0B-49C12FD61CF8}" ShortID="768201460">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_04" ID="{21A02DCD-8B6C-485D-AE35-76AF5889B09E}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245704804"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_04" ID="{21A02DCD-8B6C-485D-AE35-76AF5889B09E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_05" ID="{FE0413A8-281A-4214-B963-105B61E98FB2}" ShortID="833415474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_05" ID="{879AF24E-FD52-4762-9583-4753B558FAC4}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164036905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_05" ID="{879AF24E-FD52-4762-9583-4753B558FAC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_06" ID="{1F731666-9C13-47B3-BB18-440FB17D9931}" ShortID="389509065">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_06" ID="{4522F901-D4AE-4A7C-B402-6762DB532617}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958837431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_06" ID="{4522F901-D4AE-4A7C-B402-6762DB532617}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_07" ID="{C47FA4AA-CA12-4C37-B7E5-8142A8F625CD}" ShortID="1053435981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_07" ID="{DFE90EB5-7BA4-4A2C-B025-74FACAE048DC}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869554312"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_07" ID="{DFE90EB5-7BA4-4A2C-B025-74FACAE048DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_08" ID="{3ADCA720-28C3-443F-BA46-6CAFD766193A}" ShortID="602816787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_08" ID="{1E89DFCE-B656-495C-BC5E-23C74872BD6B}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="477261361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_08" ID="{1E89DFCE-B656-495C-BC5E-23C74872BD6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_09" ID="{BD60AD8B-54BD-4D9D-B7F9-6CE209B344C2}" ShortID="950860649">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_09" ID="{D32C3685-F5F5-40D0-BEC2-AE5A4377F5EC}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329002215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_09" ID="{D32C3685-F5F5-40D0-BEC2-AE5A4377F5EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_10" ID="{4A48E91C-5ADB-4F6C-A629-5B5E54B198D6}" ShortID="868164617">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_10" ID="{752367A2-7577-4EDB-9196-9DCB18463F26}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686649386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_10" ID="{752367A2-7577-4EDB-9196-9DCB18463F26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Losing_heat_normal" ID="{FA1CC5F3-D588-41CC-BCB3-8F0F8C19B0A0}" ShortID="869277295">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{68666730-FEDA-4555-983B-78B04C0FEE18}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="temp_losing_heat_01" ID="{DD965176-409A-4B8C-8ED8-B73C96A88FCE}" ShortID="202457273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_01" ID="{3394CE43-06D3-4EA1-823C-ECECFECE3D31}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458882965"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_01" ID="{3394CE43-06D3-4EA1-823C-ECECFECE3D31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_10" ID="{DAD032CA-17F4-4425-8064-6F23BF851D21}" ShortID="258516561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_10" ID="{835843C9-9FB6-4B1D-A54B-5AFF6F003D5C}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686649386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_10" ID="{835843C9-9FB6-4B1D-A54B-5AFF6F003D5C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_09" ID="{0B0E255E-967D-48B2-9D06-64C0DBC30F0A}" ShortID="576409735">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_09" ID="{6C0E5FCD-CA1B-4EB6-9C93-B5E1293F12AE}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329002215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_09" ID="{6C0E5FCD-CA1B-4EB6-9C93-B5E1293F12AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_08" ID="{F72466C3-B35C-47CD-B42D-417761DEC174}" ShortID="960909682">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_08" ID="{8058F7A5-14C6-431C-BA72-3D34AF80CD29}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="477261361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_08" ID="{8058F7A5-14C6-431C-BA72-3D34AF80CD29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_07" ID="{94C4A9F3-C3E0-4A6E-A942-7DAC08C11CDC}" ShortID="222618514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_07" ID="{7668BEC8-5BED-4A40-959B-C3444AF5255B}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869554312"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_07" ID="{7668BEC8-5BED-4A40-959B-C3444AF5255B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_06" ID="{9425CDD9-306B-4A36-AD22-E9DC9EAAF17A}" ShortID="26372777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_06" ID="{1D069D5B-1214-402E-94B5-84EEAB95AABF}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958837431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_06" ID="{1D069D5B-1214-402E-94B5-84EEAB95AABF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_05" ID="{90E520D1-0F41-41C1-970B-AC5250FD9453}" ShortID="159476985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_05" ID="{B4938807-DA58-4692-98F4-E86545E232D0}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164036905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_05" ID="{B4938807-DA58-4692-98F4-E86545E232D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_04" ID="{C90A024A-483F-4414-9403-FF3EEF581C10}" ShortID="139333205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_04" ID="{897D7712-0283-49C1-8E5C-1A310823CFDE}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245704804"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_04" ID="{897D7712-0283-49C1-8E5C-1A310823CFDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_03" ID="{1E426059-EACD-4794-9925-C9FD2B5712D7}" ShortID="941621521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_03" ID="{A8F94EE7-9B9C-42A1-8CB2-35E31D1629BB}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="342556240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_03" ID="{A8F94EE7-9B9C-42A1-8CB2-35E31D1629BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="temp_losing_heat_02" ID="{4701AB11-7E74-418F-9258-94E78163B097}" ShortID="255180931">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="temp_losing_heat_02" ID="{B636B702-E010-4E0A-A038-5C4DEBF22B42}">
+											<Language>SFX</Language>
+											<AudioFile>temp_losing_heat_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136260059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="temp_losing_heat_02" ID="{B636B702-E010-4E0A-A038-5C4DEBF22B42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{8A657943-337F-4170-8E7B-FCF056537F64}" ShortID="16082373">
+					<ChildrenList>
+						<Sound Name="Music_End_Title" ID="{84259E74-D7C9-4EAF-8F23-A78A15EF5D09}" ShortID="826686450">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4dww_end_title_01" ID="{DD961FA9-33A7-43FB-BAF1-A78250784AB1}">
+									<Language>SFX</Language>
+									<AudioFile>4dww_end_title_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="51478114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4dww_end_title_01" ID="{DD961FA9-33A7-43FB-BAF1-A78250784AB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Music_Begining_Title" ID="{44C64698-F199-4B21-BB1B-6E8963F34747}" ShortID="349890874">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4DWW_Title_01" ID="{62915A77-4E0A-439C-AAFA-5F864336E1DC}">
+									<Language>SFX</Language>
+									<AudioFile>4DWW_Title_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="938410670"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4DWW_Title_01" ID="{62915A77-4E0A-439C-AAFA-5F864336E1DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" ShortID="282453639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}">
+									<Language>SFX</Language>
+									<AudioFile>4dww_Home_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="784442697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
