@@ -220,6 +220,18 @@ MonoBehaviour:
   maxCoalCount: 10
   safezone: {fileID: 5206522664137691412}
   genFX: {fileID: 5206941025376151542}
+  coaldump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8283fec96b8b0454682fbbaead9f86a0, type: 2}
+  generatorOn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce0511ed4a5ae44f0a9f2ebe387e0b2e, type: 2}
+  fireOn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 366e4ba03e74e45789945eec4eb19258, type: 2}
 --- !u!1001 &5206522664751313808
 PrefabInstance:
   m_ObjectHideFlags: 0

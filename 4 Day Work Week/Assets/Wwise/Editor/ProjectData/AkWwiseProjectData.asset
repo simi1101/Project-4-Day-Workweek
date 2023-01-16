@@ -66,11 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585277319878324912
-=======
-    m_lastTime: -8585277128445447024
->>>>>>> b48d9f6be4bc46a55149cef47f7070bd2c1a8f05
     List:
     - name: Ambience_SoundBank
       guid: 499176e46612f7498d95828bf913554c
@@ -154,11 +150,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-<<<<<<< HEAD
     m_lastTime: -8585277319878343972
-=======
-    m_lastTime: -8585277128455220965
->>>>>>> b48d9f6be4bc46a55149cef47f7070bd2c1a8f05
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44
@@ -1136,7 +1128,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000d000000
+  ExpandedWaapiItemIds: 0500000006000000070000000b000000110000001200000030000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
