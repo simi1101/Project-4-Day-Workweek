@@ -1088,6 +1088,8 @@
 				<RandomSequenceContainer Name="Eviroment_Random" ID="{272034A3-DB31-4A95-BE05-BD071E7C66CC}" ShortID="161909000">
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -1106,7 +1108,6 @@
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="10"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -1538,17 +1539,18 @@
 						</Sound>
 					</ChildrenList>
 					<PositioningInfo>
-						<Panner Name="" ID="{BFE63505-AA2A-4CEA-8B1B-9D4EAF25D793}"/>
-						<Position Name="" ID="{169F92CE-86BF-4A3A-A598-481767950643}">
+						<Panner Name="" ID="{BFE63505-AA2A-4CEA-8B1B-9D4EAF25D793}">
 							<PropertyList>
-								<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+								<Property Name="PanX" Type="Real64" Value="0.35650623885917"/>
+								<Property Name="PanY" Type="Real64" Value="0.383877159309018"/>
 							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{169F92CE-86BF-4A3A-A598-481767950643}">
 							<ChildrenList>
 								<Path2D Name="Eviroment_Random_Path" ID="{796CDCB2-AF19-458B-8948-F9FABE50F707}">
 									<PropertyList>
-										<Property Name="RandomX" Type="Real64" Value="27"/>
-										<Property Name="RandomY" Type="Real64" Value="32"/>
-										<Property Name="RandomZ" Type="Real64" Value="27"/>
+										<Property Name="RandomX" Type="Real64" Value="100"/>
+										<Property Name="RandomY" Type="Real64" Value="100"/>
 									</PropertyList>
 									<PointList>
 										<Point>
@@ -2668,6 +2670,7 @@
 						</RandomSequenceContainer>
 						<Sound Name="monster_amb" ID="{4E6CE949-EA6E-44A7-8C6A-8F09AE6C04AA}" ShortID="537344321">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -2676,6 +2679,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Monster Amb Attenuation" ID="{340910CF-B7B0-4CEC-AA9E-CEF8BDD664A3}" WorkUnitID="{8FA037D4-260A-40BD-8A8A-2591D8F6889D}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
 								</Reference>
@@ -2692,6 +2698,9 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{BCAD0910-AC2E-4B3B-8FF4-0B8109EB19C4}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_creature_loop_01" ID="{F477C98F-ABBB-4ECD-8FA2-8E78874B287E}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -3392,7 +3401,7 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{B56CF379-9C45-447F-80AE-480155F5FEB7}">
@@ -4682,6 +4691,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.989795918367349"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>4dww_Home_01.wav</AudioFile>
 									<MediaIDList>
@@ -4915,6 +4928,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Generator Attenuation" ID="{82AEB9DF-4AB6-4087-AF4E-B66E92860758}" WorkUnitID="{8FA037D4-260A-40BD-8A8A-2591D8F6889D}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
 								</Reference>
@@ -4924,6 +4940,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="generator_loop_01" ID="{9F53E754-4AB7-4949-ADB6-C6BBEFE20D71}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.413265306122449"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>generator_loop_01.wav</AudioFile>
 									<MediaIDList>

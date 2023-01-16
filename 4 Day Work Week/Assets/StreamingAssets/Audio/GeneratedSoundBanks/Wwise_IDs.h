@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_FOOTSTEPS_SNOW_FAILSAFE = 3801093501U;
         static const AkUniqueID PLAY_FOOTSTEPS_WOOD_FAILSAFE = 877887587U;
         static const AkUniqueID PLAY_FURNACE_DYING = 2713163012U;
+        static const AkUniqueID PLAY_FURNACE_IGNITE = 1356580959U;
         static const AkUniqueID PLAY_GENERATOR_START = 152489872U;
         static const AkUniqueID PLAY_GENERATOR_START_FAILSAFE = 2719913800U;
         static const AkUniqueID PLAY_LOSING_HEAT_NEAR_MONSTER = 3514058337U;
