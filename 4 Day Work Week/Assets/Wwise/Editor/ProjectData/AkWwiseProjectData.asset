@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277667852598360
+    m_lastTime: -8585277627949308573
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277667852623227
+    m_lastTime: -8585277627949327246
     List:
     - name: Footsteps
       guid: 470714f11797ca44ab2a8744c9ea14d4
@@ -110,6 +110,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 470714f11797ca44ab2a8744c9ea14d4
       Path: Events/Default Work Unit/Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Eviroment_Random
+      guid: fdc14c8dc7b8514db3fc5dd0aad5df34
+      id: 2434186889
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Play_Eviroment_Random
+        ObjectType: 3
+        guid: fdc14c8dc7b8514db3fc5dd0aad5df34
+      Path: Events/Default Work Unit/Play_Eviroment_Random
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -236,7 +253,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 030000000b0000000e000000
+  ExpandedWaapiItemIds: 0300000006000000090000000b0000000e00000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

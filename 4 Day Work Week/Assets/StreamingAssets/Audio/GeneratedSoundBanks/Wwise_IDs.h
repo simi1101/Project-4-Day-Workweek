@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
     } // namespace EVENTS
 
     namespace SWITCHES
