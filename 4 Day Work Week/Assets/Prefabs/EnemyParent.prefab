@@ -4970,17 +4970,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   moveTarget: {fileID: 614747166036471130}
-  walkSpeed: 2
+  walkSpeed: 3
   runSpeed: 10
   enemyDrainRate: 15
   wardEffect: 5
   timeToIdle: 6
   walkTime:
-  - 4
+  - 6
   - 7
   runTime:
-  - 0.5
-  - 0.5
+  - 0.8
+  - 1.2
 --- !u!114 &614747165570993262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5174,7 +5174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &614747166036471129
 GameObject:
   m_ObjectHideFlags: 0

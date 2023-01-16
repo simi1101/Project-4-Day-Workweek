@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5206522664137691413}
   - component: {fileID: 5206522664137691415}
   - component: {fileID: 5206522664137691412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Safe Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 5206522664681837402}
   - component: {fileID: 5206522664681837403}
   - component: {fileID: 5206522664681837400}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Generator Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 5206522665746770505}
   - component: {fileID: 5206522665746770507}
   - component: {fileID: 5206522665746770504}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Generator 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,9 +226,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5206522665746770505}
     m_Modifications:
+    - target: {fileID: 1000010500526118, guid: 28fbc97a4e7e92144af43a4bd05be737, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011671376998, guid: 28fbc97a4e7e92144af43a4bd05be737, type: 3}
       propertyPath: m_Name
       value: TinyFire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011671376998, guid: 28fbc97a4e7e92144af43a4bd05be737, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013861588696, guid: 28fbc97a4e7e92144af43a4bd05be737, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4000010042286394, guid: 28fbc97a4e7e92144af43a4bd05be737, type: 3}
       propertyPath: m_LocalScale.x
