@@ -11,6 +11,10 @@ public class FurnaceCoal : MonoBehaviour
     private SphereCollider safeZone;
     bool activated;
 
+    public AK.Wwise.Event furnaceIgnite;
+    public AK.Wwise.Event coalDump;
+    public AK.Wwise.Event furnaceEnd;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +40,7 @@ public class FurnaceCoal : MonoBehaviour
         {
             Destroy(other.gameObject);
             FurnaceCount++;
+            coalDump.Post(gameObject);
             if (FurnaceCount >= FurnaceMax)
             {
                 StartCoroutine(ActivationCycle());
@@ -51,11 +56,14 @@ public class FurnaceCoal : MonoBehaviour
             Debug.Log("Furnace cycling");
             furnaceLight.enabled = true;
             safeZone.enabled = true;
+            furnaceIgnite.Post(gameObject);
             yield return new WaitForSeconds(furnaceTimer);
             furnaceLight.enabled = false;
             safeZone.enabled = false;
             FurnaceCount = 0;
             activated = false;
+            furnaceEnd.Post(gameObject);
+            furnaceIgnite.Stop(gameObject);
         }
     }
 }

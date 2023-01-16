@@ -15,6 +15,10 @@ public class TemperatureMeter : MonoBehaviour
     public bool Healed;
     public bool fullHeal;
     private SphereCollider safeZone;
+
+    public AK.Wwise.Event heatLoss;
+    public AK.Wwise.Event heatLossMonster;
+
     // Start is called before the first frame update
     void Start()
     {

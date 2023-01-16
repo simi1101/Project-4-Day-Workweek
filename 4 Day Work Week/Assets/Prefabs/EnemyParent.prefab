@@ -4975,12 +4975,30 @@ MonoBehaviour:
   enemyDrainRate: 15
   wardEffect: 5
   timeToIdle: 6
+  outerStorm: {fileID: 614747164723979537}
+  innerStorm: {fileID: 614747166078449943}
   walkTime:
   - 6
   - 7
   runTime:
   - 0.8
   - 1.2
+  enemyChase:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  enemyNear:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  enemyDistant:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  enemyAmbience:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &614747165570993262
 MonoBehaviour:
   m_ObjectHideFlags: 0
