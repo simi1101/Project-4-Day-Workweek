@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277420843221140
+    m_lastTime: -8585277387713923816
     List:
     - name: Ambience_SoundBank
       guid: 499176e46612f7498d95828bf913554c
@@ -150,7 +150,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277420843239747
+    m_lastTime: -8585277387713942597
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44
@@ -234,6 +234,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 8df74e28e2be384b9d692ba24b1401e9
       Path: Events/Default Work Unit/Foosteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foosteps_failsafe
+      guid: a5ff18b57d24a84fbeba8aee181c7daf
+      id: 839105944
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -542,6 +562,75 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_footsteps_concrete_failsafe
+      guid: 0178dc285134b743b46e009f991139fc
+      id: 3131974009
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_footsteps_concrete_failsafe
+        ObjectType: 3
+        guid: 0178dc285134b743b46e009f991139fc
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_footsteps_concrete_failsafe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_footsteps_snow_failsafe
+      guid: 4d82813cffefbc4fbf585a5cd7dffbfe
+      id: 3801093501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_footsteps_snow_failsafe
+        ObjectType: 3
+        guid: 4d82813cffefbc4fbf585a5cd7dffbfe
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_footsteps_snow_failsafe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps_wood_failsafe
+      guid: 7237073f81832c4a9e7738e3e85a0f53
+      id: 877887587
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      - ElementName: Foosteps_failsafe
+        ObjectType: 4
+        guid: a5ff18b57d24a84fbeba8aee181c7daf
+      - ElementName: Play_Footsteps_wood_failsafe
+        ObjectType: 3
+        guid: 7237073f81832c4a9e7738e3e85a0f53
+      Path: Events/Default Work Unit/Foosteps/Foosteps_failsafe/Play_Footsteps_wood_failsafe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Furnace_dying
       guid: fc261303b6c64b45976dae7e41064c7c
       id: 2713163012
@@ -619,6 +708,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 576fe9668c61614881e84b2d3c8ccff8
       Path: Events/Default Work Unit/Generator/Play_Generator_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Generator_start_failsafe
+      guid: 7752b8d314f1b24b84cab4049f6e74c9
+      id: 2719913800
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Generator
+        ObjectType: 4
+        guid: d99a31dbfd6a5d4382357c32ea5b0139
+      - ElementName: Play_Generator_start_failsafe
+        ObjectType: 3
+        guid: 7752b8d314f1b24b84cab4049f6e74c9
+      Path: Events/Default Work Unit/Generator/Play_Generator_start_failsafe
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1019,7 +1128,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000003000000050000000600000007000000090000000d0000000f000000110000001200000014000000150000001b000000
+  ExpandedWaapiItemIds: 0100000003000000050000000600000007000000090000000a0000000d0000000f000000110000001200000014000000150000001b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

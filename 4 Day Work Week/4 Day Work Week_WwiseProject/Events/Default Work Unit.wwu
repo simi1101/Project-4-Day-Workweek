@@ -233,7 +233,7 @@
 								</Action>
 								<Action Name="" ID="{D5CB145D-8165-4367-B574-9E4C87F7C3A6}" ShortID="89476777">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="10"/>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
 												<Value>False</Value>
@@ -243,6 +243,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Gnerator_engine_loop" ID="{45DC59F1-D3CA-4582-B91D-BF866FAAD7CE}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Generator_start_failsafe" ID="{D3B85277-F114-4BB2-84CA-B4049F6E74C9}">
+							<ChildrenList>
+								<Action Name="" ID="{EC9107AB-D19B-41F7-9B7B-D98CCEC4FF08}" ShortID="998453339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generator_start_failsafe" ID="{56353B3D-023A-4475-B0DE-8A4E7B70835C}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -289,6 +300,43 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Foosteps_failsafe" ID="{B518FFA5-247D-4FA8-BEBA-8AEE181C7DAF}" ShortID="829756052">
+							<ChildrenList>
+								<Event Name="Play_footsteps_snow_failsafe" ID="{3C81824D-EFFF-4FBC-BF58-5A5CD7DFFBFE}">
+									<ChildrenList>
+										<Action Name="" ID="{9AFFFCED-1B05-4F61-9361-D5D402EF9194}" ShortID="131282427">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="footsteps_snow_failsafe" ID="{CBCDE7A2-86F6-414F-9288-8B39E0DA2D2A}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Footsteps_wood_failsafe" ID="{3F073772-8381-4A2C-9E77-38E3E85A0F53}">
+									<ChildrenList>
+										<Action Name="" ID="{0D3C000F-CD43-44F5-838D-09F6165BEF2D}" ShortID="944589929">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps_wood_failsafe" ID="{89573196-7C1C-41AD-ABC7-B88D8E1D90C2}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_footsteps_concrete_failsafe" ID="{28DC7801-3451-43B7-B46E-009F991139FC}">
+									<ChildrenList>
+										<Action Name="" ID="{5D189EE2-0309-4A54-AE73-56925E631464}" ShortID="903874859">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="footsteps_concrete_failsafe" ID="{DA47829D-88EF-40D2-A736-38A1D3A379DE}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{DF4505E2-676A-4E47-9068-D28C8074DD44}" ShortID="659455866">
