@@ -25,14 +25,24 @@ public class Enemy : MonoBehaviour
     float lostPlayerTimer;
     public float timeToIdle;
 
+    public ParticleSystem outerStorm;
+    public ParticleSystem innerStorm;
+
     public float[] walkTime = new float[2];
     public float[] runTime = new float[2];
+
+    public AK.Wwise.Event enemyChase;
+    public AK.Wwise.Event enemyNear;
+    public AK.Wwise.Event enemyDistant;
+    public AK.Wwise.Event enemyAmbience;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         aipath = GetComponent<AIPath>();
+        outerStorm.Stop();
+        innerStorm.Stop();
     }
 
     // Update is called once per frame
@@ -64,7 +74,8 @@ public class Enemy : MonoBehaviour
         inPursuit = false;
         StopAllCoroutines();
         StartCoroutine(Search());
-        
+        outerStorm.Stop();
+        innerStorm.Stop();
     }
 
    public void StartPursuit()
@@ -75,6 +86,8 @@ public class Enemy : MonoBehaviour
             playerKnown = true;
             StopAllCoroutines();
             StartCoroutine(Pursuit());
+            outerStorm.Play();
+            innerStorm.Play();
             Debug.Log("Start pursuit");
         }
     }

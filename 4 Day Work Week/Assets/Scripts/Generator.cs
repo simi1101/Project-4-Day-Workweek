@@ -11,6 +11,10 @@ public class Generator : MonoBehaviour
     public SphereCollider safezone;
     public GameObject genFX;
 
+    public AK.Wwise.Event coaldump;
+    public AK.Wwise.Event generatorOn;
+    public AK.Wwise.Event fireOn;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -53,6 +57,8 @@ public class Generator : MonoBehaviour
             safezone.enabled = true;
             genFX.SetActive(true);
             //FX and Audio for Activation trigger here
+            fireOn.Post(gameObject);
+            generatorOn.Post(gameObject);
         }
     }
 }

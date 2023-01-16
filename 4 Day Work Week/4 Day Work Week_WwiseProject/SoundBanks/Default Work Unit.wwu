@@ -22,6 +22,7 @@
 						<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Generator_start_failsafe" ID="{D3B85277-F114-4BB2-84CA-B4049F6E74C9}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Furnace_ignite" ID="{6F8FD784-FFDB-4F6D-9AE0-4A509980DCB8}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_footsteps_snow_failsafe" ID="{3C81824D-EFFF-4FBC-BF58-5A5CD7DFFBFE}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

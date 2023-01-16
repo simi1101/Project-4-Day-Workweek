@@ -234,11 +234,6 @@
 								<Action Name="" ID="{D5CB145D-8165-4367-B574-9E4C87F7C3A6}" ShortID="89476777">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="10"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

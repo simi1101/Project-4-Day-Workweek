@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6063400449665478669}
   - component: {fileID: 5489965182790102609}
   - component: {fileID: 2648475720601595142}
+  - component: {fileID: 2214682930721867466}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -180,6 +181,18 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 0
+  suckSoundStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ae3d7c661baaf43dfb2d89d378c4144f, type: 2}
+  suckSoundStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 93b86be4aff1e405fb7ad7649c7c8f38, type: 2}
+  shootSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 058d0e11d0b58487cb6a15cf0f994e21, type: 2}
 --- !u!114 &5489965182790102609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,9 +210,19 @@ MonoBehaviour:
   DrainRate: 1
   IncreaseDifficulty: 0
   MaxHealth: 100
+  FurnaceHealMax: 0
   MonsterDrain: 0
   InSafeZone: 0
   Healed: 0
+  fullHeal: 0
+  heatLoss:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66e2ee3478c6344fab134e01ce7be080, type: 2}
+  heatLossMonster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 675a4c97f151f4178a72b7a025eb8f7a, type: 2}
 --- !u!136 &2648475720601595142
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -214,6 +237,30 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2214682930721867466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2342092940293952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e97eadbc15b7f44aefbbd6260940e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientSnow:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b375da609afb84adda131bd58c8adb30, type: 2}
+  footstepsSnow:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9777351c2b8a946738790efc9ea6e30d, type: 2}
+  enviroRandom:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a38ead21f40494992bd6a6b2648eda57, type: 2}
 --- !u!1 &2342094501695969
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +966,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586af21842eedda439ab30f69b05c6e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coalIntake:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &7164819995268266374
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,12 @@ public class TemperatureMeter : MonoBehaviour
     public float MonsterDrain;
     public bool InSafeZone;
     public bool Healed;
+    public bool fullHeal;
     private SphereCollider safeZone;
+
+    public AK.Wwise.Event heatLoss;
+    public AK.Wwise.Event heatLossMonster;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +36,7 @@ public class TemperatureMeter : MonoBehaviour
         {
             if (HealthBar < MaxHealth)
             {
-                HealthBar += HealRate * Time.deltaTime;
+                //Healing();
             }
             else
             {
@@ -40,15 +45,16 @@ public class TemperatureMeter : MonoBehaviour
                // MaxHealth = MaxHealth - IncreaseDifficulty;
             }
         }
-        else if (InSafeZone)
-        {
-            Debug.Log("you are safe");
-        }
+        //else if (InSafeZone)
+       // {
+           // Debug.Log("you are safe");
+        //}
         else if (HealthBar > -130)
         {
             HealthBar -= (DrainRate + MonsterDrain) * Time.deltaTime;
         }
-        else
+        
+        if(HealthBar < 0)
         {
             //Debug.Log("you are dead");
             ObjectivesManager om = GameObject.Find("ObjectiveManager").GetComponent<ObjectivesManager>();
@@ -56,13 +62,24 @@ public class TemperatureMeter : MonoBehaviour
         }
     }
     
-    void Healing()
+    public void Healing()
     {
-        HealthBar += HealRate;
+        if (HealthBar < MaxHealth)
+        {
+            HealthBar += HealRate * Time.deltaTime;
+        }
+        
     }
 
-    void PartialHealing()
+    public void PartialHealing()
     {
-        Mathf.Clamp(HealthBar += HealRate,0,FurnaceHealMax);
+        float temphealth = HealthBar += HealRate * Time.deltaTime;
+        Mathf.Clamp(temphealth, 0, FurnaceHealMax);
+        HealthBar = temphealth;
+    }
+
+    public void FullHealing(bool healingType)
+    {
+        fullHeal = healingType;
     }
 }

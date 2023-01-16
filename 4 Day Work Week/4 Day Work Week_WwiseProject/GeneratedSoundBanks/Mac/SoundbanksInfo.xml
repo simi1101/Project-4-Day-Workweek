@@ -31,7 +31,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1681453895" Type="User" Language="SFX" Hash="{74186446-424B-DE29-DE7F-E841C80A560A}">
+		<SoundBank Id="1681453895" Type="User" Language="SFX" Hash="{D0B82CBD-C1B7-C50D-8D27-A3FEF9035878}">
 			<ShortName>Monster_SoundBank</ShortName>
 			<Path>Monster_SoundBank.bnk</Path>
 			<Media>
@@ -93,7 +93,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="116922321" Name="Play_monster_amb" DurationType="Infinite">
+				<Event Id="116922321" Name="Play_monster_amb" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="945128019"/>
 					</MediaRefs>
@@ -125,13 +125,21 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{07DDE0F5-7F54-87B0-B8E5-64F5B4FC1BF2}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{D90241EA-7C06-F2D2-7E62-55591AA8063F}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
+				<File Id="2434870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>furnace_ignite_02.wav</ShortName>
+					<CachePath>SFX/furnace_ignite_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="54681896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_04.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="54705074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>generator_loop_01.wav</ShortName>
+					<CachePath>SFX/generator_loop_01_8018D0C6.wem</CachePath>
 				</File>
 				<File Id="55116757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_breathing_10.wav</ShortName>
@@ -257,6 +265,10 @@
 					<ShortName>footsteps_snow_09.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="367915037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>furnace_ignite_03.wav</ShortName>
+					<CachePath>SFX/furnace_ignite_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="379242612" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_shooting_03.wav</ShortName>
 					<CachePath>SFX/coal_shooting_03_10C4C929.wem</CachePath>
@@ -348,6 +360,10 @@
 				<File Id="546988726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_breathing_02.wav</ShortName>
 					<CachePath>SFX/player_breathing_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="572477902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>furnace_ignite_01.wav</ShortName>
+					<CachePath>SFX/furnace_ignite_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="577349151" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_breathing_04.wav</ShortName>
@@ -768,8 +784,16 @@
 						<MediaRef Id="894648366"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="152489872" Name="Play_Generator_start" DurationType="OneShot" DurationMin="13.834229" DurationMax="13.834229">
+				<Event Id="1356580959" Name="Play_Furnace_ignite" DurationType="OneShot" DurationMin="3.75" DurationMax="4.875">
 					<MediaRefs>
+						<MediaRef Id="2434870"/>
+						<MediaRef Id="367915037"/>
+						<MediaRef Id="572477902"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="152489872" Name="Play_Generator_start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="54705074"/>
 						<MediaRef Id="125856079"/>
 					</MediaRefs>
 				</Event>
@@ -895,7 +919,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{11881C06-9180-D76B-3F85-373FE20AF27D}">
+		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{CD703E3E-BF02-5057-B4EB-41913F008621}">
 			<ShortName>Music_SoundBank</ShortName>
 			<Path>Music_SoundBank.bnk</Path>
 			<Media>
@@ -905,7 +929,7 @@
 				</File>
 				<File Id="784442697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4dww_Home_01.wav</ShortName>
-					<CachePath>SFX/4dww_Home_01_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/4dww_Home_01_DA131421.wem</CachePath>
 				</File>
 				<File Id="938410670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4DWW_Title_01.wav</ShortName>
@@ -931,5 +955,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{86562F4C-6196-BFCE-29FF-5E9DC5897BF3}</FileHash>
+	<FileHash>{8ACAE2BE-7CE3-1397-F13E-1E3778FE3390}</FileHash>
 </SoundBanksInfo>
