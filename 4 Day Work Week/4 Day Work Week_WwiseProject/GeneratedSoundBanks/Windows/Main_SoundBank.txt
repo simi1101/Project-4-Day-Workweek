@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2434186889	Play_Eviroment_Random			\Default Work Unit\Play_Eviroment_Random	
 	2640308078	Play_player_breath_low_heat			\Default Work Unit\Breathing\Play_player_breath_low_heat	
+	2963830112	Play_Music_Begining_Title			\Default Work Unit\Music\Play_Music_Begining_Title	
 	3514058337	Play_Losing_heat_near_monster			\Default Work Unit\Losing_heat\Play_Losing_heat_near_monster	
 	3673945153	Play_Monster_Distant_Roar			\Default Work Unit\Monster\Play_Monster_Distant_Roar	
 	3986540022	Play_coal_pickup			\Default Work Unit\Coal\Play_coal_pickup	
@@ -23,7 +24,7 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	GroundType			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51478114	Music_End_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_end_title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_End_Title		28524040
+	51478114	Music_End_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_end_title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_End_Title		28524040
 	54681896	footsteps_snow_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_04		76308
 	55116757	player_breathing_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_10		447460
 	57778302	footsteps_snow_13	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_13		120160
@@ -121,6 +122,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	918790786	footsteps_wood_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_03		60208
 	929578283	footsteps_snow_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_03		76108
 	936924615	env_cyote_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\env_cyote_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_cyote_02		1284160
+	938410670	Music_Begining_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4DWW_Title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Begining_Title		23436208
 	942171245	footsteps_concrete_12	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_concrete_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_12		60360
 	945128019	monster_amb	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\amb_creature_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\monster_amb		5592208
 	950599338	footsteps_wood_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_08		53208
