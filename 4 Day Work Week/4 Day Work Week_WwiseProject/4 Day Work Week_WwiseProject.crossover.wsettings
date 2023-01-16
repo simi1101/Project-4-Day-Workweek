@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{77C112A0-01D6-4039-A9BD-CBB30F61E7A7}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\4DWW GJ Audio\SFX\Coal\Sucking up coal\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\4DWW GJ Audio\SFX\Furnace\Dying\"/>
 				<Property Name="Event Action List\{01C2B7B4-F9D6-4E68-AE04-25BB816DA5B7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{153CB378-D8C7-42D8-B1CE-67512E6E478E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{241E9F32-9B1D-44B2-9BF9-6D7D9550F7A4}\x64_Expand States" Type="string" Value=""/>
@@ -15,8 +15,10 @@
 				<Property Name="Event Action List\{66204FDF-E3C9-4833-8118-1EC04D58BB8F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{668C5DB7-DB7F-4FDE-8B39-7EB59A2ACF67}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66E96F57-618C-4861-81E8-4B2D3C8CCFF8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6F8FD784-FFDB-4F6D-9AE0-4A509980DCB8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AA35DBDB-2494-4515-ACB7-E3678748D1E3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2032FD0-5F78-42A5-9488-F131A8FD8D63}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C2E709C6-BD84-417B-98A6-121D39A494FA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DCEDEBA9-3F1D-4765-B2FE-5DFBC6C7CBAB}\x64_Expand States" Type="string" Value=""/>

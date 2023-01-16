@@ -3,28 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{DD99304F-4F98-4734-820F-C0E1EA267549}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}">
-					<ChildrenList>
-						<Action Name="" ID="{7811A8E3-D535-42EA-A6B9-F2718263E066}" ShortID="224846624">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="foosteps" ID="{2BDECC55-99DA-4145-A58B-D439C89A8423}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}">
-					<ChildrenList>
-						<Action Name="" ID="{E8FDD467-5FAF-423B-AB79-660B5080D693}" ShortID="24290510">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Eviroment_Random" ID="{272034A3-DB31-4A95-BE05-BD071E7C66CC}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Coal" ID="{91964C07-9436-48A3-B5A8-E21E1FF05D9B}" ShortID="696696236">
 					<ChildrenList>
 						<Event Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}">
@@ -55,6 +33,49 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="coal_shoot" ID="{69963F1E-94D8-4297-BB27-459088F8F28F}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Coal_suck_end" ID="{F8E487DB-320D-44A9-AE14-5B5F862407C6}">
+							<ChildrenList>
+								<Action Name="" ID="{5A43074D-2050-4390-BFE8-75A202865D94}" ShortID="174216827">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coal_suck_end" ID="{C00CC896-5602-4BD3-AAF9-9BE10C034D22}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Coal_suck_start" ID="{66204FDF-E3C9-4833-8118-1EC04D58BB8F}">
+							<ChildrenList>
+								<Action Name="" ID="{61701A9F-DD68-462D-ACFD-48CA71013EFD}" ShortID="162355871">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coal_suck_start" ID="{C4CAB7CD-0144-43C7-A05D-0C34B41CE481}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D5B3D99F-039E-4010-908F-DB4B65152B79}" ShortID="345367571">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.01"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coal_suck_loop" ID="{698BD94D-AB3D-4F63-9DF1-C9723C0CBEE8}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Generator_missing_coal" ID="{AA35DBDB-2494-4515-ACB7-E3678748D1E3}">
+							<ChildrenList>
+								<Action Name="" ID="{8B95956C-3FED-40FE-993F-42FBD2B94C68}" ShortID="708479211">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Generator_missing_coal" ID="{86E266CA-59FA-45C7-872E-47DB47A6A410}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -199,17 +220,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}">
-					<ChildrenList>
-						<Action Name="" ID="{517EFE26-A6D1-4736-914D-0A265817D20A}" ShortID="281506543">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Torch_Ignite" ID="{9735FAD0-03CB-4F67-BABE-76B5BFBBCD9B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Generator" ID="{DB319AD9-6AFD-435D-8235-7C32EA5B0139}" ShortID="338875111">
 					<ChildrenList>
 						<Event Name="Play_Generator_start" ID="{66E96F57-618C-4861-81E8-4B2D3C8CCFF8}">
@@ -240,38 +250,67 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Coal_suck_start" ID="{66204FDF-E3C9-4833-8118-1EC04D58BB8F}">
+				<Folder Name="Furnace" ID="{B56CC2D8-8C6B-4E48-9E62-3FB5288536D7}" ShortID="1011000679">
 					<ChildrenList>
-						<Action Name="" ID="{61701A9F-DD68-462D-ACFD-48CA71013EFD}" ShortID="162355871">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Coal_suck_start" ID="{C4CAB7CD-0144-43C7-A05D-0C34B41CE481}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{D5B3D99F-039E-4010-908F-DB4B65152B79}" ShortID="345367571">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.01"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Coal_suck_loop" ID="{698BD94D-AB3D-4F63-9DF1-C9723C0CBEE8}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Furnace_ignite" ID="{6F8FD784-FFDB-4F6D-9AE0-4A509980DCB8}">
+							<ChildrenList>
+								<Action Name="" ID="{C4199959-9B2A-4E0B-862F-4260BFAA860E}" ShortID="64450937">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Furnace_ignite" ID="{47EAD403-442C-4755-BAA6-6FC83BF9BFED}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Coal_suck_end" ID="{F8E487DB-320D-44A9-AE14-5B5F862407C6}">
+				</Folder>
+				<Folder Name="Foosteps" ID="{284EF78D-BEE2-4B38-9D69-2BA24B1401E9}" ShortID="733900492">
 					<ChildrenList>
-						<Action Name="" ID="{5A43074D-2050-4390-BFE8-75A202865D94}" ShortID="174216827">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Coal_suck_end" ID="{C00CC896-5602-4BD3-AAF9-9BE10C034D22}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}">
+							<ChildrenList>
+								<Action Name="" ID="{7811A8E3-D535-42EA-A6B9-F2718263E066}" ShortID="224846624">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="foosteps" ID="{2BDECC55-99DA-4145-A58B-D439C89A8423}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Ambience" ID="{DF4505E2-676A-4E47-9068-D28C8074DD44}" ShortID="659455866"/>
+				<Folder Name="Torch" ID="{5497CF4A-B912-45A9-90F2-BB6F345A87CF}" ShortID="792967515">
+					<ChildrenList>
+						<Event Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}">
+							<ChildrenList>
+								<Action Name="" ID="{517EFE26-A6D1-4736-914D-0A265817D20A}" ShortID="281506543">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torch_Ignite" ID="{9735FAD0-03CB-4F67-BABE-76B5BFBBCD9B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Random_enviroment" ID="{44058286-6F18-44D3-9216-816E39105D54}" ShortID="547024296">
+					<ChildrenList>
+						<Event Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}">
+							<ChildrenList>
+								<Action Name="" ID="{E8FDD467-5FAF-423B-AB79-660B5080D693}" ShortID="24290510">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Eviroment_Random" ID="{272034A3-DB31-4A95-BE05-BD071E7C66CC}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

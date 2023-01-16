@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277452695493495
+    m_lastTime: -8585277435331688275
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -122,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277452695516609
+    m_lastTime: -8585277435331707003
     List:
+    - name: Ambience
+      guid: e20545df6a67474e9068d28c8074dd44
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: e20545df6a67474e9068d28c8074dd44
+      Path: Events/Default Work Unit/Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Breathing
       guid: b3885ceab3486244bcc0db277f372812
       id: 238653005
@@ -158,6 +175,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Foosteps
+      guid: 8df74e28e2be384b9d692ba24b1401e9
+      id: 1012989952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
+      Path: Events/Default Work Unit/Foosteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 470714f11797ca44ab2a8744c9ea14d4
       id: 2385628198
@@ -168,10 +202,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Foosteps
+        ObjectType: 4
+        guid: 8df74e28e2be384b9d692ba24b1401e9
       - ElementName: Footsteps
         ObjectType: 3
         guid: 470714f11797ca44ab2a8744c9ea14d4
-      Path: Events/Default Work Unit/Footsteps
+      Path: Events/Default Work Unit/Foosteps/Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Furnace
+      guid: d8c26cb56b8c484e9e623fb5288536d7
+      id: 3421540315
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Furnace
+        ObjectType: 4
+        guid: d8c26cb56b8c484e9e623fb5288536d7
+      Path: Events/Default Work Unit/Furnace
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -313,10 +367,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
       - ElementName: Play_Coal_suck_end
         ObjectType: 3
         guid: db87e4f80d32a944ae145b5f862407c6
-      Path: Events/Default Work Unit/Play_Coal_suck_end
+      Path: Events/Default Work Unit/Coal/Play_Coal_suck_end
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -330,10 +387,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
       - ElementName: Play_Coal_suck_start
         ObjectType: 3
         guid: df4f2066c9e3334881181ec04d58bb8f
-      Path: Events/Default Work Unit/Play_Coal_suck_start
+      Path: Events/Default Work Unit/Coal/Play_Coal_suck_start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -347,10 +407,53 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Random_enviroment
+        ObjectType: 4
+        guid: 86820544186fd3449216816e39105d54
       - ElementName: Play_Eviroment_Random
         ObjectType: 3
         guid: fdc14c8dc7b8514db3fc5dd0aad5df34
-      Path: Events/Default Work Unit/Play_Eviroment_Random
+      Path: Events/Default Work Unit/Random_enviroment/Play_Eviroment_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Furnace_ignite
+      guid: 84d78f6fdbff6d4f9ae04a509980dcb8
+      id: 1356580959
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Furnace
+        ObjectType: 4
+        guid: d8c26cb56b8c484e9e623fb5288536d7
+      - ElementName: Play_Furnace_ignite
+        ObjectType: 3
+        guid: 84d78f6fdbff6d4f9ae04a509980dcb8
+      Path: Events/Default Work Unit/Furnace/Play_Furnace_ignite
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Generator_missing_coal
+      guid: dbdb35aa94241545acb7e3678748d1e3
+      id: 3363563978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Coal
+        ObjectType: 4
+        guid: 074c96913694a348b5a8e21e1ff05d9b
+      - ElementName: Play_Generator_missing_coal
+        ObjectType: 3
+        guid: dbdb35aa94241545acb7e3678748d1e3
+      Path: Events/Default Work Unit/Coal/Play_Generator_missing_coal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -604,10 +707,47 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Torch
+        ObjectType: 4
+        guid: 4acf975412b9a94590f2bb6f345a87cf
       - ElementName: Play_Torch_Ignite
         ObjectType: 3
         guid: ebc67032feb9f84385b0707404c146ef
-      Path: Events/Default Work Unit/Play_Torch_Ignite
+      Path: Events/Default Work Unit/Torch/Play_Torch_Ignite
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Random_enviroment
+      guid: 86820544186fd3449216816e39105d54
+      id: 1573414772
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Random_enviroment
+        ObjectType: 4
+        guid: 86820544186fd3449216816e39105d54
+      Path: Events/Default Work Unit/Random_enviroment
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Torch
+      guid: 4acf975412b9a94590f2bb6f345a87cf
+      id: 1904864137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Torch
+        ObjectType: 4
+        guid: 4acf975412b9a94590f2bb6f345a87cf
+      Path: Events/Default Work Unit/Torch
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
