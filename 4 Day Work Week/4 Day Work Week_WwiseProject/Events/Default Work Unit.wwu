@@ -25,6 +25,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}">
+					<ChildrenList>
+						<Action Name="" ID="{FE0BEE46-697A-4A47-A6AA-90E41CBD4ED0}" ShortID="643193888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="coal_dump" ID="{8F6AEA92-251E-43F2-A4A0-9C6820BDB654}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}">
+					<ChildrenList>
+						<Action Name="" ID="{391853C5-FCB0-4257-B48F-BCD2D29A9837}" ShortID="299468939">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="coal_pickup" ID="{0722DED0-7D4F-4F1C-BA01-BED03504A6A5}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}">
+					<ChildrenList>
+						<Action Name="" ID="{4586EF39-3AB2-482F-8BCF-01460A4C7224}" ShortID="312404153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="coal_shoot" ID="{69963F1E-94D8-4297-BB27-459088F8F28F}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

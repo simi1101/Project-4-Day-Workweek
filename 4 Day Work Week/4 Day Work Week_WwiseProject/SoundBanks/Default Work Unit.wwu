@@ -5,8 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBank" ID="{98701CDE-9E3C-42B2-AC23-5FF076F47359}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_coal_shoot" ID="{F7554988-33EA-4180-A629-DC8A807539CF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_coal_dump" ID="{F96B7693-3EB1-4197-990A-6EBB08A6DADF}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_coal_pickup" ID="{571A27C9-87E7-4FEA-A2DA-0A3F6EAE4B34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

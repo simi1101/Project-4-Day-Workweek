@@ -1536,6 +1536,655 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Folder Name="Ambience" ID="{910C22F3-76B4-4478-9B9D-5633176724F5}" ShortID="998731766">
+					<ChildrenList>
+						<Sound Name="Amb_water" ID="{173984E9-49E2-44D5-BA03-633133F5EA88}" ShortID="832731469">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_water_loop_01" ID="{9D0BAF91-49CD-4572-908C-F4759919B8C7}">
+									<Language>SFX</Language>
+									<AudioFile>amb_water_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1015943554"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_water_loop_01" ID="{9D0BAF91-49CD-4572-908C-F4759919B8C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_forest" ID="{9A295805-8926-46BD-9569-4B94F6D334DC}" ShortID="702288341">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_trees_loop_01" ID="{4367C228-0D09-49D0-8A97-841400117FA7}">
+									<Language>SFX</Language>
+									<AudioFile>amb_trees_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068125563"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_trees_loop_01" ID="{4367C228-0D09-49D0-8A97-841400117FA7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_snow" ID="{23902E2D-5099-4E8E-AE42-F73E24AD5642}" ShortID="384841093">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_snow_loop_01" ID="{C0EC8195-970A-421B-B501-B88D2BA9AF97}">
+									<Language>SFX</Language>
+									<AudioFile>amb_snow_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="375863302"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_snow_loop_01" ID="{C0EC8195-970A-421B-B501-B88D2BA9AF97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Coal" ID="{F74ABD29-9CF6-49A9-A9A3-9A146EF97AA7}" ShortID="979079140">
+					<ChildrenList>
+						<RandomSequenceContainer Name="coal_pickup" ID="{0722DED0-7D4F-4F1C-BA01-BED03504A6A5}" ShortID="595802235">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="coal_pickup_01" ID="{9F19B6B9-0758-46FE-9DC3-5912D1E05615}" ShortID="14827389">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_01" ID="{7534A993-6923-476E-9F0C-7439EE821F9A}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793741180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_01" ID="{7534A993-6923-476E-9F0C-7439EE821F9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_10" ID="{C7CCF31F-CD30-49FF-8D82-3739D0BE50D3}" ShortID="408788768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_10" ID="{0010309A-133F-4AE2-810B-4AD4ACE7CF52}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057868667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_10" ID="{0010309A-133F-4AE2-810B-4AD4ACE7CF52}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_09" ID="{3205926F-56AD-4E2E-BAA7-915762C211A0}" ShortID="417019273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_09" ID="{EEAF6A49-FB21-42D8-AD49-BF4B58CE9CD8}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275732377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_09" ID="{EEAF6A49-FB21-42D8-AD49-BF4B58CE9CD8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_08" ID="{9B2FA702-6B84-4C7B-83FE-E3640F4AB748}" ShortID="414730358">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_08" ID="{EA3D3C8C-F78B-4D70-AAA6-CC5BD1AD9FA8}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130211107"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_08" ID="{EA3D3C8C-F78B-4D70-AAA6-CC5BD1AD9FA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_07" ID="{6982F374-F21E-4572-A7B0-A36AA42344EF}" ShortID="81957061">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_07" ID="{5046D6E4-415F-4276-9D48-289917A4AC88}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="909192602"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_07" ID="{5046D6E4-415F-4276-9D48-289917A4AC88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_06" ID="{9236D62A-F785-4CB5-BFCD-976AE21A77CB}" ShortID="226858588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_06" ID="{A3173924-0F47-487C-B786-DD8B09CF47B6}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="300330905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_06" ID="{A3173924-0F47-487C-B786-DD8B09CF47B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_05" ID="{B0D6A126-1811-4763-9C53-91DEB17852D2}" ShortID="545521963">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_05" ID="{CF3167B0-0D64-4EA7-BB9A-E6E632A1CFC4}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="450998310"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_05" ID="{CF3167B0-0D64-4EA7-BB9A-E6E632A1CFC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_04" ID="{064607C0-C211-47CB-BE3C-4FCA580CCF2A}" ShortID="508321392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_04" ID="{0B6E822C-5DFC-4388-913D-1D19F8FC2839}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791657110"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_04" ID="{0B6E822C-5DFC-4388-913D-1D19F8FC2839}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_03" ID="{373E2A30-A44D-46F4-B0C3-8BE072A20823}" ShortID="382229170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_03" ID="{12B5C9E3-7879-44CC-8817-151426AB9A61}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442015769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_03" ID="{12B5C9E3-7879-44CC-8817-151426AB9A61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_pickup_02" ID="{811CD830-91B7-4C23-8B31-A4C9492A1DEC}" ShortID="641096144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_pickup_02" ID="{6BD89BE1-E79F-4F28-B6EA-45FAAB9D1837}">
+											<Language>SFX</Language>
+											<AudioFile>coal_pickup_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="891087871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_pickup_02" ID="{6BD89BE1-E79F-4F28-B6EA-45FAAB9D1837}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="coal_dump" ID="{8F6AEA92-251E-43F2-A4A0-9C6820BDB654}" ShortID="710016481">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="coal_dump_01" ID="{7F7BC952-8255-4746-AC62-886D2F69A131}" ShortID="230748409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_01" ID="{A9912B3A-4F59-4A46-A3B4-B08EEBF6C486}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414317356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_01" ID="{A9912B3A-4F59-4A46-A3B4-B08EEBF6C486}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_07" ID="{F18EB4DF-13FB-4E74-A96D-3658CFCE6EF3}" ShortID="312856727">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_07" ID="{1FC75768-AD11-4861-B023-EC7F3D0ABCA4}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="398297775"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_07" ID="{1FC75768-AD11-4861-B023-EC7F3D0ABCA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_06" ID="{3C5CF32A-17A9-4A05-8A1C-161DA17B8437}" ShortID="69020152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_06" ID="{87803158-3E6D-4027-88AE-CD570680E230}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="304119479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_06" ID="{87803158-3E6D-4027-88AE-CD570680E230}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_05" ID="{CF272336-E0AB-4FD3-A911-729C8370DABF}" ShortID="290623469">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_05" ID="{A92D97EF-3A27-4EC5-A05D-C3D7F3AFB3DB}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="170013725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_05" ID="{A92D97EF-3A27-4EC5-A05D-C3D7F3AFB3DB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_04" ID="{B172E877-8C2C-4034-8AB1-6D52DFC60C0E}" ShortID="98034079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_04" ID="{7DC6CB0E-89F3-4BD9-84A3-9D323DE57BA7}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857507222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_04" ID="{7DC6CB0E-89F3-4BD9-84A3-9D323DE57BA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_03" ID="{30A95BCC-A4A2-4F4F-A167-D076896D6520}" ShortID="925840295">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_03" ID="{C7E0F2A5-79EF-4769-A2E2-2BD994A7E7DD}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="968219227"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_03" ID="{C7E0F2A5-79EF-4769-A2E2-2BD994A7E7DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_dump_02" ID="{302D7CF4-9CA2-46F4-836B-1027B6174C34}" ShortID="747508919">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_dump_02" ID="{010C4940-E8CF-4BAE-9E34-8E94487B97F6}">
+											<Language>SFX</Language>
+											<AudioFile>coal_dump_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168241874"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_dump_02" ID="{010C4940-E8CF-4BAE-9E34-8E94487B97F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="coal_shoot" ID="{69963F1E-94D8-4297-BB27-459088F8F28F}" ShortID="683010770">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="coal_shooting_06" ID="{52D811F7-3F0E-4911-9861-4DE6575D4AC1}" ShortID="172354916">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_06" ID="{E180A78A-71F2-4247-998A-DFD6C5842CC0}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985416562"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_06" ID="{E180A78A-71F2-4247-998A-DFD6C5842CC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_shooting_05" ID="{8ECE9932-FC35-4358-9FB1-5C356AA5D245}" ShortID="121553155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_05" ID="{BE71E714-B02E-420F-9304-B9834DEE4C07}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="244315439"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_05" ID="{BE71E714-B02E-420F-9304-B9834DEE4C07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_shooting_04" ID="{7C041E53-9515-4A10-8EDC-1B4BBD6C5C3F}" ShortID="741306142">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_04" ID="{7D419343-0A64-42ED-9B09-3911775EEAE6}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441146093"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_04" ID="{7D419343-0A64-42ED-9B09-3911775EEAE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_shooting_03" ID="{C5F798EE-8696-4DA0-AE2D-D4005B1579C3}" ShortID="130876434">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_03" ID="{F0570331-0605-4AEF-BBD4-70A79EECD929}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379242612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_03" ID="{F0570331-0605-4AEF-BBD4-70A79EECD929}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_shooting_02" ID="{544246BB-519D-4583-A74C-9EC802F97E01}" ShortID="333783910">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_02" ID="{C890FF38-8577-41C6-B46B-5EA90537839D}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710064296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_02" ID="{C890FF38-8577-41C6-B46B-5EA90537839D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coal_shooting_01" ID="{45F209C7-8220-4412-BBE0-A01F55CA14EA}" ShortID="509212173">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="coal_shooting_01" ID="{A5584EA8-8ED3-49AE-B75A-61F7DFF45741}">
+											<Language>SFX</Language>
+											<AudioFile>coal_shooting_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="461880660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="coal_shooting_01" ID="{A5584EA8-8ED3-49AE-B75A-61F7DFF45741}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
