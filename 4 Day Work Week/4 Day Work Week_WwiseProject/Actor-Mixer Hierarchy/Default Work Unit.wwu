@@ -21,9 +21,16 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="foosteps_wood" ID="{D36EF250-08B7-4108-96EE-608A44D99D77}" ShortID="974244687">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -306,11 +313,15 @@
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -680,10 +691,21 @@
 						<RandomSequenceContainer Name="foosteps_concrete" ID="{FD1DBE27-4969-44E9-96F9-286A7028E285}" ShortID="760962956">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{668336F6-DB7F-4A44-A34F-693B6C93115F}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1063,6 +1085,457 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<RandomSequenceContainer Name="Eviroment_Random" ID="{272034A3-DB31-4A95-BE05-BD071E7C66CC}" ShortID="161909000">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{705F11F7-6264-49DE-A13E-EB3B356710BE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="10"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="env_snow_drop_01" ID="{4273C21B-91FC-491C-8557-7C4F02BA3E5B}" ShortID="1061763505">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_snow_drop_01" ID="{E6C55AA4-D714-440F-AA05-98AC320A8B58}">
+									<Language>SFX</Language>
+									<AudioFile>env_snow_drop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="647242019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_snow_drop_01" ID="{E6C55AA4-D714-440F-AA05-98AC320A8B58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_snow_drop_04" ID="{B4760AA8-7876-4D2C-9896-5920388F887F}" ShortID="251213164">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_snow_drop_04" ID="{8CDE861C-B245-4A95-AB01-6ACD00A51B85}">
+									<Language>SFX</Language>
+									<AudioFile>env_snow_drop_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410800433"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_snow_drop_04" ID="{8CDE861C-B245-4A95-AB01-6ACD00A51B85}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_snow_drop_03" ID="{608378B3-B697-4D04-8B6F-9DED74B4B9C5}" ShortID="784549805">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_snow_drop_03" ID="{0575756D-5C78-4374-9C01-7D1AA26ADF80}">
+									<Language>SFX</Language>
+									<AudioFile>env_snow_drop_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187762165"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_snow_drop_03" ID="{0575756D-5C78-4374-9C01-7D1AA26ADF80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_snow_drop_02" ID="{07D8FF86-6151-4A77-82F5-F1EFB9D9DC7E}" ShortID="47069562">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_snow_drop_02" ID="{0EEDC7A7-953B-420A-815E-9044AE56CCD5}">
+									<Language>SFX</Language>
+									<AudioFile>env_snow_drop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="904364693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_snow_drop_02" ID="{0EEDC7A7-953B-420A-815E-9044AE56CCD5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_cyote_01" ID="{7C3F9D80-3360-402E-ADB4-FF55DBE00D00}" ShortID="741753754">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_cyote_01" ID="{77A70AC4-B9BA-4897-9E25-BD84E15ECD7C}">
+									<Language>SFX</Language>
+									<AudioFile>env_cyote_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="451576413"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_cyote_01" ID="{77A70AC4-B9BA-4897-9E25-BD84E15ECD7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_cyote_03" ID="{A922CAF2-D902-40E2-829D-A29DF8CA0C15}" ShortID="400904742">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_cyote_03" ID="{4F8F4AFD-D479-423D-8270-A24CEE3AEA8E}">
+									<Language>SFX</Language>
+									<AudioFile>env_cyote_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1007827569"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_cyote_03" ID="{4F8F4AFD-D479-423D-8270-A24CEE3AEA8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_cyote_02" ID="{EF8D557B-BA38-4A11-9409-A7AF89838FF5}" ShortID="883978826">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_cyote_02" ID="{25B6E0D4-EEFC-4A3B-B4DB-E736DE3BE1F1}">
+									<Language>SFX</Language>
+									<AudioFile>env_cyote_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="936924615"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_cyote_02" ID="{25B6E0D4-EEFC-4A3B-B4DB-E736DE3BE1F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_twig_break_01" ID="{007B2B2D-74C5-4673-879D-9FEC9004D2B6}" ShortID="513236542">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_twig_break_01" ID="{FDC65A02-7C20-4C3B-9864-D2562768F0E9}">
+									<Language>SFX</Language>
+									<AudioFile>env_twig_break_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1002801059"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_twig_break_01" ID="{FDC65A02-7C20-4C3B-9864-D2562768F0E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_twig_break_03" ID="{BB5BBB39-B9F7-4F87-BEA2-D151D085EC66}" ShortID="269889594">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_twig_break_03" ID="{BF9705F7-D3B5-4501-BE55-BD1BFEF60163}">
+									<Language>SFX</Language>
+									<AudioFile>env_twig_break_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="212127684"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_twig_break_03" ID="{BF9705F7-D3B5-4501-BE55-BD1BFEF60163}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_twig_break_02" ID="{DB3E3A5F-D10B-4E8A-BD85-331888F2D23E}" ShortID="775368914">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_twig_break_02" ID="{35883218-66C3-4737-82BA-C7ECF835B46D}">
+									<Language>SFX</Language>
+									<AudioFile>env_twig_break_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="226273720"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_twig_break_02" ID="{35883218-66C3-4737-82BA-C7ECF835B46D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_owl_01" ID="{3148B11B-CFF5-4A80-8F3A-093290EEE204}" ShortID="724562614">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_owl_01" ID="{C5A377E5-C382-4292-86A4-895EE0AAF6B5}">
+									<Language>SFX</Language>
+									<AudioFile>env_owl_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="682006916"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_owl_01" ID="{C5A377E5-C382-4292-86A4-895EE0AAF6B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_owl_02" ID="{21296083-2E19-47AB-8FA7-3A4EFB4D4214}" ShortID="270626535">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_owl_02" ID="{CDF41105-988B-46AD-8D6F-4E04023E7A0C}">
+									<Language>SFX</Language>
+									<AudioFile>env_owl_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="438954634"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_owl_02" ID="{CDF41105-988B-46AD-8D6F-4E04023E7A0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_animal_dying_01" ID="{5F033226-618F-45A2-8CD1-172A1742DF42}" ShortID="247938381">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_animal_dying_01" ID="{D45E0FE0-8ADA-46FB-AE3E-D21B769F656B}">
+									<Language>SFX</Language>
+									<AudioFile>env_animal_dying_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="896193645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_animal_dying_01" ID="{D45E0FE0-8ADA-46FB-AE3E-D21B769F656B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_animal_dying_03" ID="{A5EB642B-4AC6-4261-AEB9-3284C327C39B}" ShortID="171274923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_animal_dying_03" ID="{7E4B394D-AAA2-44AC-80D1-7D3D3A3CECA4}">
+									<Language>SFX</Language>
+									<AudioFile>env_animal_dying_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="466908547"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_animal_dying_03" ID="{7E4B394D-AAA2-44AC-80D1-7D3D3A3CECA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="env_animal_dying_02" ID="{71644374-BDF3-4066-877C-014379F0EFB1}" ShortID="1029776584">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="env_animal_dying_02" ID="{9E387533-277E-4AAC-8B8C-4031EF25298C}">
+									<Language>SFX</Language>
+									<AudioFile>env_animal_dying_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526641155"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="env_animal_dying_02" ID="{9E387533-277E-4AAC-8B8C-4031EF25298C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

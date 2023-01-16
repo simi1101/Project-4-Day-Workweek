@@ -31,7 +31,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F0FDD73D-4A97-F721-ECBE-A8BE920EC581}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{150A668C-E3CB-FB00-00E7-D0C363DB4FA7}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -43,9 +43,21 @@
 					<ShortName>footsteps_snow_13.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
 				</File>
+				<File Id="187762165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_snow_drop_03.wav</ShortName>
+					<CachePath>SFX/env_snow_drop_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="212127684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_twig_break_03.wav</ShortName>
+					<CachePath>SFX/env_twig_break_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="222042170" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_15.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="226273720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_twig_break_02.wav</ShortName>
+					<CachePath>SFX/env_twig_break_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="227802227" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_12.wav</ShortName>
@@ -83,6 +95,22 @@
 					<ShortName>footsteps_concrete_13.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_13_10C4C929.wem</CachePath>
 				</File>
+				<File Id="410800433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_snow_drop_04.wav</ShortName>
+					<CachePath>SFX/env_snow_drop_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="438954634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_owl_02.wav</ShortName>
+					<CachePath>SFX/env_owl_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="451576413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_cyote_01.wav</ShortName>
+					<CachePath>SFX/env_cyote_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="466908547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_animal_dying_03.wav</ShortName>
+					<CachePath>SFX/env_animal_dying_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="490312913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_11.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_11_10C4C929.wem</CachePath>
@@ -98,6 +126,10 @@
 				<File Id="526143122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_08.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526641155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_animal_dying_02.wav</ShortName>
+					<CachePath>SFX/env_animal_dying_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="543760874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_11.wav</ShortName>
@@ -119,6 +151,10 @@
 					<ShortName>footsteps_concrete_03.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="647242019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_snow_drop_01.wav</ShortName>
+					<CachePath>SFX/env_snow_drop_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="663732716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_01.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_01_10C4C929.wem</CachePath>
@@ -126,6 +162,10 @@
 				<File Id="674621572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_11.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="682006916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_owl_01.wav</ShortName>
+					<CachePath>SFX/env_owl_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="721888782" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_10.wav</ShortName>
@@ -151,6 +191,14 @@
 					<ShortName>footsteps_concrete_09.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="896193645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_animal_dying_01.wav</ShortName>
+					<CachePath>SFX/env_animal_dying_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="904364693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_snow_drop_02.wav</ShortName>
+					<CachePath>SFX/env_snow_drop_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="914190426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_02.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_02_10C4C929.wem</CachePath>
@@ -162,6 +210,10 @@
 				<File Id="929578283" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_03.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="936924615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_cyote_02.wav</ShortName>
+					<CachePath>SFX/env_cyote_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="942171245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_12.wav</ShortName>
@@ -182,6 +234,14 @@
 				<File Id="997237252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_06.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1002801059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_twig_break_01.wav</ShortName>
+					<CachePath>SFX/env_twig_break_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007827569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_cyote_03.wav</ShortName>
+					<CachePath>SFX/env_cyote_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1010478055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_07.wav</ShortName>
@@ -209,7 +269,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0.15104167" DurationMax="0.625">
+				<Event Id="2385628198" Name="Footsteps" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2835351336" Id="787898836" Default="true"/>
@@ -271,6 +331,25 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2434186889" Name="Play_Eviroment_Random" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="187762165"/>
+						<MediaRef Id="212127684"/>
+						<MediaRef Id="226273720"/>
+						<MediaRef Id="410800433"/>
+						<MediaRef Id="438954634"/>
+						<MediaRef Id="451576413"/>
+						<MediaRef Id="466908547"/>
+						<MediaRef Id="526641155"/>
+						<MediaRef Id="647242019"/>
+						<MediaRef Id="682006916"/>
+						<MediaRef Id="896193645"/>
+						<MediaRef Id="904364693"/>
+						<MediaRef Id="936924615"/>
+						<MediaRef Id="1002801059"/>
+						<MediaRef Id="1007827569"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2835351336" Name="GroundType">
@@ -283,5 +362,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1546C882-74FA-933E-E87C-D82C5C2C4722}</FileHash>
+	<FileHash>{F63B51E9-6F4C-FE08-62A1-40013E4690CC}</FileHash>
 </SoundBanksInfo>
