@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollectionPoint : MonoBehaviour
 {
     ResourceManager rm;
+    public AK.Wwise.Event coalIntake;
 
     private void Start()
     {
@@ -18,6 +19,7 @@ public class CollectionPoint : MonoBehaviour
             rm.ModifyCoal(coal.coalValue);
             Destroy(other.gameObject);
             //Play Audio for Coal intake here
+            coalIntake.Post(gameObject);
         }
     }
 }

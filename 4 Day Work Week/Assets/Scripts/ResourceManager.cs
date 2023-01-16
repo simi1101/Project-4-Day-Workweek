@@ -18,6 +18,9 @@ public class ResourceManager : MonoBehaviour
     float lastShotTime;
     public LayerMask layermask;
 
+    public AK.Wwise.Event suckSound;
+    public AK.Wwise.Event shootSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,6 +78,7 @@ public class ResourceManager : MonoBehaviour
     {
             interactCollider.enabled = state;
         collectionCollider.enabled = state;
+        suckSound.Post(gameObject);
     }
 
     void Shoot()
@@ -87,6 +91,8 @@ public class ResourceManager : MonoBehaviour
             rb.velocity = firepoint.forward * launchForce;
             lastShotTime = 0;
             Debug.Log("Shooting" + coalCount);
+            //Audio for shooting coal
+            shootSound.Post(gameObject);
         }
     }
 
