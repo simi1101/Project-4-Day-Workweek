@@ -29,6 +29,10 @@ public class SafeZoneTrigger : MonoBehaviour
             {
                 meter.Healed = true;
             }
+            else
+            {
+                
+            }
         }
         
         
