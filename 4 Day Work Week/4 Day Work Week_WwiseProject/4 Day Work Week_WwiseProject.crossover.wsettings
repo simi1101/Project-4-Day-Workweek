@@ -5,8 +5,12 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\4DWW GJ Audio\SFX\Furnace\Dying\"/>
 				<Property Name="Event Action List\{01C2B7B4-F9D6-4E68-AE04-25BB816DA5B7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{031326FC-C6B6-454B-976D-AE7E41064C7C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0C882157-4ECB-4886-AB19-77F8459F63D0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{153CB378-D8C7-42D8-B1CE-67512E6E478E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{241E9F32-9B1D-44B2-9BF9-6D7D9550F7A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{247EB48D-9A5B-47F4-B43B-7C444371E9B5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2585711C-99C1-4301-8D00-A57B0ADAFD4A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{30DC0420-28F5-4C53-899D-C62607B3DB67}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{30E3C244-7A2C-465A-957E-893CFE725C3E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3270C6EB-B9FE-43F8-85B0-707404C146EF}\x64_Expand States" Type="string" Value=""/>
@@ -18,6 +22,7 @@
 				<Property Name="Event Action List\{6F8FD784-FFDB-4F6D-9AE0-4A509980DCB8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{95FDA4A5-4642-41E9-A16C-18133ADA6BF9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A7BDAECA-8D53-4855-BB80-88A50D0320E6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AA35DBDB-2494-4515-ACB7-E3678748D1E3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2032FD0-5F78-42A5-9488-F131A8FD8D63}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C2E709C6-BD84-417B-98A6-121D39A494FA}\x64_Expand States" Type="string" Value=""/>
@@ -47,7 +52,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="rPodYHV800yoS/Nt1LuP3Yo+uV/Y9HJIsYp7RdcoD9w="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="3hxwmDyeskKsI1/wdvRzWQ8XSYegmudOrORGtDbScq2lfv6ehPSETK+iHMwLFXJ6"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="SZF25GYS90mNlYKL+RNVTN4ccJg8nrJCrCNf8Hb0c1kPF0mHoJrnTqzkRrQ20nKtpX7+noT0hEyvohzMCxVyekuH0n1abldGkV74l4cdPcI="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="F1/xqIQ/Nkqv3O9veQrJSwEAAAAAAAAA8NH8DAAAAACQ7DYNAAAAAKCRdAIAAAAA4KQPAgAAAAAEklEAAAAAAOD7EQ0AAAAAUCKQDAAAAAAIAAAAAAAAAMjlLgAAAAAAAABmAAAAAAAfAWYAAAAAAAAAZgAAAAAAwKQPAgAAAADApA8CAAAAAMjwdQIAAAAAAQAAAJ/k2oup/ydAhMONAeXGo1cBAAAAAAAAAPDR/AwAAAAAkOw2DQAAAACgkXQCAAAAAOCkDwIAAAAABJJRAAAAAADg+xENAAAAAFAikAwAAAAACAAAAAAAAADI5S4AAAAAAAAAZgAAAAAAHwFmAAAAAAAAAGYAAAAAAMCkDwIAAAAAwKQPAgAAAADI8HUCAAAAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

@@ -263,6 +263,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Furnace_dying" ID="{031326FC-C6B6-454B-976D-AE7E41064C7C}">
+							<ChildrenList>
+								<Action Name="" ID="{A2A0F5F4-6134-4112-9EED-850CFC67F24C}" ShortID="181082659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Furnace_dying" ID="{125A927E-0406-4D5F-885C-C001F90C7183}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Foosteps" ID="{284EF78D-BEE2-4B38-9D69-2BA24B1401E9}" ShortID="733900492">
@@ -280,7 +291,43 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Ambience" ID="{DF4505E2-676A-4E47-9068-D28C8074DD44}" ShortID="659455866"/>
+				<Folder Name="Ambience" ID="{DF4505E2-676A-4E47-9068-D28C8074DD44}" ShortID="659455866">
+					<ChildrenList>
+						<Event Name="Play_Amb_water" ID="{A7BDAECA-8D53-4855-BB80-88A50D0320E6}">
+							<ChildrenList>
+								<Action Name="" ID="{44B04F11-2F3B-4725-ACB3-CCCA80422EEC}" ShortID="762544">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_water" ID="{173984E9-49E2-44D5-BA03-633133F5EA88}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_forest" ID="{0C882157-4ECB-4886-AB19-77F8459F63D0}">
+							<ChildrenList>
+								<Action Name="" ID="{A2B220CB-280B-415E-ACA6-90D5EA198DBE}" ShortID="347008094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_forest" ID="{9A295805-8926-46BD-9569-4B94F6D334DC}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_snow" ID="{2585711C-99C1-4301-8D00-A57B0ADAFD4A}">
+							<ChildrenList>
+								<Action Name="" ID="{5BBDA69A-8150-4D1F-99CF-BB82AD33B9F4}" ShortID="1014310477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_snow" ID="{23902E2D-5099-4E8E-AE42-F73E24AD5642}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Torch" ID="{5497CF4A-B912-45A9-90F2-BB6F345A87CF}" ShortID="792967515">
 					<ChildrenList>
 						<Event Name="Play_Torch_Ignite" ID="{3270C6EB-B9FE-43F8-85B0-707404C146EF}">
@@ -304,6 +351,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Eviroment_Random" ID="{272034A3-DB31-4A95-BE05-BD071E7C66CC}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ferry_foghorn" ID="{919E8582-5737-4F6D-A8E7-EC895BC54175}" ShortID="1056313983">
+					<ChildrenList>
+						<Event Name="Play_Foghorn" ID="{247EB48D-9A5B-47F4-B43B-7C444371E9B5}">
+							<ChildrenList>
+								<Action Name="" ID="{F921D629-20D9-4599-AE7E-E1EAB5CFDE62}" ShortID="60080190">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Foghorn" ID="{4E22C2B1-9036-4FF2-AA64-E23F78CA626A}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

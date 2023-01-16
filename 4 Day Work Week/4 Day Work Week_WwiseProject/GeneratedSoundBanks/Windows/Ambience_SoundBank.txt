@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2049148582	Play_Amb_water			\Default Work Unit\Ambience\Play_Amb_water	
+	3007712584	Play_Amb_snow			\Default Work Unit\Ambience\Play_Amb_snow	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	375863302	Amb_snow	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\amb_snow_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_snow		41088208
+	1015943554	Amb_water	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\amb_water_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_water		41088208
+

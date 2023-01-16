@@ -723,6 +723,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 421915972}
+    - target: {fileID: 4847017594508966358, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+      propertyPath: coalIntake.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 268f7ede97aee49f6aab7cbdbb3b5bca, type: 2}
     - target: {fileID: 5324661955440026027, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -783,6 +787,14 @@ PrefabInstance:
       propertyPath: coalPrefab.Array.data[4]
       value: 
       objectReference: {fileID: 585166856967352652, guid: 6282761b58b50b649b350e9e915bc7d1, type: 3}
+    - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+      propertyPath: shootSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 058d0e11d0b58487cb6a15cf0f994e21, type: 2}
+    - target: {fileID: 6063400449665478669, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
+      propertyPath: suckSoundStart.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ae3d7c661baaf43dfb2d89d378c4144f, type: 2}
     - target: {fileID: 7104829700351817267, guid: 24294f06a19488046a5ad0f1a50c0533, type: 3}
       propertyPath: pullForce
       value: 75
@@ -861,6 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432987191}
   - component: {fileID: 432987190}
+  - component: {fileID: 432987192}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -908,6 +921,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432987192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432987189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda2cf0642f2d4e57879ed8fc09a4364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4360c9d6801484daaa008b6d84feeb69, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!4 &467954880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3612352094340878479, guid: e0de7c46fde197f45a17ff5ce653f201, type: 3}
