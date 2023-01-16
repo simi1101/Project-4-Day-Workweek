@@ -31,13 +31,17 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{7F113079-9782-E9C7-C143-C66D84250DC4}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{EEB1B855-3486-25E3-C947-094079044B97}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
 				<File Id="54681896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_04.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="55116757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_10.wav</ShortName>
+					<CachePath>SFX/player_breathing_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="57778302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_13.wav</ShortName>
@@ -46,6 +50,14 @@
 				<File Id="130211107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_pickup_08.wav</ShortName>
 					<CachePath>SFX/coal_pickup_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="162635981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_close_by_05.wav</ShortName>
+					<CachePath>SFX/monster_close_by_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="165760311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_01.wav</ShortName>
+					<CachePath>SFX/monster_attack_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="168241874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_dump_02.wav</ShortName>
@@ -79,6 +91,14 @@
 					<ShortName>footsteps_snow_16.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_16_10C4C929.wem</CachePath>
 				</File>
+				<File Id="235870091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_07.wav</ShortName>
+					<CachePath>SFX/player_breathing_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="239826170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_close_by_03.wav</ShortName>
+					<CachePath>SFX/monster_close_by_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="244315439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_shooting_05.wav</ShortName>
 					<CachePath>SFX/coal_shooting_05_10C4C929.wem</CachePath>
@@ -87,6 +107,10 @@
 					<ShortName>footsteps_concrete_14.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_14_10C4C929.wem</CachePath>
 				</File>
+				<File Id="261582371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_distant_03.wav</ShortName>
+					<CachePath>SFX/monster_distant_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="275732377" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_pickup_09.wav</ShortName>
 					<CachePath>SFX/coal_pickup_09_10C4C929.wem</CachePath>
@@ -94,6 +118,10 @@
 				<File Id="289265363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_05.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="295413639" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_close_by_04.wav</ShortName>
+					<CachePath>SFX/monster_close_by_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="299578294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_09.wav</ShortName>
@@ -114,6 +142,10 @@
 				<File Id="330026920" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_08.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338507787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_02.wav</ShortName>
+					<CachePath>SFX/monster_attack_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="344322102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_09.wav</ShortName>
@@ -139,6 +171,10 @@
 					<ShortName>coal_dump_01.wav</ShortName>
 					<CachePath>SFX/coal_dump_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="429571614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_distant_02.wav</ShortName>
+					<CachePath>SFX/monster_distant_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="438954634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_owl_02.wav</ShortName>
 					<CachePath>SFX/env_owl_02_10C4C929.wem</CachePath>
@@ -158,6 +194,10 @@
 				<File Id="451576413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_cyote_01.wav</ShortName>
 					<CachePath>SFX/env_cyote_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="452307726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_01.wav</ShortName>
+					<CachePath>SFX/player_breathing_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="461880660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_shooting_01.wav</ShortName>
@@ -187,9 +227,25 @@
 					<ShortName>env_animal_dying_02.wav</ShortName>
 					<CachePath>SFX/env_animal_dying_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="542177460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_05.wav</ShortName>
+					<CachePath>SFX/monster_attack_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="543760874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_11.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="546902184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_03.wav</ShortName>
+					<CachePath>SFX/player_breathing_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="546988726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_02.wav</ShortName>
+					<CachePath>SFX/player_breathing_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="577349151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_04.wav</ShortName>
+					<CachePath>SFX/player_breathing_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="599262923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_07.wav</ShortName>
@@ -211,9 +267,17 @@
 					<ShortName>env_snow_drop_01.wav</ShortName>
 					<CachePath>SFX/env_snow_drop_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="649949296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_06.wav</ShortName>
+					<CachePath>SFX/player_breathing_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="663732716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_01.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="671570477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_distant_01.wav</ShortName>
+					<CachePath>SFX/monster_distant_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="674621572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_11.wav</ShortName>
@@ -222,6 +286,14 @@
 				<File Id="682006916" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_owl_01.wav</ShortName>
 					<CachePath>SFX/env_owl_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="687523581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_close_by_01.wav</ShortName>
+					<CachePath>SFX/monster_close_by_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="702388158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_05.wav</ShortName>
+					<CachePath>SFX/player_breathing_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="710064296" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_shooting_02.wav</ShortName>
@@ -234,6 +306,10 @@
 				<File Id="763182356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_07.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="768049280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_08.wav</ShortName>
+					<CachePath>SFX/player_breathing_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="772137471" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_14.wav</ShortName>
@@ -255,17 +331,33 @@
 					<ShortName>footsteps_snow_10.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="854023444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_03.wav</ShortName>
+					<CachePath>SFX/monster_attack_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="857507222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_dump_04.wav</ShortName>
 					<CachePath>SFX/coal_dump_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="861359378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_breathing_09.wav</ShortName>
+					<CachePath>SFX/player_breathing_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="881969536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_09.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="890372440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_close_by_02.wav</ShortName>
+					<CachePath>SFX/monster_close_by_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="891087871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_pickup_02.wav</ShortName>
 					<CachePath>SFX/coal_pickup_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="896036214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_04.wav</ShortName>
+					<CachePath>SFX/monster_attack_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="896193645" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_animal_dying_01.wav</ShortName>
@@ -298,6 +390,10 @@
 				<File Id="942171245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_12.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="945128019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_creature_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_creature_loop_01_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="950599338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_08.wav</ShortName>
@@ -477,6 +573,64 @@
 						<MediaRef Id="1007827569"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="116922321" Name="Play_monster_amb" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="945128019"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="763434321" Name="Play_Monster_Attacking" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="165760311"/>
+						<MediaRef Id="338507787"/>
+						<MediaRef Id="542177460"/>
+						<MediaRef Id="854023444"/>
+						<MediaRef Id="896036214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="913147" Name="Play_Monster_Close_by" DurationType="OneShot" DurationMin="4.25" DurationMax="6.5">
+					<MediaRefs>
+						<MediaRef Id="162635981"/>
+						<MediaRef Id="239826170"/>
+						<MediaRef Id="295413639"/>
+						<MediaRef Id="687523581"/>
+						<MediaRef Id="890372440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3673945153" Name="Play_Monster_Distant_Roar" DurationType="OneShot" DurationMin="9.75" DurationMax="11">
+					<MediaRefs>
+						<MediaRef Id="261582371"/>
+						<MediaRef Id="429571614"/>
+						<MediaRef Id="671570477"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2640308078" Name="Play_player_breath_low_heat" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="55116757"/>
+						<MediaRef Id="235870091"/>
+						<MediaRef Id="452307726"/>
+						<MediaRef Id="546902184"/>
+						<MediaRef Id="546988726"/>
+						<MediaRef Id="577349151"/>
+						<MediaRef Id="649949296"/>
+						<MediaRef Id="702388158"/>
+						<MediaRef Id="768049280"/>
+						<MediaRef Id="861359378"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1550360224" Name="Play_player_breath_normal" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="55116757"/>
+						<MediaRef Id="235870091"/>
+						<MediaRef Id="452307726"/>
+						<MediaRef Id="546902184"/>
+						<MediaRef Id="546988726"/>
+						<MediaRef Id="577349151"/>
+						<MediaRef Id="649949296"/>
+						<MediaRef Id="702388158"/>
+						<MediaRef Id="768049280"/>
+						<MediaRef Id="861359378"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2835351336" Name="GroundType">
@@ -489,5 +643,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A4D2E0A8-9213-1BD5-976B-C94716D4F877}</FileHash>
+	<FileHash>{2A5F2B9B-D97E-CA6B-2643-5297C2088A5C}</FileHash>
 </SoundBanksInfo>
