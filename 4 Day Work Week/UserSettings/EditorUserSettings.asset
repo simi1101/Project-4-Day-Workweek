@@ -11,8 +11,16 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-1:
       value: 5a5401525557590f5c0f0a7a40200d44431548282e7923617a704c60e1b9313d
       flags: 0
+<<<<<<< HEAD
+    RecentlyUsedSceneGuid-1:
+      value: 5b05025004055f025b5a0e2411260f4417154f2e7e297564792d4b61e1e5636e
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5506075f530c0f5a5e5c087416205c44154e1b792e7073627c2f4935e0e4616f
+=======
     RecentlyUsedSceneGuid-2:
       value: 5701520057040d095e5b5877167a5e44421640782e7a7e697e7b1935b0e4313b
+>>>>>>> b48d9f6be4bc46a55149cef47f7070bd2c1a8f05
       flags: 0
     RecentlyUsedSceneGuid-3:
       value: 5a09575007505b095d5e597643720c44461619787e797f31787c4564b2b9316e
