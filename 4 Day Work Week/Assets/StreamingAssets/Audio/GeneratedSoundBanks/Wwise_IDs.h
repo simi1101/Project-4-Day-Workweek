@@ -14,6 +14,29 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID PLAY_AMB_FOREST = 994146778U;
+        static const AkUniqueID PLAY_AMB_SNOW = 3007712584U;
+        static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
+        static const AkUniqueID PLAY_COAL_DUMP = 480507372U;
+        static const AkUniqueID PLAY_COAL_PICKUP = 3986540022U;
+        static const AkUniqueID PLAY_COAL_SHOOT = 585068487U;
+        static const AkUniqueID PLAY_COAL_SUCK_END = 1914141634U;
+        static const AkUniqueID PLAY_COAL_SUCK_START = 1570043617U;
+        static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
+        static const AkUniqueID PLAY_FOGHORN = 3070280721U;
+        static const AkUniqueID PLAY_FURNACE_DYING = 2713163012U;
+        static const AkUniqueID PLAY_LOSING_HEAT_NEAR_MONSTER = 3514058337U;
+        static const AkUniqueID PLAY_LOSING_HEAT_NORMAL = 327414093U;
+        static const AkUniqueID PLAY_MONSTER_AMB = 116922321U;
+        static const AkUniqueID PLAY_MONSTER_ATTACKING = 763434321U;
+        static const AkUniqueID PLAY_MONSTER_CLOSE_BY = 913147U;
+        static const AkUniqueID PLAY_MONSTER_DISTANT_ROAR = 3673945153U;
+        static const AkUniqueID PLAY_MUSIC_BEGINING_TITLE = 2963830112U;
+        static const AkUniqueID PLAY_MUSIC_END_TITLE = 1272787174U;
+        static const AkUniqueID PLAY_MUSIC_HOME_BASE = 2154386389U;
+        static const AkUniqueID PLAY_PLAYER_BREATH_LOW_HEAT = 2640308078U;
+        static const AkUniqueID PLAY_PLAYER_BREATH_NORMAL = 1550360224U;
+        static const AkUniqueID PLAY_TORCH_IGNITE = 852026829U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -35,7 +58,11 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMBIENCE2_SOUNDBANK = 2694825763U;
+        static const AkUniqueID AMBIENCE_SOUNDBANK = 3010096371U;
         static const AkUniqueID MAIN_SOUNDBANK = 2228651116U;
+        static const AkUniqueID MONSTER_SOUNDBANK = 1681453895U;
+        static const AkUniqueID MUSIC_SOUNDBANK = 3589812408U;
     } // namespace BANKS
 
     namespace BUSSES

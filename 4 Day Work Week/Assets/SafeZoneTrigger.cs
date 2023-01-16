@@ -6,6 +6,7 @@ public class SafeZoneTrigger : MonoBehaviour
 {
     TemperatureMeter Meter;
     Enemy enemy;
+    public bool isGenerator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,10 @@ public class SafeZoneTrigger : MonoBehaviour
         {
             TemperatureMeter meter = other.gameObject.GetComponent<TemperatureMeter>();
             Meter.InSafeZone = true;
+            if(isGenerator != false)
+            {
+                meter.Healed = true;
+            }
         }
         
         
@@ -37,6 +42,7 @@ public class SafeZoneTrigger : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         Meter.InSafeZone = false;
+        Meter.Healed = false;
     }
 
     private void OnTriggerStay(Collider other)

@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectionPoint: {fileID: 5819062313109688989}
-  pullForce: 60
+  pullForce: 125
 --- !u!1 &2461470251284896337
 GameObject:
   m_ObjectHideFlags: 0

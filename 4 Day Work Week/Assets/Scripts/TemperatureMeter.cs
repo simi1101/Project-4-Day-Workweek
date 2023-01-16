@@ -9,6 +9,7 @@ public class TemperatureMeter : MonoBehaviour
     public float DrainRate = 1;
     public float IncreaseDifficulty = 0;
     public float MaxHealth;
+    public float FurnaceHealMax;
     public float MonsterDrain;
     public bool InSafeZone;
     public bool Healed;
@@ -34,9 +35,9 @@ public class TemperatureMeter : MonoBehaviour
             }
             else
             {
-                Healed = false;
-                Debug.Log("you have healed");
-                MaxHealth = MaxHealth - IncreaseDifficulty;
+                //Healed = false;
+                //Debug.Log("you have healed");
+               // MaxHealth = MaxHealth - IncreaseDifficulty;
             }
 
         }
@@ -50,8 +51,11 @@ public class TemperatureMeter : MonoBehaviour
         }
         else
         {
-            Debug.Log("you are dead");
+            //Debug.Log("you are dead");
+            ObjectivesManager om = GameObject.Find("ObjectiveManager").GetComponent<ObjectivesManager>();
+            om.Lose();
         }
     }
+    
     
 }

@@ -33,10 +33,10 @@ public class ObjectivesManager : MonoBehaviour
         Debug.Log("Win Screen Loaded!");
     }
 
-    void Lose()
+    public void Lose()
     {
         //Go to lose screen
-
+        SceneManager.LoadScene(0);
     }
 
    public void GeneratorActivated()
