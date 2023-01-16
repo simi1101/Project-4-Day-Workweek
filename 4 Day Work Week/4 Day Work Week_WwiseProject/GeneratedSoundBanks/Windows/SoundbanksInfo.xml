@@ -31,7 +31,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{150A668C-E3CB-FB00-00E7-D0C363DB4FA7}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{7F113079-9782-E9C7-C143-C66D84250DC4}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -42,6 +42,18 @@
 				<File Id="57778302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_13.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="130211107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_08.wav</ShortName>
+					<CachePath>SFX/coal_pickup_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="168241874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_02.wav</ShortName>
+					<CachePath>SFX/coal_dump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="170013725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_05.wav</ShortName>
+					<CachePath>SFX/coal_dump_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="187762165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_snow_drop_03.wav</ShortName>
@@ -67,9 +79,17 @@
 					<ShortName>footsteps_snow_16.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_16_10C4C929.wem</CachePath>
 				</File>
+				<File Id="244315439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_05.wav</ShortName>
+					<CachePath>SFX/coal_shooting_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="249938777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_14.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275732377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_09.wav</ShortName>
+					<CachePath>SFX/coal_pickup_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="289265363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_05.wav</ShortName>
@@ -78,6 +98,14 @@
 				<File Id="299578294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_09.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300330905" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_06.wav</ShortName>
+					<CachePath>SFX/coal_pickup_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="304119479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_06.wav</ShortName>
+					<CachePath>SFX/coal_dump_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="326448355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_12.wav</ShortName>
@@ -91,21 +119,49 @@
 					<ShortName>footsteps_snow_09.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="379242612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_03.wav</ShortName>
+					<CachePath>SFX/coal_shooting_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="383767761" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_13.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398297775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_07.wav</ShortName>
+					<CachePath>SFX/coal_dump_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="410800433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_snow_drop_04.wav</ShortName>
 					<CachePath>SFX/env_snow_drop_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="414317356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_01.wav</ShortName>
+					<CachePath>SFX/coal_dump_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="438954634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_owl_02.wav</ShortName>
 					<CachePath>SFX/env_owl_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="441146093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_04.wav</ShortName>
+					<CachePath>SFX/coal_shooting_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="442015769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_03.wav</ShortName>
+					<CachePath>SFX/coal_pickup_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="450998310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_05.wav</ShortName>
+					<CachePath>SFX/coal_pickup_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="451576413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_cyote_01.wav</ShortName>
 					<CachePath>SFX/env_cyote_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="461880660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_01.wav</ShortName>
+					<CachePath>SFX/coal_shooting_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="466908547" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_animal_dying_03.wav</ShortName>
@@ -167,6 +223,10 @@
 					<ShortName>env_owl_01.wav</ShortName>
 					<CachePath>SFX/env_owl_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="710064296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_02.wav</ShortName>
+					<CachePath>SFX/coal_shooting_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="721888782" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_10.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_10_10C4C929.wem</CachePath>
@@ -179,6 +239,14 @@
 					<ShortName>footsteps_snow_14.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_14_10C4C929.wem</CachePath>
 				</File>
+				<File Id="791657110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_04.wav</ShortName>
+					<CachePath>SFX/coal_pickup_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="793741180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_01.wav</ShortName>
+					<CachePath>SFX/coal_pickup_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="801462682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_05.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_05_10C4C929.wem</CachePath>
@@ -187,9 +255,17 @@
 					<ShortName>footsteps_snow_10.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="857507222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_04.wav</ShortName>
+					<CachePath>SFX/coal_dump_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="881969536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_09.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="891087871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_02.wav</ShortName>
+					<CachePath>SFX/coal_pickup_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="896193645" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_animal_dying_01.wav</ShortName>
@@ -198,6 +274,10 @@
 				<File Id="904364693" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_snow_drop_02.wav</ShortName>
 					<CachePath>SFX/env_snow_drop_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="909192602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_07.wav</ShortName>
+					<CachePath>SFX/coal_pickup_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="914190426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_02.wav</ShortName>
@@ -223,6 +303,10 @@
 					<ShortName>footsteps_wood_08.wav</ShortName>
 					<CachePath>SFX/footsteps_wood_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="968219227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_dump_03.wav</ShortName>
+					<CachePath>SFX/coal_dump_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="968456255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_06.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_06_10C4C929.wem</CachePath>
@@ -230,6 +314,10 @@
 				<File Id="980373347" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_02.wav</ShortName>
 					<CachePath>SFX/footsteps_concrete_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="985416562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_shooting_06.wav</ShortName>
+					<CachePath>SFX/coal_shooting_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="997237252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_06.wav</ShortName>
@@ -258,6 +346,10 @@
 				<File Id="1049171868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_snow_15.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1057868667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>coal_pickup_10.wav</ShortName>
+					<CachePath>SFX/coal_pickup_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1063047260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_concrete_10.wav</ShortName>
@@ -331,6 +423,41 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="480507372" Name="Play_coal_dump" DurationType="OneShot" DurationMin="0.56295836" DurationMax="2.988021">
+					<MediaRefs>
+						<MediaRef Id="168241874"/>
+						<MediaRef Id="170013725"/>
+						<MediaRef Id="304119479"/>
+						<MediaRef Id="398297775"/>
+						<MediaRef Id="414317356"/>
+						<MediaRef Id="857507222"/>
+						<MediaRef Id="968219227"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3986540022" Name="Play_coal_pickup" DurationType="OneShot" DurationMin="0.22916667" DurationMax="0.80885416">
+					<MediaRefs>
+						<MediaRef Id="130211107"/>
+						<MediaRef Id="275732377"/>
+						<MediaRef Id="300330905"/>
+						<MediaRef Id="442015769"/>
+						<MediaRef Id="450998310"/>
+						<MediaRef Id="791657110"/>
+						<MediaRef Id="793741180"/>
+						<MediaRef Id="891087871"/>
+						<MediaRef Id="909192602"/>
+						<MediaRef Id="1057868667"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="585068487" Name="Play_coal_shoot" DurationType="OneShot" DurationMin="0.5019583" DurationMax="0.6866458">
+					<MediaRefs>
+						<MediaRef Id="244315439"/>
+						<MediaRef Id="379242612"/>
+						<MediaRef Id="441146093"/>
+						<MediaRef Id="461880660"/>
+						<MediaRef Id="710064296"/>
+						<MediaRef Id="985416562"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2434186889" Name="Play_Eviroment_Random" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="187762165"/>
@@ -362,5 +489,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{25AA4967-B27C-258D-B090-1759E11A4AFF}</FileHash>
+	<FileHash>{A4D2E0A8-9213-1BD5-976B-C94716D4F877}</FileHash>
 </SoundBanksInfo>
