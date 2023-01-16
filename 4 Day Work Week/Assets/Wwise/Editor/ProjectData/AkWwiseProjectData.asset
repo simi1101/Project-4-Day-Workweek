@@ -12,6 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 071a56829c72646a0a18d236c0ec2f13, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  AcousticTextureWwu: []
+  AuxBusWwu: []
+  BankWwu: []
+  EventWwu: []
+  RtpcWwu: []
+  StateWwu: []
+  SwitchWwu: []
+  TriggerWwu: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+=======
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
@@ -305,6 +317,11 @@ MonoBehaviour:
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
+<<<<<<< HEAD
+=======
+>>>>>>> d85a10c4cf0b1e7dc0b2c8c3576905525e81d7f9
+>>>>>>> 76040e114cf2586ee332df42b0c909f22c62f52d
+>>>>>>> 7d19c014b3a2abffa56fff7d870a427d8643b3da
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
