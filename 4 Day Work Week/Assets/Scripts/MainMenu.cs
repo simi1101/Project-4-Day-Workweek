@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour
@@ -10,8 +12,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.GetComponent<CharacterController>().enabled = false;
-        player.GetComponent<PlayerLook>().enabled = false;
+        player.GetComponent<InputManager>().enabled = false;
         mainMenuUI.SetActive(true);
         lantern.SetActive(false);
         dial.SetActive(false);
@@ -25,8 +26,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        player.GetComponent<CharacterController>().enabled = true;
-        player.GetComponent<PlayerLook>().enabled = true;
+        player.GetComponent<InputManager>().enabled = true;
         mainMenuUI.SetActive(false);
         lantern.SetActive(true);
         dial.SetActive(true);
