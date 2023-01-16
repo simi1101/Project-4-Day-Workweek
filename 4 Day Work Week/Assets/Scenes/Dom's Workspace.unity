@@ -825,6 +825,10 @@ GameObject:
   - component: {fileID: 432987191}
   - component: {fileID: 432987190}
   - component: {fileID: 432987192}
+  - component: {fileID: 432987196}
+  - component: {fileID: 432987195}
+  - component: {fileID: 432987194}
+  - component: {fileID: 432987193}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -890,6 +894,102 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4360c9d6801484daaa008b6d84feeb69, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &432987193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432987189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda2cf0642f2d4e57879ed8fc09a4364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &432987194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432987189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda2cf0642f2d4e57879ed8fc09a4364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &432987195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432987189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda2cf0642f2d4e57879ed8fc09a4364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &432987196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432987189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda2cf0642f2d4e57879ed8fc09a4364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -3114,6 +3214,10 @@ PrefabInstance:
       value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
+      propertyPath: walkSpeed
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
       propertyPath: innerStorm
       value: 
       objectReference: {fileID: 1212509517}
@@ -3121,6 +3225,22 @@ PrefabInstance:
       propertyPath: outerStorm
       value: 
       objectReference: {fileID: 1702585183}
+    - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
+      propertyPath: runTime.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
+      propertyPath: runTime.Array.data[1]
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
+      propertyPath: walkTime.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 614747165570993263, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
+      propertyPath: walkTime.Array.data[1]
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 614747165597446195, guid: 16f30d85bd7d81e478d453378e5f7a89, type: 3}
       propertyPath: m_Name
       value: EnemyParent
