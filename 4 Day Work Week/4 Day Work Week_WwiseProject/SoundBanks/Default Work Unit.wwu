@@ -14,6 +14,7 @@
 						<ObjectRef Name="Footsteps" ID="{F1140747-9717-44CA-AB2A-8744C9EA14D4}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Monster_Close_by" ID="{F2DDD320-877C-4560-9B02-077379C41013}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_player_breath_low_heat" ID="{30E3C244-7A2C-465A-957E-893CFE725C3E}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Losing_heat_near_monster" ID="{204ECD81-6EFA-4B5D-A498-743B136BD352}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_monster_amb" ID="{30DC0420-28F5-4C53-899D-C62607B3DB67}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Eviroment_Random" ID="{8D4CC1FD-B8C7-4D51-B3FC-5DD0AAD5DF34}" WorkUnitID="{DD99304F-4F98-4734-820F-C0E1EA267549}" Origin="Manual" Filter="7"/>

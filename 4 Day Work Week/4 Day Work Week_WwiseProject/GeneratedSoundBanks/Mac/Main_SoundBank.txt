@@ -1,18 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	913147	Play_Monster_Close_by			\Default Work Unit\Monster\Play_Monster_Close_by	
-	116922321	Play_monster_amb			\Default Work Unit\Monster\Play_monster_amb	
 	327414093	Play_Losing_heat_normal			\Default Work Unit\Losing_heat\Play_Losing_heat_normal	
 	480507372	Play_coal_dump			\Default Work Unit\Coal\Play_coal_dump	
 	585068487	Play_coal_shoot			\Default Work Unit\Coal\Play_coal_shoot	
-	763434321	Play_Monster_Attacking			\Default Work Unit\Monster\Play_Monster_Attacking	
-	1272787174	Play_Music_End_Title			\Default Work Unit\Music\Play_Music_End_Title	
 	1550360224	Play_player_breath_normal			\Default Work Unit\Breathing\Play_player_breath_normal	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2434186889	Play_Eviroment_Random			\Default Work Unit\Play_Eviroment_Random	
 	2640308078	Play_player_breath_low_heat			\Default Work Unit\Breathing\Play_player_breath_low_heat	
-	2963830112	Play_Music_Begining_Title			\Default Work Unit\Music\Play_Music_Begining_Title	
 	3514058337	Play_Losing_heat_near_monster			\Default Work Unit\Losing_heat\Play_Losing_heat_near_monster	
-	3673945153	Play_Monster_Distant_Roar			\Default Work Unit\Monster\Play_Monster_Distant_Roar	
 	3986540022	Play_coal_pickup			\Default Work Unit\Coal\Play_coal_pickup	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -24,15 +18,12 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	GroundType			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51478114	Music_End_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\4dww_end_title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_End_Title		28524040
 	54681896	footsteps_snow_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_04		76308
 	55116757	player_breathing_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_10		447460
 	57778302	footsteps_snow_13	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_13		120160
 	130211107	coal_pickup_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_08		97260
 	136260059	temp_losing_heat_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_02		144508
-	162635981	monster_close_by_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_05		1080612
 	164036905	temp_losing_heat_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_05		177108
-	165760311	monster_attack_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_01		551408
 	168241874	coal_dump_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_02		238208
 	170013725	coal_dump_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_05		108296
 	187762165	env_snow_drop_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_snow_drop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_snow_drop_03		86308
@@ -42,21 +33,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	227802227	footsteps_wood_12	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_12		51540
 	228368401	footsteps_snow_16	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_16		110816
 	235870091	player_breathing_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_07		470060
-	239826170	monster_close_by_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_03		838060
 	244315439	coal_shooting_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_shooting_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_shoot\coal_shooting_05		96536
 	245704804	temp_losing_heat_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_04		105408
 	249938777	footsteps_concrete_14	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_14		75160
-	261582371	monster_distant_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_03		1720060
 	275732377	coal_pickup_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_09		44160
 	289265363	footsteps_concrete_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_05		39508
-	295413639	monster_close_by_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_04		904212
 	299578294	footsteps_wood_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_09		56332
 	300330905	coal_pickup_06	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_06		134260
 	304119479	coal_dump_06	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_06		504208
 	326448355	footsteps_snow_12	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_12		58960
 	329002215	temp_losing_heat_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_09		366880
 	330026920	footsteps_concrete_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_08		59608
-	338507787	monster_attack_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_02		617560
 	342556240	temp_losing_heat_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_03		48208
 	344322102	footsteps_snow_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_09		110260
 	379242612	coal_shooting_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_shooting_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_shoot\coal_shooting_03		120372
@@ -64,7 +51,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	398297775	coal_dump_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_07		573908
 	410800433	env_snow_drop_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_snow_drop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_snow_drop_04		217296
 	414317356	coal_dump_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_01		129808
-	429571614	monster_distant_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_02		1940560
 	438954634	env_owl_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_owl_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_owl_02		122420
 	441146093	coal_shooting_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_shooting_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_shoot\coal_shooting_04		116472
 	442015769	coal_pickup_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_03		149560
@@ -80,7 +66,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	523020451	footsteps_concrete_06	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_06		44008
 	526143122	footsteps_snow_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_08		111460
 	526641155	env_animal_dying_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_animal_dying_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_animal_dying_02		1148712
-	542177460	monster_attack_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_05		573460
 	543760874	footsteps_snow_11	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_11		80160
 	546902184	player_breathing_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_03		780160
 	546988726	player_breathing_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_02		642808
@@ -92,11 +77,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	647242019	env_snow_drop_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_snow_drop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_snow_drop_01		119308
 	649949296	player_breathing_06	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_06		600160
 	663732716	footsteps_wood_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_01		58308
-	671570477	monster_distant_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_distant_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Distant_Roar\monster_distant_01		1764160
 	674621572	footsteps_wood_11	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_11		46500
 	682006916	env_owl_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_owl_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_owl_01		120208
 	686649386	temp_losing_heat_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_10		341588
-	687523581	monster_close_by_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_01		1146760
 	702388158	player_breathing_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_05		770260
 	710064296	coal_shooting_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_shooting_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_shoot\coal_shooting_02		129008
 	721888782	footsteps_wood_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_10		39108
@@ -107,14 +90,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	793741180	coal_pickup_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_01		75108
 	801462682	footsteps_wood_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_05		57908
 	812487234	footsteps_snow_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_10		79260
-	854023444	monster_attack_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_03		573460
 	857507222	coal_dump_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_04		136608
 	861359378	player_breathing_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\player_breathing_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_09		546060
 	869554312	temp_losing_heat_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_07		336160
 	881969536	footsteps_concrete_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_09		60108
-	890372440	monster_close_by_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_close_by_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Close_by\monster_close_by_02		749860
 	891087871	coal_pickup_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_02		105208
-	896036214	monster_attack_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\monster_attack_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster_Attacking\monster_attack_04		617560
 	896193645	env_animal_dying_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_animal_dying_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_animal_dying_01		1021708
 	904364693	env_snow_drop_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_snow_drop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_snow_drop_02		109308
 	909192602	coal_pickup_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_pickup_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_07		77860
@@ -122,9 +102,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	918790786	footsteps_wood_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_03		60208
 	929578283	footsteps_snow_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_snow_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_03		76108
 	936924615	env_cyote_02	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\env_cyote_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Eviroment_Random\env_cyote_02		1284160
-	938410670	Music_Begining_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\4DWW_Title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Begining_Title		23436208
 	942171245	footsteps_concrete_12	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_concrete_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_concrete\footsteps_concrete_12		60360
-	945128019	monster_amb	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\amb_creature_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\monster_amb		5592208
 	950599338	footsteps_wood_08	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\footsteps_wood_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_08		53208
 	958837431	temp_losing_heat_06	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\temp_losing_heat_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_06		289712
 	968219227	coal_dump_03	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Mac\SFX\coal_dump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_03		280808

@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_MONSTER_DISTANT_ROAR = 3673945153U;
         static const AkUniqueID PLAY_MUSIC_BEGINING_TITLE = 2963830112U;
         static const AkUniqueID PLAY_MUSIC_END_TITLE = 1272787174U;
+        static const AkUniqueID PLAY_MUSIC_HOME_BASE = 2154386389U;
         static const AkUniqueID PLAY_PLAYER_BREATH_LOW_HEAT = 2640308078U;
         static const AkUniqueID PLAY_PLAYER_BREATH_NORMAL = 1550360224U;
     } // namespace EVENTS
@@ -50,6 +51,8 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN_SOUNDBANK = 2228651116U;
+        static const AkUniqueID MONSTER_SOUNDBANK = 1681453895U;
+        static const AkUniqueID MUSIC_SOUNDBANK = 3589812408U;
     } // namespace BANKS
 
     namespace BUSSES

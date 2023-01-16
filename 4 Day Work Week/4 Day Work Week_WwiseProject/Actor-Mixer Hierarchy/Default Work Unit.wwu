@@ -4552,6 +4552,28 @@
 								<ActiveSource Name="4DWW_Title_01" ID="{62915A77-4E0A-439C-AAFA-5F864336E1DC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" ShortID="282453639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E6A752D-E664-41AE-A404-5F032951FC29}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}">
+									<Language>SFX</Language>
+									<AudioFile>4dww_Home_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="784442697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4dww_Home_01" ID="{F3A4ABDA-4691-4AE5-87B5-AF323DC87DA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

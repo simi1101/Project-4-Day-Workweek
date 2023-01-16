@@ -186,6 +186,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Music_Home_base" ID="{5C497D56-693F-4B4D-A3CB-1F865EC2BEDD}">
+							<ChildrenList>
+								<Action Name="" ID="{24018B21-7ACC-4DC4-85C6-13836CFEA3B7}" ShortID="162466670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Home_base" ID="{2E29C07D-254D-4A81-B718-EB7F6258C70B}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
