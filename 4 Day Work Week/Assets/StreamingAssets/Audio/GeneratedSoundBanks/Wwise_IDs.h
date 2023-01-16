@@ -11,6 +11,27 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace GROUNDTYPE
+        {
+            static const AkUniqueID GROUP = 2835351336U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID SNOW = 787898836U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace GROUNDTYPE
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

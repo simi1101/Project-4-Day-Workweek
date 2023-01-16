@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277701344640255
+    m_lastTime: -8585277667852598360
     List:
     - name: Main_SoundBank
       guid: de1c70983c9eb242ac235ff076f47359
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585277703704000166
-    List: []
+    m_lastTime: -8585277667852623227
+    List:
+    - name: Footsteps
+      guid: 470714f11797ca44ab2a8744c9ea14d4
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 470714f11797ca44ab2a8744c9ea14d4
+      Path: Events/Default Work Unit/Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -136,8 +153,74 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: ac94ba59cdd334488190064841f1922c
     GuidInternal: 
-    m_lastTime: -8585277703703901361
-    List: []
+    m_lastTime: -8585277673531490261
+    List:
+    - name: GroundType
+      guid: 0360c58641a1904e8554be99b9e7fc64
+      id: 2835351336
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac94ba59cdd334488190064841f1922c
+      - ElementName: GroundType
+        ObjectType: 11
+        guid: 0360c58641a1904e8554be99b9e7fc64
+      Path: Switches/Default Work Unit/GroundType
+      values:
+      - name: Concrete
+        guid: e4ed40992b5ab144a1e8971c027b9420
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ac94ba59cdd334488190064841f1922c
+        - ElementName: GroundType
+          ObjectType: 11
+          guid: 0360c58641a1904e8554be99b9e7fc64
+        - ElementName: Concrete
+          ObjectType: 10
+          guid: e4ed40992b5ab144a1e8971c027b9420
+      - name: Snow
+        guid: 34747db089f49e4aae54860bc24923eb
+        id: 787898836
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ac94ba59cdd334488190064841f1922c
+        - ElementName: GroundType
+          ObjectType: 11
+          guid: 0360c58641a1904e8554be99b9e7fc64
+        - ElementName: Snow
+          ObjectType: 10
+          guid: 34747db089f49e4aae54860bc24923eb
+      - name: Wood
+        guid: d7cf882d775f914c8f8ae782b1cc8034
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ac94ba59cdd334488190064841f1922c
+        - ElementName: GroundType
+          ObjectType: 11
+          guid: 0360c58641a1904e8554be99b9e7fc64
+        - ElementName: Wood
+          ObjectType: 10
+          guid: d7cf882d775f914c8f8ae782b1cc8034
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +236,7 @@ MonoBehaviour:
     m_lastTime: -8585277703703897258
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 030000000b0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

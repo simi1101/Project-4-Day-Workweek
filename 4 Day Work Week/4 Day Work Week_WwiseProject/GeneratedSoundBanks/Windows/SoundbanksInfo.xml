@@ -21,11 +21,122 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2835351336" Name="GroundType">
+					<Switches>
+						<Switch Id="787898836" Name="Snow"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2058049674" Name="Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5D1692CC-DE32-333E-D965-01ACD9E4B0F5}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
+			<Media>
+				<File Id="54681896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_04.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57778302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_13.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="228368401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_16.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="326448355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_12.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344322102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_09.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526143122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_08.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="543760874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_11.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="619043480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_01.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="763182356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_07.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="772137471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_14.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="812487234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_10.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914190426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_02.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929578283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_03.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968456255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_06.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1049171868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_15.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1063443146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_snow_05.wav</ShortName>
+					<CachePath>SFX/footsteps_snow_05_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0.625">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2835351336" Id="787898836" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="54681896"/>
+								<MediaRef Id="57778302"/>
+								<MediaRef Id="228368401"/>
+								<MediaRef Id="326448355"/>
+								<MediaRef Id="344322102"/>
+								<MediaRef Id="526143122"/>
+								<MediaRef Id="543760874"/>
+								<MediaRef Id="619043480"/>
+								<MediaRef Id="763182356"/>
+								<MediaRef Id="772137471"/>
+								<MediaRef Id="812487234"/>
+								<MediaRef Id="914190426"/>
+								<MediaRef Id="929578283"/>
+								<MediaRef Id="968456255"/>
+								<MediaRef Id="1049171868"/>
+								<MediaRef Id="1063443146"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2835351336" Name="GroundType">
+					<Switches>
+						<Switch Id="787898836" Name="Snow"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2058049674" Name="Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6B5FA46A-1760-0ED7-A38B-9F58745B393E}</FileHash>
+	<FileHash>{440E4FC4-5329-A276-A7E5-15F1F9D83EEB}</FileHash>
 </SoundBanksInfo>
