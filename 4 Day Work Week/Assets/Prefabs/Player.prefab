@@ -19,7 +19,8 @@ GameObject:
   - component: {fileID: 5489965182790102609}
   - component: {fileID: 2648475720601595142}
   - component: {fileID: 2214682930721867466}
-  m_Layer: 0
+  - component: {fileID: 7231428565473779393}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -140,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   gravity: -9.8
-  jumpHeight: 3
+  jumpHeight: 0.75
   crouchTimer: 1
 --- !u!114 &-553583246140810639
 MonoBehaviour:
@@ -176,7 +177,7 @@ MonoBehaviour:
   - {fileID: 1352611634778156013, guid: 1356fe0374e142c4685184f486b48261, type: 3}
   - {fileID: 585166856967352652, guid: 6282761b58b50b649b350e9e915bc7d1, type: 3}
   firepoint: {fileID: 8817337366016762888}
-  launchForce: 50
+  launchForce: 25
   fireRate: 0.3
   layermask:
     serializedVersion: 2
@@ -277,6 +278,21 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a493e24de17134bffa64adae58f631ad, type: 2}
+  footstepsPlaying: 0
+--- !u!114 &7231428565473779393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2342092940293952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d1183fe11749e41843f201326c832b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialog: {fileID: 0}
+  dialogBox: {fileID: 0}
 --- !u!1 &2342094501695969
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,7 +304,7 @@ GameObject:
   - component: {fileID: 2342094501695972}
   - component: {fileID: 2342094501695971}
   - component: {fileID: 2342094501695970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -376,7 +392,7 @@ GameObject:
   - component: {fileID: 4128192037801903718}
   - component: {fileID: 229952094807634998}
   - component: {fileID: 6177460071740286867}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +492,7 @@ GameObject:
   - component: {fileID: 2427471414219237191}
   - component: {fileID: 9206267577690170354}
   - component: {fileID: 7104829700351817267}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Interact Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +554,7 @@ GameObject:
   - component: {fileID: 8161745571460872286}
   - component: {fileID: 6590490766125726914}
   - component: {fileID: 4701600081405454380}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +692,7 @@ GameObject:
   - component: {fileID: 1750922463035299624}
   - component: {fileID: 6892621376847880828}
   - component: {fileID: 6831232378267399297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NeedleAttach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +792,7 @@ GameObject:
   - component: {fileID: 1956395162803698781}
   - component: {fileID: 3849582903674607648}
   - component: {fileID: 7881560712595518032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Torch Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +951,7 @@ GameObject:
   - component: {fileID: 8817337366016762888}
   - component: {fileID: 5819062313109688989}
   - component: {fileID: 4847017594508966358}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Collection Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +1001,7 @@ MonoBehaviour:
   coalIntake:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 268f7ede97aee49f6aab7cbdbb3b5bca, type: 2}
 --- !u!1 &7164819995268266374
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1015,7 @@ GameObject:
   - component: {fileID: 4613360515019064664}
   - component: {fileID: 8004069648903464077}
   - component: {fileID: 6601593782261362751}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gauge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1129,7 @@ GameObject:
   - component: {fileID: 6863695824579721856}
   - component: {fileID: 4667944481744674473}
   - component: {fileID: 7155991384123340076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Needle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FG_Lantern_3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4073fa6f6b97d4983935c9551d74d1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa4073fa6f6b97d4983935c9551d74d1, type: 3}
 --- !u!4 &196070551945315667 stripped
@@ -1362,6 +1382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Storm wind FX
       objectReference: {fileID: 0}
+    - target: {fileID: 8401034931875690653, guid: c808ebe484f183a40be7d87a204b09c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c808ebe484f183a40be7d87a204b09c1, type: 3}
 --- !u!4 &5958971620860477328 stripped
@@ -1435,6 +1459,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4c9c2b86c842ad245a833833f6d105cc, type: 3}
       propertyPath: m_Name
       value: FG_Lantern_HeatMeterBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c9c2b86c842ad245a833833f6d105cc, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c9c2b86c842ad245a833833f6d105cc, type: 3}
