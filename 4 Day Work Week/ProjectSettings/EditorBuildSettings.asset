@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Joey's Workspace.unity
+    guid: 6e9943f835603dd4ca7fe8fd6948ec2f
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 40ff21d23545f9a44a82b28932df2dec
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 233fc6f481004ce44a7e595094604060
   m_configObjects: {}

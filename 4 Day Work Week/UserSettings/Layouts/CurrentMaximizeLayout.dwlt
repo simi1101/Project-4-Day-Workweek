@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44543
+  controlID: 55918
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44544
+  controlID: 55919
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44545
+  controlID: 55920
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a811fdffe813fdff002afdff722cfdffe42cfdff342dfdff9c30fdffee30fdffb439fdff3a4afdff8a4afdffb856fdff0664fdfffc72fdff7477fdff6878fdffa879fdff2289fdff2c89fdff40a8fdff2a4ffeffe054feff2869feff4a69feff9469feff0c6efeff6a70feff44fcfeffe4fcfeffa420ffff7a23ffff3625ffff7828ffffc62bffff123affff5e42ffffbc49ffff2052ffff3691ffffdea7ffff7aedffff82edffff4eefffff58efffff96efffff2efbfffffad400001cd5000048d50000a4d500007e7d0200e0c602006a3b0700
+      m_ExpandedIDs: 7c75fcffbc7efcff0a87fcff0498fcff0898fcff0a98fcffa811fdffe813fdff002afdff722cfdffe42cfdff342dfdff9c30fdffee30fdffb439fdff3a4afdff8a4afdffb856fdff0664fdfffc72fdff7477fdff6878fdffa879fdff2289fdff2c89fdff40a8fdff2a4ffeffe054feff2869feff4a69feff9469feff0c6efeff6a70feff44fcfeffe4fcfeffa420ffff7a23ffff3625ffff7828ffffc62bffff123affff5e42ffffbc49ffff2052ffff3691ffffdea7ffff7aedffff82edffff4eefffff58efffff96efffff2efbfffffad400001cd5000048d50000a4d500007e7d0200e0c602006a3b07006e233500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -26.848713, y: -11.041606, z: -18.451654}
+    m_Target: {x: -49.141884, y: 17.174978, z: -299.3275}
     speed: 2
-    m_Value: {x: -26.848713, y: -11.041606, z: -18.451654}
+    m_Value: {x: -49.141884, y: 17.174978, z: -299.3275}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -551,13 +551,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18915214, y: 0.5771286, z: -0.13960318, w: -0.7821003}
+    m_Target: {x: 0.20115964, y: 0.46697724, z: -0.10996737, w: 0.85405356}
     speed: 2
-    m_Value: {x: -0.18914971, y: 0.57712114, z: -0.13960138, w: -0.78209025}
+    m_Value: {x: 0.2011563, y: 0.4669695, z: -0.10996555, w: 0.85403943}
   m_Size:
-    m_Target: 15.01755
+    m_Target: 18.437515
     speed: 2
-    m_Value: 15.01755
+    m_Value: 18.437515
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -650,21 +650,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\NDQA Game Jam 2023\4 Day Work Week
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7ed40000
-    m_LastClickedID: 54398
+    m_SelectedIDs: 86d40000
+    m_LastClickedID: 54406
     m_ExpandedIDs: 000000002ad4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -718,10 +718,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 0ad73500
+    m_LastClickedInstanceID: 3528458
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000d26d3400
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -838,7 +838,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 3528458
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
