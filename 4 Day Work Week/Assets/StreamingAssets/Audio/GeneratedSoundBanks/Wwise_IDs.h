@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_COAL_SHOOT = 585068487U;
         static const AkUniqueID PLAY_COAL_SUCK_END = 1914141634U;
         static const AkUniqueID PLAY_COAL_SUCK_START = 1570043617U;
+        static const AkUniqueID PLAY_CREDITS = 2970769112U;
         static const AkUniqueID PLAY_EVIROMENT_RANDOM = 2434186889U;
         static const AkUniqueID PLAY_FOGHORN = 3070280721U;
         static const AkUniqueID PLAY_FOOTSTEPS_CONCRETE_FAILSAFE = 3131974009U;

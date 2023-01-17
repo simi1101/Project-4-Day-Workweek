@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2640308078	Play_player_breath_low_heat			\Default Work Unit\Breathing\Play_player_breath_low_heat	
 	2713163012	Play_Furnace_dying			\Default Work Unit\Furnace\Play_Furnace_dying	
 	2719913800	Play_Generator_start_failsafe			\Default Work Unit\Generator\Play_Generator_start_failsafe	
+	2970769112	Play_Credits			\Default Work Unit\Play_Credits	
 	3070280721	Play_Foghorn			\Default Work Unit\Ferry_foghorn\Play_Foghorn	
 	3131974009	Play_footsteps_concrete_failsafe			\Default Work Unit\Foosteps\Foosteps_failsafe\Play_footsteps_concrete_failsafe	
 	3514058337	Play_Losing_heat_near_monster			\Default Work Unit\Losing_heat\Play_Losing_heat_near_monster	
@@ -113,6 +114,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	793741180	coal_pickup_01	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_pickup_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_pickup\coal_pickup_01		75108
 	801462682	footsteps_wood_05	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_wood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_wood\footsteps_wood_05		57908
 	812487234	footsteps_snow_10	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\footsteps_snow_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\foosteps\foosteps_snow\footsteps_snow_10		79260
+	849440761	Credits	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\credits_3EF7564F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Credits		11833696
 	857507222	coal_dump_04	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\coal_dump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coal\coal_dump\coal_dump_04		136608
 	861359378	player_breathing_09	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\player_breathing_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\player_breath_normal\player_breathing_09		546060
 	869554312	temp_losing_heat_07	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\temp_losing_heat_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Losing_heat\Losing_heat_normal\temp_losing_heat_07		336160

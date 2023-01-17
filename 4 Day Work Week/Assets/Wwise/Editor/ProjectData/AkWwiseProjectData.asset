@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: fc184443947b8e4bbabb50c956f06fe8
     GuidInternal: 
-    m_lastTime: -8585277319878324912
+    m_lastTime: -8585276768659010211
     List:
     - name: Ambience_SoundBank
       guid: 499176e46612f7498d95828bf913554c
@@ -150,7 +150,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
-    m_lastTime: -8585276791962709508
+    m_lastTime: -8585276768659029561
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44
@@ -519,6 +519,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: df4f2066c9e3334881181ec04d58bb8f
       Path: Events/Default Work Unit/Coal/Play_Coal_suck_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Credits
+      guid: ee523aeb9bd28f4ea3d74e2f8c23b26e
+      id: 2970769112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3099dd984f3447820fc0e1ea267549
+      - ElementName: Play_Credits
+        ObjectType: 3
+        guid: ee523aeb9bd28f4ea3d74e2f8c23b26e
+      Path: Events/Default Work Unit/Play_Credits
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

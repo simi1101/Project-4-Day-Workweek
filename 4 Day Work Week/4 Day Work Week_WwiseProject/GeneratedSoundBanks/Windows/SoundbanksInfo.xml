@@ -125,7 +125,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{7004E695-35DC-B6E1-86CB-5438FA56A2EC}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{64DD4CA1-4266-93CF-BC53-AFFA7C21A29C}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -465,6 +465,10 @@
 					<ShortName>footsteps_snow_10.wav</ShortName>
 					<CachePath>SFX/footsteps_snow_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="849440761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>credits.wav</ShortName>
+					<CachePath>SFX/credits_3EF7564F.wem</CachePath>
+				</File>
 				<File Id="857507222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>coal_dump_04.wav</ShortName>
 					<CachePath>SFX/coal_dump_04_10C4C929.wem</CachePath>
@@ -699,6 +703,11 @@
 						<MediaRef Id="691660987"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2970769112" Name="Play_Credits" DurationType="OneShot" DurationMin="61.633335" DurationMax="61.633335">
+					<MediaRefs>
+						<MediaRef Id="849440761"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2434186889" Name="Play_Eviroment_Random" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="187762165"/>
@@ -919,7 +928,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{4CE4E3A5-51D0-1F20-9546-44EA0F86C128}">
+		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{6CAEC7BF-76F4-BF7F-8A68-D67D77084C3A}">
 			<ShortName>Music_SoundBank</ShortName>
 			<Path>Music_SoundBank.bnk</Path>
 			<Media>
@@ -933,7 +942,7 @@
 				</File>
 				<File Id="938410670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4DWW_Title_01.wav</ShortName>
-					<CachePath>SFX/4DWW_Title_01_7F3FCB2B.wem</CachePath>
+					<CachePath>SFX/4DWW_Title_01_26120338.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -955,5 +964,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4CC09DB1-1A4D-24F8-008D-B6D6183DB589}</FileHash>
+	<FileHash>{3059F808-C581-15B8-3B68-D150FFB0BD2E}</FileHash>
 </SoundBanksInfo>
