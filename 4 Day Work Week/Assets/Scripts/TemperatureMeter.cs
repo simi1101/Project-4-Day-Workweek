@@ -18,6 +18,8 @@ public class TemperatureMeter : MonoBehaviour
 
     public AK.Wwise.Event heatLoss;
     public AK.Wwise.Event heatLossMonster;
+    public AK.Wwise.Event breathingNormal;
+    public AK.Wwise.Event breathingHeavy;
 
     // Start is called before the first frame update
     void Start()

@@ -6,8 +6,10 @@ public class AmbientSoundManager : MonoBehaviour
 {
 
     public AK.Wwise.Event ambientSnow;
+    public AK.Wwise.Event ambientTrees;
     public AK.Wwise.Event footstepsSnow;
     public AK.Wwise.Event enviroRandom;
+    public AK.Wwise.Event homeMusic;
 
 
     bool footstepsPlaying;
