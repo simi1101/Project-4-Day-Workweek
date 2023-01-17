@@ -50,6 +50,10 @@ public class MainMenu : MonoBehaviour
 
         // Allow player to pause
         PauseMenu.isPaused = false;
+<<<<<<< HEAD
+        Cursor.lockState = CursorLockMode.Locked;
+=======
+>>>>>>> e1e851bed2c7f9bdda9eeecd2d5f17887fe807af
     }
 
     public void QuitGame()
