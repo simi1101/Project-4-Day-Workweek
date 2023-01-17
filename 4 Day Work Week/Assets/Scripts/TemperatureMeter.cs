@@ -21,6 +21,11 @@ public class TemperatureMeter : MonoBehaviour
     public AK.Wwise.Event breathingNormal;
     public AK.Wwise.Event breathingHeavy;
 
+    bool monsterNear;
+    bool healthLow;
+    bool normalBreath;
+    bool draining;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +33,11 @@ public class TemperatureMeter : MonoBehaviour
         MaxHealth = HealthBar;
         MonsterDrain= 0;
         safeZone = GameObject.Find("Furnace").GetComponent<SphereCollider>();
+
+        bool monsterNear = false;
+        bool healthLow = false;
+        bool normalBreath = false;
+        bool draining = false;
     }
 
     // Update is called once per frame
@@ -61,6 +71,39 @@ public class TemperatureMeter : MonoBehaviour
             //Debug.Log("you are dead");
             ObjectivesManager om = GameObject.Find("ObjectiveManager").GetComponent<ObjectivesManager>();
             om.Lose();
+        }
+
+        if (MonsterDrain > 0)
+        {
+            if (monsterNear != true)
+            {
+                heatLossMonster.Post(gameObject);
+                monsterNear = true;
+            }
+            else
+            {
+                monsterNear = false;
+                heatLossMonster.Stop(gameObject);
+            }
+        }
+
+        if (HealthBar < -70)
+        {
+            if (normalBreath != false)
+            {
+                breathingHeavy.Post(gameObject);
+                breathingNormal.Stop(gameObject);
+                normalBreath = false;
+            }
+        }
+        else
+        {
+            if (normalBreath != true)
+            {
+                breathingHeavy.Stop(gameObject);
+                breathingNormal.Post(gameObject);
+                normalBreath = true;
+            }
         }
     }
     

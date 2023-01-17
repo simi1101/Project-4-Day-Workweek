@@ -15,10 +15,14 @@ public class PlayerMotor : MonoBehaviour
     public float jumpHeight = 3f;
     public float crouchTimer = 1;
 
+    AmbientSoundManager ambient;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        ambient = GetComponent<AmbientSoundManager>();
+       
     }
 
     // Update is called once per frame
@@ -45,6 +49,7 @@ public class PlayerMotor : MonoBehaviour
     //This will receive the inputs for our InputManager.cs and apply them to our character controller
     public void ProcessMove(Vector2 input)
     {
+        
         Vector3 moveDirection = Vector3.zero;
         moveDirection.x = input.x;
         moveDirection.z = input.y;
@@ -53,7 +58,17 @@ public class PlayerMotor : MonoBehaviour
         if (isGrounded && playerVelocity.y < 0)
             playerVelocity.y = -2f;
         controller.Move(playerVelocity * Time.deltaTime);
-        //Debug.Log(playerVelocity.y);
+        Debug.Log(playerVelocity.z);
+        if (input.x != 0 || input.y != 0)
+        {
+            ambient.FootstepsOn();
+            ambient.footstepsPlaying = true;
+        }
+        else
+        {
+            ambient.FootStepsOff();
+            ambient.footstepsPlaying = false;
+        }
 
     }
     public void Jump()

@@ -12,31 +12,42 @@ public class AmbientSoundManager : MonoBehaviour
     public AK.Wwise.Event homeMusic;
 
 
-    bool footstepsPlaying;
+    public bool footstepsPlaying;
     // Start is called before the first frame update
     void Start()
     {
+        ambientSnow.Post(gameObject);
+        ambientTrees.Post(gameObject);
         footstepsPlaying = false;
+        
+    }
+    private void Awake()
+    {
+     
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void FootstepsOn()
+    {
+        if (footstepsPlaying != true)
+        {
+            footstepsSnow.Post(gameObject);
+            footstepsPlaying = true;
+        }
+
+    }
+
+    public void FootStepsOff()
+    {
         if (footstepsPlaying != false)
         {
-
+            footstepsSnow.Stop(gameObject);
         }
-    }
-
-    void FootstepsOn()
-    {
-        footstepsSnow.Post(gameObject);
-
-    }
-
-    void FootStepsOff()
-    {
-        footstepsSnow.Stop(gameObject);
     }
 }

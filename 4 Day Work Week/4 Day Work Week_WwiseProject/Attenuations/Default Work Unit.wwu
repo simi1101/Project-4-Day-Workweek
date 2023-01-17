@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Monster Amb Attenuation" ID="{340910CF-B7B0-4CEC-AA9E-CEF8BDD664A3}" ShortID="720944760">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="80"/>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,22 +21,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>17.541904</XPos>
-											<YPos>-0</YPos>
+											<XPos>22.08333</XPos>
+											<YPos>-10.69575</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>48.51768</XPos>
-											<YPos>-5.73924</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>65.47487</XPos>
-											<YPos>-15.86258</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>80</XPos>
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

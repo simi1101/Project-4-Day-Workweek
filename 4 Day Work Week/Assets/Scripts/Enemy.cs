@@ -76,6 +76,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(Search());
         outerStorm.Stop();
         innerStorm.Stop();
+        enemyAmbience.Stop(gameObject);
         enemyChase.Stop(gameObject);
         enemyNear.Stop(gameObject);
         enemyDistant.Stop(gameObject);
@@ -92,6 +93,7 @@ public class Enemy : MonoBehaviour
             StartCoroutine(Pursuit());
             outerStorm.Play();
             innerStorm.Play();
+            enemyAmbience.Post(gameObject);
             Debug.Log("Start pursuit");
         }
     }
