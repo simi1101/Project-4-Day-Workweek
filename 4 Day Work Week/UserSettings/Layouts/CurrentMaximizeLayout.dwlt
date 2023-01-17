@@ -24,11 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 32698
-=======
-  controlID: 63594
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+  controlID: 32983
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,10 +45,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 484
-    y: 19
-    width: 1470
-    height: 539
+    x: 486
+    y: 81
+    width: 1469
+    height: 535
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -63,7 +59,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1470, y: 518}
+  m_TargetSize: {x: 1469, y: 514}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -78,10 +74,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -735
-    m_HBaseRangeMax: 735
-    m_VBaseRangeMin: -259
-    m_VBaseRangeMax: 259
+    m_HBaseRangeMin: -734.5
+    m_HBaseRangeMax: 734.5
+    m_VBaseRangeMin: -257
+    m_VBaseRangeMax: 257
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -90,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -99,23 +95,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1470
-      height: 518
+      width: 1469
+      height: 514
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 735, y: 259}
+    m_Translation: {x: 734.5, y: 257}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -735
-      y: -259
-      width: 1470
-      height: 518
+      x: -734.5
+      y: -257
+      width: 1469
+      height: 514
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1470, y: 539}
+  m_LastWindowPixelSize: {x: 1469, y: 535}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -145,11 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 32652
-=======
-  controlID: 63595
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+  controlID: 32984
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,15 +162,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1955
-    height: 560
+    height: 556
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 32653
-=======
-  controlID: 63580
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+  controlID: 32985
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,8 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 483
-    height: 560
+    width: 484
+    height: 556
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -225,10 +213,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 482
-    height: 539
+    x: 2
+    y: 81
+    width: 483
+    height: 535
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -238,11 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-      m_ExpandedIDs: a879fdff2289fdff2c89fdff40a8fdff2a4ffeffe054feff2869feff4a69feff9469feff0c6efeff6a70feff44fcfeffe4fcfeffa420ffff7a23ffff3625ffff7828ffffc62bffff123affff5e42ffffbc49ffff2052ffff3691ffffdea7ffff7aedffff82edffff4eefffff58efffff96efffff2efbfffffad400001cd5000048d50000a4d500007e7d0200e0c602006a3b0700
-=======
-      m_ExpandedIDs: f83bf9ff303ff9ff5e5ff9ffcc7cf9ff227df9ffb888f9ff848af9ffde8af9ffdc98f9ff2060faff0c61faffd2f4faff7006fbff7e3afbff8e3afbff1c41fbffe044fbff8047fbffa24afbffa452fbfff052fbffe063fbffd8b4fbffb4b5fbffbcb5fbffeab5fbffcab9fbfffcc4fbff04c5fbff64c6fbff6cc6fbff9ac6fbffbecafbffc6cafbffdcccfbff0ed1fbff16d1fbff46d1fbfffed3fbff04d4fbff64d5fbff68d5fbff2ed6fbff70e6fbff78e6fbff5ceefbff64eefbff6656fcff7e57fcff9457fcffc257fcfff65efcff82f7fcff3ef8fcffa880fdfff491fdff2493fdff1e96fdff529afdff129dfdffc434feff8435feffeabdfeff1c58ffff2459ffff346bffff6a70ffff6c70ffff80e6ffffeceaffff04fbffff30fbfffffa610000482201005a2201007623010036260100402801006e2801006e290100d4290100ec2b0100f02b0100f42b0100bc2c0100222d0100262d0100882e01008c2e0100f22e01005430010082300100043101004a3301005c33010078340100a63401000c3501001e3501004c350100b2350100143701007a370100e0370100f23701009a390100c8390100da390100243a0100443a0100803a0100a03a0100803c0100923c0100c03c0100d23c0100a83d01007a3f0100c43f01001c4001003c4001004e4001006e4001001642010078430100b044010046470100584701006a4701006e470100824a01002e4b0100944b0100de4b0100f04b01007c4d01006e4e0100fa4f0100fa500100a25201006a5301006e53010072530100d4540100d8540100f854010018550100465501000e560100c8560100f656010054590100fc5a0100b65b0100c85b0100045c0100245c0100285c01008e5c0100925c01006e5f010040630100ec63010060640100aa640100f4650100ca66010030670100b8690100366b01008e6b01009c6c0100e66c0100ae6d0100026f010052710100b8710100be74010032750100507701007a780100fc7801008c7901002a7a0100e47a0100e87a0100e87b01004e7c01005e7e0100fc7e0100467f0100ba7f01005481010042830100188401001c8401007e8501000a87010050880100548801000e8901002e890100a2890100788a0100da8b0100708e0100e48e0100f68e01009a910100ba9101009e9201003c930100be9301006a9401006a950100be96010026720b00dca90c0074b60c0056961c00e69b1c00fcdb1c008ade1c00c0f71c00a43c1d005a631d00e4f01d0082bb3c00e0bc3c0080073d00b0094600f0d95a00901b5b0020ef5b0054595f00
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+      m_ExpandedIDs: 1e0cfdff82bb320086bb32009abb3200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -281,10 +265,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 483
+    x: 484
     y: 0
-    width: 1472
-    height: 560
+    width: 1471
+    height: 556
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -313,10 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 483
-    y: 73
-    width: 1470
-    height: 539
+    x: 486
+    y: 81
+    width: 1469
+    height: 535
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -326,8 +310,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -1}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -337,9 +321,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: -224.59998}
+      snapOffset: {x: -141, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -349,7 +333,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: unity-scene-view-toolbar
       index: 0
@@ -360,7 +344,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -393,7 +377,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 0
@@ -415,7 +399,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 2
@@ -426,7 +410,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 3
@@ -437,7 +421,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Navmesh Display
       index: 4
@@ -448,7 +432,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Agent Display
       index: 5
@@ -459,7 +443,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Obstacle Display
       index: 6
@@ -470,7 +454,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 7
@@ -481,7 +465,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 8
@@ -492,7 +476,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 25}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 9
@@ -510,23 +494,17 @@ MonoBehaviour:
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_OverrideSceneCullingMask: 0
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: -34.147205, y: 5.428709, z: -262.98624}
+    m_Target: {x: 3.6640005, y: 1.5400009, z: 23.239998}
     speed: 2
-    m_Value: {x: -34.147205, y: 5.428709, z: -262.98624}
-=======
-    m_Target: {x: 6.1273828, y: -41.98518, z: 50.709225}
-    speed: 2
-    m_Value: {x: 6.1273828, y: -41.98518, z: 50.709225}
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+    m_Value: {x: 3.6640005, y: 1.5400009, z: 23.239998}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -538,7 +516,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -573,35 +551,25 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.06424713, y: 0.24413678, z: -0.016211312, w: 0.9674983}
+    m_Target: {x: 0.051884167, y: -0.9479447, z: 0.21878836, w: 0.22531164}
     speed: 2
-    m_Value: {x: 0.06424565, y: 0.24413113, z: -0.016210938, w: 0.96747595}
+    m_Value: {x: 0.05188612, y: -0.94798034, z: 0.21879658, w: 0.22532012}
   m_Size:
-    m_Target: 13.159828
+    m_Target: 28.97443
     speed: 2
-    m_Value: 13.159828
-=======
-    m_Target: {x: -0.25800717, y: -0.050374985, z: 0.013315466, w: -0.9647752}
-    speed: 2
-    m_Value: {x: -0.25799766, y: -0.05037313, z: 0.013314975, w: -0.9647397}
-  m_Size:
-    m_Target: 51.961525
-    speed: 2
-    m_Value: 51.961525
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
+    m_Value: 28.97443
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 8
-    m_SpeedNormalized: 0
-    m_SpeedMin: 8
-    m_SpeedMax: 9
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
-    m_AccelerationEnabled: 0
+    m_AccelerationEnabled: 1
     m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
@@ -630,9 +598,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 560
+    y: 556
     width: 1955
-    height: 379
+    height: 383
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
@@ -661,10 +629,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 633
+    x: 2
+    y: 637
     width: 1954
-    height: 358
+    height: 362
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -682,28 +650,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\NDQA Game Jam 2023\4 Day Work Week
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: 86d40000
-    m_LastClickedID: 54406
+    m_SelectedIDs: 82d40000
+    m_LastClickedID: 54402
     m_ExpandedIDs: 000000002ad4000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: d4640000
-    m_LastClickedID: 25812
-    m_ExpandedIDs: 000000001064000000ca9a3bffffff7f
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -731,7 +693,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001064000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000002ad4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,17 +718,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: d0d40000
-    m_LastClickedInstanceID: 54480
+    m_SelectedInstanceIDs: 86bb3200
+    m_LastClickedInstanceID: 3324806
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
-=======
-    m_SelectedInstanceIDs: 60260000
-    m_LastClickedInstanceID: 9824
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000406400004264000086270000c0ae020000000000
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,10 +769,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 633
+    x: 2
+    y: 637
     width: 1954
-    height: 358
+    height: 362
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -869,8 +824,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
-    y: 73
+    x: 1957
+    y: 81
     width: 604
     height: 918
   m_ViewDataDictionary: {fileID: 0}
@@ -883,12 +838,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-<<<<<<< HEAD
-  m_LastInspectedObjectInstanceID: 54480
-=======
-  m_LastInspectedObjectInstanceID: 9824
->>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 3324806
+  m_LastVerticalScrollValue: 432
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

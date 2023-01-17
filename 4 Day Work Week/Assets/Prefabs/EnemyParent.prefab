@@ -4970,19 +4970,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   moveTarget: {fileID: 614747166036471130}
-  walkSpeed: 3
+  walkSpeed: 3.2
   runSpeed: 10
   enemyDrainRate: 15
-  wardEffect: 5
+  wardEffect: 9
   timeToIdle: 6
   outerStorm: {fileID: 614747164723979537}
   innerStorm: {fileID: 614747166078449943}
   walkTime:
-  - 6
-  - 7
+  - 10
+  - 12
   runTime:
-  - 0.8
-  - 1.2
+  - 1
+  - 1.5
   enemyChase:
     idInternal: 0
     valueGuidInternal: 
