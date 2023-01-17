@@ -125,7 +125,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{D90241EA-7C06-F2D2-7E62-55591AA8063F}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{7004E695-35DC-B6E1-86CB-5438FA56A2EC}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -139,7 +139,7 @@
 				</File>
 				<File Id="54705074" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>generator_loop_01.wav</ShortName>
-					<CachePath>SFX/generator_loop_01_8018D0C6.wem</CachePath>
+					<CachePath>SFX/generator_loop_01_2D5740C5.wem</CachePath>
 				</File>
 				<File Id="55116757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_breathing_10.wav</ShortName>
@@ -395,7 +395,7 @@
 				</File>
 				<File Id="652746968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ferry_foghorn_distant_01.wav</ShortName>
-					<CachePath>SFX/ferry_foghorn_distant_01_3C260E56.wem</CachePath>
+					<CachePath>SFX/ferry_foghorn_distant_01_6F5EBC4A.wem</CachePath>
 				</File>
 				<File Id="663732716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps_wood_01.wav</ShortName>
@@ -919,7 +919,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{CD703E3E-BF02-5057-B4EB-41913F008621}">
+		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{4CE4E3A5-51D0-1F20-9546-44EA0F86C128}">
 			<ShortName>Music_SoundBank</ShortName>
 			<Path>Music_SoundBank.bnk</Path>
 			<Media>
@@ -929,15 +929,15 @@
 				</File>
 				<File Id="784442697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4dww_Home_01.wav</ShortName>
-					<CachePath>SFX/4dww_Home_01_DA131421.wem</CachePath>
+					<CachePath>SFX/4dww_Home_01_12290C40.wem</CachePath>
 				</File>
 				<File Id="938410670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>4DWW_Title_01.wav</ShortName>
-					<CachePath>SFX/4DWW_Title_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/4DWW_Title_01_7F3FCB2B.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2963830112" Name="Play_Music_Begining_Title" DurationType="OneShot" DurationMin="132.85715" DurationMax="132.85715">
+				<Event Id="2963830112" Name="Play_Music_Begining_Title" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="938410670"/>
 					</MediaRefs>
@@ -955,5 +955,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3EC3E4B3-7860-2BE8-A928-50F93322E88B}</FileHash>
+	<FileHash>{4CC09DB1-1A4D-24F8-008D-B6D6183DB589}</FileHash>
 </SoundBanksInfo>
