@@ -150,7 +150,11 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4f3099dd984f3447820fc0e1ea267549
     GuidInternal: 
+<<<<<<< HEAD
+    m_lastTime: -8585276772389978742
+=======
     m_lastTime: -8585277319878343972
+>>>>>>> parent of a98ca151 (Bob dialogue cycle, Map changes, cursor removed, enemy added)
     List:
     - name: Ambience
       guid: e20545df6a67474e9068d28c8074dd44

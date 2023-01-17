@@ -10,11 +10,14 @@ public class MainMenu : MonoBehaviour
     public GameObject lantern;
     public GameObject gauge;
 
+    public static bool inMenu;
+
     public AK.Wwise.Event ExpEvent;
 
     // Start is called before the first frame update
     void Start()
     {
+        inMenu = true;
         player.GetComponent<InputManager>().enabled = false;
         mainMenuUI.SetActive(true);
         lantern.SetActive(false);
@@ -22,6 +25,8 @@ public class MainMenu : MonoBehaviour
 
         // Play title music
         ExpEvent.Post(gameObject);
+
+        // Don't pause the game on the main menu
     }
 
     // Update is called once per frame
@@ -39,6 +44,13 @@ public class MainMenu : MonoBehaviour
 
         // Stop playing title music
         ExpEvent.Stop(gameObject);
+
+        // Exiting the main menu
+        inMenu = false;
+
+        // Allow player to pause
+        PauseMenu.isPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void QuitGame()

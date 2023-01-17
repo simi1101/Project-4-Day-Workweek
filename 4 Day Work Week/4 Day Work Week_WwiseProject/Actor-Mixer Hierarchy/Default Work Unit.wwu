@@ -2234,6 +2234,13 @@
 						<Folder Name="Coal_suck" ID="{BFA6CEF9-3885-4146-8D4B-33791A010DCB}" ShortID="347511723">
 							<ChildrenList>
 								<Sound Name="Coal_suck_start" ID="{C4CAB7CD-0144-43C7-A05D-0C34B41CE481}" ShortID="11520849">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
@@ -2256,6 +2263,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Coal_suck_end" ID="{C00CC896-5602-4BD3-AAF9-9BE10C034D22}" ShortID="248163740">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
@@ -2280,6 +2294,11 @@
 								<Sound Name="Coal_suck_loop" ID="{698BD94D-AB3D-4F63-9DF1-C9723C0CBEE8}" ShortID="233334941">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4656,6 +4675,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Music_Begining_Title" ID="{44C64698-F199-4B21-BB1B-6E8963F34747}" ShortID="349890874">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57019A4E-6073-4804-B6C3-77DC0023B11E}"/>
@@ -4666,6 +4688,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="4DWW_Title_01" ID="{62915A77-4E0A-439C-AAFA-5F864336E1DC}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.679576178297395"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>4DWW_Title_01.wav</AudioFile>
 									<MediaIDList>

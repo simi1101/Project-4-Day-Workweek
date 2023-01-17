@@ -5,6 +5,6 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	51478114	Music_End_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_end_title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_End_Title		28524040
-	784442697	Music_Home_base	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_Home_01_DA131421.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Home_base		27377440
-	938410670	Music_Begining_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4DWW_Title_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Begining_Title		23436208
+	784442697	Music_Home_base	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4dww_Home_01_12290C40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Home_base		27377440
+	938410670	Music_Begining_Title	Y:\Project-4-Day-Workweek\4 Day Work Week\4 Day Work Week_WwiseProject\.cache\Windows\SFX\4DWW_Title_01_7F3FCB2B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Begining_Title		23436208
 
