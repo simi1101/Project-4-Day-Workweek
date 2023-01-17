@@ -29,7 +29,7 @@ public class ObjectivesManager : MonoBehaviour
     void Win()
     {
         //Load Win Screen
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
         Debug.Log("Win Screen Loaded!");
     }
 

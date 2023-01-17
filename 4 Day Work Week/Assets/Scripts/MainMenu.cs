@@ -25,6 +25,7 @@ public class MainMenu : MonoBehaviour
 
         // Play title music
         ExpEvent.Post(gameObject);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame
@@ -54,6 +55,7 @@ public class MainMenu : MonoBehaviour
 
         // Load the map scene
         SceneManager.LoadScene(1);
+        
     }
 
     public void QuitGame()
