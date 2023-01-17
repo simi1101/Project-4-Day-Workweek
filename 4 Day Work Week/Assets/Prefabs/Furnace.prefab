@@ -319,7 +319,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7eaca790c2534684d810c4901fc8cd27, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 11bd67461548a7444a0d3484890009e5, type: 2}
+      objectReference: {fileID: 2100000, guid: 3a218ca2622495046b75eda8947f102f, type: 2}
     - target: {fileID: 919132149155446097, guid: 7eaca790c2534684d810c4901fc8cd27, type: 3}
       propertyPath: m_Name
       value: FG_Furnace_3
