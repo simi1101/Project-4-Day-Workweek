@@ -52,7 +52,6 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
 
         Cursor.lockState = CursorLockMode.Confined;
-
     }
 
     public void QuitGame()
@@ -62,6 +61,6 @@ public class PauseMenu : MonoBehaviour
 
     public void PlayCredits()
     {
-        //SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }

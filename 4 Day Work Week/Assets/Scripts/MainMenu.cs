@@ -25,8 +25,6 @@ public class MainMenu : MonoBehaviour
 
         // Play title music
         ExpEvent.Post(gameObject);
-
-        // Don't pause the game on the main menu
     }
 
     // Update is called once per frame
@@ -51,8 +49,11 @@ public class MainMenu : MonoBehaviour
         // Allow player to pause
         PauseMenu.isPaused = false;
 
+        // Allow the cursor in the menu
         Cursor.lockState = CursorLockMode.Locked;
 
+        // Load the map scene
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
@@ -62,6 +63,6 @@ public class MainMenu : MonoBehaviour
 
     public void PlayCredits()
     {
-        //SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
