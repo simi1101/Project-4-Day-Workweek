@@ -18,6 +18,7 @@ public class AmbientSoundManager : MonoBehaviour
     {
         ambientSnow.Post(gameObject);
         ambientTrees.Post(gameObject);
+        enviroRandom.Post(gameObject);
         footstepsPlaying = false;
         
     }
