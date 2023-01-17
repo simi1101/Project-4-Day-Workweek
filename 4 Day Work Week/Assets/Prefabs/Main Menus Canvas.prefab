@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 709189039763013181}
   - component: {fileID: 149799923486207259}
-  - component: {fileID: 5155965633232960939}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -92,7 +91,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6275535933089022604}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
@@ -104,18 +103,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5155965633232960939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18995197289645344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cb3c532937b348498ebb1d8010f16b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &393302735231004674
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +137,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -208,7 +195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3970794027955447393
 RectTransform:
   m_ObjectHideFlags: 0
@@ -254,7 +241,7 @@ MonoBehaviour:
   ExpEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 31d18334a09e44bb198d2ac2fe89ce76, type: 2}
 --- !u!1 &513665320880256112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,14 +1382,13 @@ GameObject:
   - component: {fileID: 6234569216063611772}
   - component: {fileID: 2404919928278646776}
   - component: {fileID: 3291293919105926635}
-  - component: {fileID: 6275535933089022604}
   m_Layer: 5
   m_Name: Options Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6234569216063611772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1466,18 +1452,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6275535933089022604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3070912516522805341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 131fd5c41561f4047ae4b82072d9951b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3421010601644179840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,8 +2950,8 @@ RectTransform:
   m_Father: {fileID: 7225593723121651336}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 35, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
