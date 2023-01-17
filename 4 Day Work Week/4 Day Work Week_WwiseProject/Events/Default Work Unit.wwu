@@ -416,6 +416,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Credits" ID="{EB3A52EE-D29B-4E8F-A3D7-4E2F8C23B26E}">
+					<ChildrenList>
+						<Action Name="" ID="{6C40C81C-4D30-480D-8229-24AD740DF910}" ShortID="1008610887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits" ID="{64652D2E-6D86-4942-9C49-1075295BFEE8}" WorkUnitID="{5F832220-7EF9-4C3A-BD6C-80E5548020AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
