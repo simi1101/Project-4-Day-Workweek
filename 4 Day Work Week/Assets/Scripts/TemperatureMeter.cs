@@ -86,6 +86,11 @@ public class TemperatureMeter : MonoBehaviour
                 heatLossMonster.Stop(gameObject);
             }
         }
+        else
+        {
+            monsterNear = false;
+            heatLossMonster.Stop(gameObject);
+        }
 
         if (HealthBar < -70)
         {
