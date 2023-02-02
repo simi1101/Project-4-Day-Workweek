@@ -4973,16 +4973,16 @@ MonoBehaviour:
   walkSpeed: 3.2
   runSpeed: 10
   enemyDrainRate: 15
-  wardEffect: 9
+  wardEffect: 12
   timeToIdle: 6
   outerStorm: {fileID: 614747164723979537}
   innerStorm: {fileID: 614747166078449943}
   walkTime:
-  - 10
-  - 12
+  - 14
+  - 18
   runTime:
   - 1
-  - 1.5
+  - 1.2
   enemyChase:
     idInternal: 0
     valueGuidInternal: 

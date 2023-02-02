@@ -10,6 +10,7 @@ public class FurnaceCoal : MonoBehaviour
     private Light furnaceLight;
     private SphereCollider safeZone;
     bool activated;
+    public ParticleSystem fire;
 
     public AK.Wwise.Event furnaceIgnite;
     public AK.Wwise.Event coalDump;
@@ -24,6 +25,7 @@ public class FurnaceCoal : MonoBehaviour
         safeZone.enabled = false;
         FurnaceCount= 0;
         activated = false;
+        fire.Stop();
     }
 
     // Update is called once per frame
@@ -54,6 +56,7 @@ public class FurnaceCoal : MonoBehaviour
         if (activated != true)
         {
             Debug.Log("Furnace cycling");
+            fire.Play();
             furnaceLight.enabled = true;
             safeZone.enabled = true;
             furnaceIgnite.Post(gameObject);
@@ -64,6 +67,7 @@ public class FurnaceCoal : MonoBehaviour
             activated = false;
             furnaceEnd.Post(gameObject);
             furnaceIgnite.Stop(gameObject);
+            fire.Stop();
         }
     }
 }

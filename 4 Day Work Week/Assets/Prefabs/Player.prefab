@@ -177,7 +177,7 @@ MonoBehaviour:
   - {fileID: 1352611634778156013, guid: 1356fe0374e142c4685184f486b48261, type: 3}
   - {fileID: 585166856967352652, guid: 6282761b58b50b649b350e9e915bc7d1, type: 3}
   firepoint: {fileID: 8817337366016762888}
-  launchForce: 25
+  launchForce: 18
   fireRate: 0.3
   layermask:
     serializedVersion: 2

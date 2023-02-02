@@ -149,8 +149,9 @@ public class Enemy : MonoBehaviour
     IEnumerator WardedAway()
     {
         aipath.maxSpeed = runSpeed;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         isWarded = false;
+        aipath.maxSpeed = walkSpeed;
         Debug.Log("Warding is ending");
     }
 }
