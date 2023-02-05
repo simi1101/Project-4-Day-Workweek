@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class MainMenu : MonoBehaviour
     public GameObject player;
     public GameObject lantern;
     public GameObject gauge;
+
+    public Slider volumeSlider;
+    public Slider sensitivitySlider;
+    public static float volume;
+    public static float cameraSensitivity;
 
     public static bool inMenu;
 
@@ -23,9 +29,14 @@ public class MainMenu : MonoBehaviour
         lantern.SetActive(false);
         gauge.SetActive(false);
 
+        Cursor.lockState = CursorLockMode.None;
+
+        // Set settings floats to equal slider values right away
+        volume = volumeSlider.value;
+        cameraSensitivity = sensitivitySlider.value;
+
         // Play title music
         ExpEvent.Post(gameObject);
-        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame
@@ -50,12 +61,11 @@ public class MainMenu : MonoBehaviour
         // Allow player to pause
         PauseMenu.isPaused = false;
 
-        // Allow the cursor in the menu
+        // Hide the cursor as player leaves the main menu
         Cursor.lockState = CursorLockMode.Locked;
 
         // Load the map scene
         SceneManager.LoadScene(1);
-        
     }
 
     public void QuitGame()
@@ -63,8 +73,22 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void SetVolume()
+    {
+        volume = volumeSlider.value;
+        //AkSoundEngine.SetRTPCValue("", volume);
+    }
+
+    public void SetCameraSensitivity()
+    {
+        cameraSensitivity = sensitivitySlider.value;
+        PlayerLook.xSensitivity = cameraSensitivity;
+        PlayerLook.ySensitivity = cameraSensitivity;
+    }
+
     public void PlayCredits()
     {
         SceneManager.LoadScene(2);
+        ExpEvent.Stop(gameObject);
     }
 }
