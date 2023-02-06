@@ -6,22 +6,34 @@ public class home : MonoBehaviour
 {
     ObjectivesManager manager;
     bool inHome;
+
+    public AK.Wwise.Event homeMusic;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        //homeMusic.Post(gameObject);
+        inHome = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (inHome != true)
+        {
+            homeMusic.Post(gameObject);
+            inHome = true;
+        }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (inHome != false)
+        {
+            homeMusic.Stop(gameObject);
+            inHome = false;
+        }
+    }
 
 }

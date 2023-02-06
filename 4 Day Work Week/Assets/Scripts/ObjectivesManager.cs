@@ -20,6 +20,7 @@ public class ObjectivesManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(generatorCountOn >= 4)
         {
             winTrigger.enabled = true;
@@ -29,13 +30,14 @@ public class ObjectivesManager : MonoBehaviour
     void Win()
     {
         //Load Win Screen
+        AkSoundEngine.StopAll();
         SceneManager.LoadScene(2);
-        Debug.Log("Win Screen Loaded!");
     }
 
     public void Lose()
     {
         //Go to lose screen
+        AkSoundEngine.StopAll();
         SceneManager.LoadScene(0);
     }
 
