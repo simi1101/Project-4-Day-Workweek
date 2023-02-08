@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject mainMenuUI;
     public GameObject player;
     public GameObject lantern;
     public GameObject gauge;
@@ -17,26 +16,42 @@ public class MainMenu : MonoBehaviour
     public static float cameraSensitivity;
 
     public static bool inMenu;
+    public static bool gamePlayed;
 
-    public AK.Wwise.Event ExpEvent;
+    public AK.Wwise.Event titleMusic;
+
+    private void Awake()
+    {
+        AkSoundEngine.StopAll();
+        player.GetComponent<TemperatureMeter>().enabled = false;
+        player.GetComponent<AmbientSoundManager>().enabled = false;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         inMenu = true;
         player.GetComponent<InputManager>().enabled = false;
-        mainMenuUI.SetActive(true);
         lantern.SetActive(false);
         gauge.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
+        
+       // Use settings from a previous playthrough
+        if(gamePlayed)
+        {
+            volumeSlider.value = PauseMenu.volume;
+            sensitivitySlider.value = PauseMenu.cameraSensitivity;
+        }
 
-        // Set settings floats to equal slider values right away
+        // Set settings floats equal to slider values right away
         volume = volumeSlider.value;
         cameraSensitivity = sensitivitySlider.value;
 
+        AkSoundEngine.SetRTPCValue("Master_Volume", volume);
+
         // Play title music
-        ExpEvent.Post(gameObject);
+        titleMusic.Post(gameObject);
     }
 
     // Update is called once per frame
@@ -47,19 +62,23 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        player.GetComponent<InputManager>().enabled = !false;
-        mainMenuUI.SetActive(false);
+        player.GetComponent<InputManager>().enabled = true;
+        player.GetComponent<TemperatureMeter>().enabled = true;
+        player.GetComponent<AmbientSoundManager>().enabled = true;
         lantern.SetActive(true);
         gauge.SetActive(true);
 
         // Stop playing title music
-        ExpEvent.Stop(gameObject);
+        titleMusic.Stop(gameObject);
 
         // Exiting the main menu
         inMenu = false;
 
         // Allow player to pause
         PauseMenu.isPaused = false;
+
+        // Track that game has been played at least once
+        gamePlayed = true;
 
         // Hide the cursor as player leaves the main menu
         Cursor.lockState = CursorLockMode.Locked;
@@ -76,19 +95,17 @@ public class MainMenu : MonoBehaviour
     public void SetVolume()
     {
         volume = volumeSlider.value;
-        //AkSoundEngine.SetRTPCValue("", volume);
+        AkSoundEngine.SetRTPCValue("Master_Volume", volume);
     }
 
     public void SetCameraSensitivity()
     {
         cameraSensitivity = sensitivitySlider.value;
-        PlayerLook.xSensitivity = cameraSensitivity;
-        PlayerLook.ySensitivity = cameraSensitivity;
     }
 
     public void PlayCredits()
     {
         SceneManager.LoadScene(2);
-        ExpEvent.Stop(gameObject);
+        titleMusic.Stop(gameObject);
     }
 }

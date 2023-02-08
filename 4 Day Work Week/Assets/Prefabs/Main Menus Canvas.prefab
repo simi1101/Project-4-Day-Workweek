@@ -2190,10 +2190,10 @@ MonoBehaviour:
   gauge: {fileID: 0}
   volumeSlider: {fileID: 149799923486207259}
   sensitivitySlider: {fileID: 4464669898919067077}
-  ExpEvent:
+  titleMusic:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 31d18334a09e44bb198d2ac2fe89ce76, type: 2}
 --- !u!1 &5356783854838743791
 GameObject:
   m_ObjectHideFlags: 0
