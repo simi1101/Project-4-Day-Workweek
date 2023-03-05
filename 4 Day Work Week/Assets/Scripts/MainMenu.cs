@@ -25,6 +25,7 @@ public class MainMenu : MonoBehaviour
         AkSoundEngine.StopAll();
         player.GetComponent<TemperatureMeter>().enabled = false;
         player.GetComponent<AmbientSoundManager>().enabled = false;
+
     }
 
     // Start is called before the first frame update
@@ -35,7 +36,7 @@ public class MainMenu : MonoBehaviour
         lantern.SetActive(false);
         gauge.SetActive(false);
 
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         
        // Use settings from a previous playthrough
         if(gamePlayed)
