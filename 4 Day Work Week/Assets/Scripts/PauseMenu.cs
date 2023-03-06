@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
+    public GameObject controlsMenuUI;
+    public GameObject optionsMenuUI;
     public GameObject player;
     public GameObject camera;
     public GameObject dialogue;
@@ -37,7 +39,7 @@ public class PauseMenu : MonoBehaviour
             {
                 if (isPaused)
                 {
-                    return;
+                    ResumeGame();
                 }
                 else
                 {
@@ -54,6 +56,8 @@ public class PauseMenu : MonoBehaviour
     public void ResumeGame()
     {
         pauseMenuUI.SetActive(false);
+        controlsMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(false);
         dialogue.SetActive(true);
         player.GetComponent<ResourceManager>().enabled = true;
         player.GetComponent<AmbientSoundManager>().enabled = true;

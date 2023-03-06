@@ -1748,11 +1748,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 247341932185426455}
+  controlsMenuUI: {fileID: 247341932536926068}
+  optionsMenuUI: {fileID: 5760325272295288808}
+  player: {fileID: 0}
+  camera: {fileID: 0}
   dialogue: {fileID: 0}
   volumeSlider: {fileID: 4813260291238710423}
   sensitivitySlider: {fileID: 9000727453784170199}
-  pauseVolume: 0
-  pauseCameraSensitivity: 0
 --- !u!1 &247341932959706145
 GameObject:
   m_ObjectHideFlags: 0
